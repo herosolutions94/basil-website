@@ -1,8 +1,21 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Slider from 'react-slick';
+import PharmaIntellibence from "./tab-solutions-sections/pharma-intelligence";
+import Regulatory from "./tab-solutions-sections/regulatory";
+import PostMarket from "./tab-solutions-sections/post_market";
+import ClinicalTrials from "./tab-solutions-sections/clinical_trials";
+import ExecDashboard from "./tab-solutions-sections/exec_dashboard";
+import ComparativeTableCreator from "./tab-solutions-sections/comparative_table_creator";
+import DataModernization from "./tab-solutions-sections/data_modernization";
+import DataIntegration from "./tab-solutions-sections/data_integration";
+import Inform from "./quality-insights/inform";
+import Harmonize from "./quality-insights/harmonize";
+import Integrate from "./quality-insights/integrate";
 
 export default function Home() {
+  const[tab , setTab] = useState(1);
+  const[tabQuality , setTabQuality] = useState(9);
   const settings = {
     dots: false,
     infinite: true,
@@ -30,7 +43,7 @@ export default function Home() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
         }
       }
     ]
@@ -64,38 +77,144 @@ export default function Home() {
   ]
   const delivery_result_tabs = [
     {
-      id:"tab1",
+      id:"1",
       title:"Pharma Intelligence",
     },
     {
-      id:"tab2",
+      id:"2",
       title:"Regulatory (MedTech)",
     },
     {
-      id:"tab3",
+      id:"3",
       title:"Post-market (MedTech)",
     },
     {
-      id:"tab4",
+      id:"4",
       title:"Clinical Trials",
     },
     {
-      id:"tab5",
+      id:"5",
       title:"Exec Dashboard",
     },
     {
-      id:"tab6",
+      id:"6",
       title:"Comparative Table Creator",
     },
     {
-      id:"tab7",
+      id:"7",
       title:"Data Modernization",
     },
     {
-      id:"tab8",
+      id:"8",
       title:"API / Data Integration",
     },
   ]
+  const solutions = {
+    pharma_intelligence: {
+      image:"/images/tab1.webp",
+      heading:"PHARMA INTELLIGENCE MODULE",
+      sub_heading:"RAPID INSIGHTS, RAPID DELIVERY",
+      pera:"<p>Supercharge your pharma development and market delivery with our Pharma Intelligence Platform. Tap into the combined power of clinical trial, labeling, safety, and excipient data to boost your innovation, fast-track approvals, and skyrocket portfolio revenues.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    regulatory: {
+      image:"/images/tab2.png",
+      heading:"MEDTECH REGULATORY MODULE",
+      sub_heading:"ACCELERATE, NAVIGATE, INNOVATE, LEAD",
+      pera:"<p>Harness the power of Basil Regulatory to accelerate your regulatory discovery and strategy, refine product planning, and gain competitive intelligence, all while navigating the regulatory landscape with unprecedented speed and accuracy.</p><p>Experience the future of MedTech with a taste of our platform — start with our free plan and discover how our solutions can transform your operations.</p>",
+      button_lbl:"Activate Freemium",
+      link:"https://app.basilsys.com/"
+    },
+    post_market: {
+      image:"/images/tab3.png",
+      heading:"POST-MARKET (MEDTECH) MODULE",
+      sub_heading:"TRANSFORM INSIGHTS INTO ADVANTAGE",
+      pera:"<p>Unlock real-time insights and customizable data tools with our Post-Market Intelligence module to revolutionize your industry visibility. Gain instant MDR/IVDR data tables, extensive export options, and powerful search capabilities to streamline trend monitoring and reporting effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    clinical_trials: {
+      image:"/images/tab4.png",
+      heading:"CLINICAL TRIALS (MEDTECH) MODULE",
+      sub_heading:"UNLOCK COMPREHENSIVE CLINICAL INSIGHTS",
+      pera:"<p>Gain unparalleled access to over 500k indexed clinical trials with comprehensive search capabilities, natural language full text analysis, and extensive regulatory data connections. Perform thorough pre-commercial due diligence on new technologies and early-stage research programs not yet FDA-cleared.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    exec_dashboard: {
+      image:"/images/tab5.png",
+      heading:"EXEC DASHBOARD (MEDTECH) MODULE",
+      sub_heading:"DOMINATE STRATEGY WITH INSIGHTS",
+      pera:"<p>Revolutionize your strategy with our executive dashboard, combining regulatory, clinical trials, and post-market intelligence into a streamlined, intuitive interface. Gain real-time alerts and actionable insights to master product monitoring, commercial strategy, launch planning, and competitor analysis effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    comparative_table_creator: {
+      image:"/images/tab6.png",
+      heading:"COMPARATIVE TABLE CREATOR",
+      sub_heading:"INSTANT SAFETY DATA INSIGHTS",
+      pera:"<p>Gain real-time insights into complex emerging safety signals with our cutting-edge platform, allowing you to easily compare the safety and quality data of any medical device, product, or brand side-by-side. Effortlessly select products, access global safety records, and save, export, and share data to streamline your team's analysis and reporting.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    data_modernization: {
+      image:"/images/tab7.png",
+      heading:"DATA MODERNIZATION SOLUTION",
+      sub_heading:"AUTONOMOUS DATA, TRANSFORMATION POWER",
+      pera:"<p>Stay ahead in today's data-driven world with Basil’s proprietary ML technology, designed to autonomously transform vast data into actionable insights for superior business outcomes. Empower your operations with Basil Systems, streamlining processes and unlocking precision, efficiency, and value at every step.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+    data_integration: {
+      image:"/images/tab8.png",
+      heading:"API / DATA INTEGRATION SOLUTION",
+      sub_heading:"REVOLUTIONIZE CONNECTIVITY AND INTELLIGENCE",
+      pera:"<p>Transform your enterprise with Basil Systems' revolutionary API and Data Integration technology, seamlessly bridging disparate systems and turbocharging data flows. Unlock your digital assets' full potential, driving efficiency and innovation to outperform competitors and redefine industry standards.</p><p>Click below to learn how we can help your organization.</p>",
+      button_lbl:"Learn More",
+      link:"/"
+    },
+  }
+  const quality_insights = {
+    inform : {
+      image:"/images/inisghts.webp",
+      heading:"Efficiency and Insight at Your Fingertips",
+      pera:"<p>Unlock the full potential of industry data with Basil Systems' cutting-edge platform.  Designed for life sciences, our platform empowers Pharma and MedTech professionals to access, analyze, and visualize high-quality, disparate data.  Make informed decisions with ease and speed, achieving powerful insights that drive your business forward.</p>"
+    },
+    harmonize:{
+      image:"/images/harmonize.webp",
+      heading:"Revolutionary AI / ML Implementation",
+      pera:"<p>Harness the power of Basil Systems' proprietary AI and ML tools to index your internal datasets.  Experience the pinnacle of data harmonization across your legacy and disparate systems.  Our sophisticated algorithms and ontologies are crafted to synchronize and elevate your internal data quality, ensuring you're working with the most accurate and actionable information.</p>"
+    },
+    integrate:{
+      image:"/images/integrate.webp",
+      heading:"Powerful Data Integrationp",
+      pera:"<p>Combine Basil’s comprehensive indexed industry with your own proprietary internal data.  We offer multiple options to merge our advanced data solutions into your existing infrastructure, tailoring everything to align with your specific ontologies. The result? A unified, coherent data ecosystem that propels your workflows and analytics</p>"
+    }
+  }
+  const feature_posts = [
+    {
+        id:"post1",
+        image:"/images/case1.jpeg",
+        title:"Optimizing Market Strategy with AI Insights",
+        category:"Positive Psychology",
+        date:"2 March, 2024"
+    },
+    {
+        id:"post2",
+        image:"/images/case2.jpeg",
+        title:"Accelerating Speed to Market",
+        category:"Positive Psychology",
+        date:"2 March, 2024"
+    },
+    {
+        id:"post3",
+        image:"/images/case3.jpg",
+        title:"Enhancing Clinical Trials Efficiency",
+        category:"Positive Psychology",
+        date:"2 March, 2024"
+    },
+]
   return (
     <>
       <main>
@@ -155,7 +274,7 @@ export default function Home() {
                 <div className="colL">
                   {delivery_result_tabs.map((val,i) => {
                     return(
-                      <div className="latest_tabs" key={i}>
+                      <div className={tab == val.id ? "latest_tabs active" : "latest_tabs"} key={i} onClick={() => setTab(val.id)}>
                         <span>{val.title}</span>
                       </div>
                     );
@@ -163,26 +282,93 @@ export default function Home() {
                 </div>
                 <div className="colR">
                   <div className="tabs_content">
-                    <div className="inner_tabs_content">
-                      <div className="flex">
-                        <div className="tab_left">
-                          <div className="image">
-                            <img src="/images/tab1.webp" alt="Pharma Intelligence"/>
-                          </div>
-                        </div>
-                        <div className="tab_right">
-                          <h3>PHARMA INTELLIGENCE MODULE</h3>
-                          <h5>RAPID INSIGHTS, RAPID DELIVERY</h5>
-                          <p>Supercharge your pharma development and market delivery with our Pharma Intelligence Platform. Tap into the combined power of clinical trial, labeling, safety, and excipient data to boost your innovation, fast-track approvals, and skyrocket portfolio revenues.</p>
-                          <p>Click below to learn how we can help your organization.</p>
-                          <div className="btn_blk">
-                            <Link href="" className="site_btn">Learn More</Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    {tab == 1 && <PharmaIntellibence data = {solutions.pharma_intelligence}/>}
+                    {tab == 2 && <Regulatory data = {solutions.regulatory}/>}
+                    {tab == 3 && <PostMarket data = {solutions.post_market}/>}
+                    {tab == 4 && <ClinicalTrials data = {solutions.clinical_trials}/>}
+                    {tab == 5 && <ExecDashboard data = {solutions.exec_dashboard}/>}
+                    {tab == 6 && <ComparativeTableCreator data = {solutions.comparative_table_creator}/>}
+                    {tab == 7 && <DataModernization data = {solutions.data_modernization}/>}
+                    {tab == 8 && <DataIntegration data = {solutions.data_integration}/>}
                   </div>
                 </div>
+              </div>
+          </div>
+        </section>
+        <section className="quality_insight_sec">
+          <div className="contain">
+            <div className="center_txt text-center">
+              <h2>Quality Data Insights & Analytics</h2>
+              <p>Transforming your Data into Decisions</p>
+            </div>
+            <div className="quality_tabs">
+              <div className={tabQuality == 9 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(9)}>
+                <span>Inform</span>
+              </div>
+              <div className={tabQuality == 10 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(10)}>
+                <span>Harmonize</span>
+              </div>
+              <div className={tabQuality == 11 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(11)}>
+                <span>Integrate</span>
+              </div>
+            </div>
+            <div className="tabs_content">
+              {tabQuality == 9 && <Inform data={quality_insights.inform}/>}
+              {tabQuality == 10 && <Harmonize data={quality_insights.harmonize}/>}
+              {tabQuality == 11 && <Integrate data={quality_insights.integrate}/>}
+            </div>
+          </div>
+        </section>
+        <section className="big_cta">
+          <div className="contain">
+            <div className="cta_blk">
+                <div className="txt">
+                  <h2>Transform Your MedTech and Pharma Operations with AI-Powered Insights</h2>
+                  <p>Discover how Basil's cutting-edge platform can revolutionize your approach to healthcare innovation. Harness the power of AI to gain deep market and clinical intelligence, streamline your decision-making processes, and stay ahead of the competition. Ready to experience the future of healthcare technology? Get started today!</p>
+                  <div className="btn_blk">
+                    <Link href="" className="site_btn dim">Schedule Demo</Link>
+                  </div>
+                </div>
+                <div className="img_side">
+                  <div className="image">
+                    <img src="/images/ai_shape.svg" alt="" />
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section className="feature_case_study">
+          <div className="contain">
+              <div className="text_head_flex">
+                <div className="content_text">
+                  <h2>Unlock Success Stories: Real-World Results with Basil</h2>
+                  <p>Explore how Basil's AI-powered platform has revolutionized the MedTech and Pharma landscape through impactful case studies.</p>
+                </div>
+                <div className="btn_blk">
+                  <Link href="" className="site_btn dark">View All</Link>
+                </div>
+              </div>
+              <div className="featured_blog">
+                  <div className="flex">
+                      {
+                          feature_posts.map((val)=>{
+                              return(
+                                  <div className="_col" key={val.id}>
+                                      <div className="inner"><Link href="/"></Link>
+                                          <div className="image">
+                                              <img src={val.image} alt={val.title} />
+                                          </div>
+                                          <div className="cntnt">
+                                              <div className="category">{val.category}</div>
+                                              <h4>{val.title}</h4>
+                                              <div className="date">{val.date}</div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              );
+                          })
+                      }
+                  </div>
               </div>
           </div>
         </section>
