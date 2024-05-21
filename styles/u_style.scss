@@ -1,0 +1,166 @@
+// ======= uj_sec_about ======
+.u_two_cols {
+  padding-top: 9rem;
+  .cols {
+    width: calc(100% / 2);
+  }
+}
+.uj_sec_about {
+  .col1 {
+    padding-right: 40px;
+    align-self: center;
+    .sec_heading {
+      padding-bottom: 10px;
+      h2 {
+        font-size: 6.3rem;
+      }
+    }
+    .sec-content {
+      h5 {
+        padding-bottom: 5px;
+      }
+    }
+    .btn_blk {
+      margin-top: 20px;
+    }
+  }
+  .col2 {
+    .image {
+      position: relative;
+      padding-bottom: 100%;
+      overflow: hidden;
+      img {
+        @include uj_img;
+      }
+    }
+  }
+}
+
+// ======= uj_sec_work ======
+.uj_sec_work {
+  padding-top: 0;
+  .uj_inside {
+    background: #f1f6fa;
+    @include radius(30px);
+    padding: 70px 50px;
+    .sec_heading {
+      text-align: center;
+    }
+    .sec_content {
+      width: 56%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .flex {
+      .uj_cols {
+        width: calc(100% / 4);
+        padding: 15px;
+
+        .uj_inner {
+          background: #fff;
+          text-align: center;
+          @include radius(30px);
+          .image {
+            position: relative;
+            padding-bottom: 55%;
+            overflow: hidden;
+            img {
+              @include uj_img;
+              @include radius(30px 30px 0 0);
+            }
+          }
+          .lower-content {
+            padding: 20px 10px;
+            h5 {
+              margin-bottom: 0;
+              font-family: "Medium";
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// ======= uj_sec_history ======
+.uj_sec_history {
+  padding-top: 0;
+  .col1 {
+    .image {
+      position: relative;
+      padding-bottom: 70%;
+      overflow: hidden;
+      @include radius(30px);
+      img {
+        @include uj_img;
+        @include radius(30px);
+      }
+    }
+  }
+  .col2 {
+    padding-left: 80px;
+    align-self: center;
+  }
+}
+// ======= uj_sec_mission ======
+.uj_sec_mission {
+  padding-top: 0;
+  .uj_inside {
+    background: #f1f6fa;
+    @include radius(30px);
+    padding: 70px 50px;
+    .col1 {
+      align-self: center;
+      text-align: center;
+      padding-right: 90px;
+      padding-left: 40px;
+    }
+  }
+}
+// ======= uj_sec_choose ======
+.uj_sec_choose {
+  padding-top: 0;
+  .uj_inside {
+    .sec_heading {
+      text-align: center;
+    }
+    .sec_content {
+      width: 56%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .flex {
+      .uj_cols {
+        width: calc(100% / 4);
+        padding: 15px;
+
+        .uj_inner {
+          background: #fff;
+          height: 100%;
+          text-align: center;
+          box-shadow: 0px 0px 10px 0px #579c3e2e;
+          @include radius(30px);
+          padding: 15px 40px;
+
+          .image {
+            width: 50px;
+            margin: 0 auto;
+            &::before {
+            }
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          .lower-content {
+            text-align: center;
+            padding-top: 20px;
+            h5 {
+              font-size: 2.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
