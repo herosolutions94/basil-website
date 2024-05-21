@@ -1,0 +1,38 @@
+.cta_sec{
+    padding: 0;
+    .cta_flex{
+        @include radius(43px);
+        padding: 6rem;
+        @include flex;
+        overflow: hidden;
+        gap: 2rem;
+        position: relative;
+        background-color: #2568AD;
+        border: 1px solid #DFF2F2;
+        margin-bottom: -10rem;
+        z-index: 1;
+        &:before{
+            @include pos;
+            content: '';
+            background-image: url(/images/overlay.png);
+            @include bg;
+            opacity: 0.7;
+        }
+        .sec_heading{
+            flex: .7;
+            margin-bottom: 0;
+            position: relative;
+            h2{
+                color: $light;
+                margin-bottom: 0;
+            }
+        }
+        .btn_blk{
+            align-self: center;
+            flex: .3;
+            .site_btn{
+                min-width: 23rem;
+            }
+        }
+    }
+}
