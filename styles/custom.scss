@@ -32,6 +32,24 @@ body {
   main {
     @include flex($flow: column);
     min-height: 100vh;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.6rem;
+    font-family: 'Regular';
+    margin: 0;
+    padding: 0;
+    line-height:1.2;
+    word-break: break-word;
+    letter-spacing: 0.2px;
+    p{
+      color: #585858;
+    }
+    @include trans;
+    // @include laptop{
+    //   font-size: 1.4rem;
+    // }
+    @include ipad{
+      font-size: 1.5rem;
     padding-top: 8rem;
     overflow: hidden;
     @include mobile_sm {
@@ -40,6 +58,42 @@ body {
     > * {
       width: 100%;
     }
+    @at-root{
+        section {
+        position: relative;
+        padding: 10rem 0;
+        @include ipad{
+          padding: 7rem 0;
+        }
+        @include mobile{
+            padding:4rem 0;
+        }
+        }
+        a {
+        color: $black;
+        word-break: break-word;
+        text-decoration: none;
+        @include trans;
+        &:hover {
+            color: $color;
+        }
+        &:focus,
+        &:hover {
+            outline: none !important;
+            text-decoration: none !important;
+        }
+        }
+        .ease,
+        button {
+        @include trans;
+        }
+        .br {
+        padding-bottom: 3rem;
+        }
+        .mini_br{
+          padding-bottom: 1rem;
+        }
+        .color {
     @include ipad {
       padding-top: 6rem;
     }
@@ -3444,6 +3498,9 @@ footer {
   font-size: 1.5rem;
   .contain {
     z-index: 3;
+  }
+  p{
+    color: rgba($light , 0.8);
   }
   a {
     color: rgba($light, 0.8);
