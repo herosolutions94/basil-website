@@ -19,15 +19,18 @@ body{
     font-family: 'Regular';
     margin: 0;
     padding: 0;
-    line-height:24px;
+    line-height:1.2;
     word-break: break-word;
     letter-spacing: 0.2px;
+    p{
+      color: #585858;
+    }
     @include trans;
     // @include laptop{
     //   font-size: 1.4rem;
     // }
     @include ipad{
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
     main {
         @include flex($flow: column);
@@ -47,7 +50,7 @@ body{
     @at-root{
         section {
         position: relative;
-        padding: 12rem 0;
+        padding: 10rem 0;
         @include ipad{
           padding: 7rem 0;
         }
@@ -3099,6 +3102,9 @@ footer {
   font-size: 1.5rem;
   .contain {
     z-index: 3;
+  }
+  p{
+    color: rgba($light , 0.8);
   }
   a {
     color: rgba($light , 0.8);
