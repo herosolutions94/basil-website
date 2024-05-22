@@ -3013,9 +3013,9 @@ nav {
       }
       &.drop > a , &.drop > .drop_btn{
         position: relative;
-        margin-bottom: 1rem;
         @include ipad_sm{
           font-size: 1.8rem;
+          margin-bottom: 1rem;
         }
         &:after {
           content: "";
