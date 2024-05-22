@@ -43,9 +43,9 @@ body{
         > * {
             width: 100%;
         }
-        @include ipad{
-          padding-top: 6rem;
-        }
+        // @include ipad{
+        //   padding-top: 6rem;
+        // }
     }
     @at-root{
         section {
@@ -113,7 +113,7 @@ font-size:6rem;
     font-size: 5rem;
 }
 @include mobile {
-    font-size: 3.6rem;
+    font-size: 3rem;
 }
 }
 
@@ -2500,7 +2500,7 @@ column-gap: 1.5rem;
 header {
   @include pos($pos:fixed,$b: null, $z: 31);
   background-color: $light;
-  // border-bottom: 1px solid rgba(0, 167, 142, 0.1);
+  border-bottom: 1px solid rgba(0, 167, 142, 0.1);
   @include trans;
   @include ipad_sm {
     -webkit-box-shadow: 0px 0rem 3rem rgb(0 0 0 / 5%);
@@ -2776,12 +2776,10 @@ header {
     max-width: 17rem;
     height: 8rem;
     @include trans;
-    @include ipad{
-      // float: none;
-      // margin: auto;
-      height: 6rem;
-      max-width: 8rem;
-    }
+    // @include ipad{
+    //   height: 6rem;
+    //   max-width: 8rem;
+    // }
   }
   .session_header &{
     @include ipad_sm{
@@ -2836,10 +2834,6 @@ nav {
   height: 8rem;
   width: max-content;
   margin: auto;
-  
-  @include ipad{
-    height: 6rem;
-  }
   @include ipad_sm {
     margin: 0;
   }
@@ -2870,14 +2864,13 @@ nav {
   }
 }
 #nav {
-  // position: relative;
   @include flex($justify: flex-end);
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
   @include trans;
   @include ipad_sm{
-    @include pos($pos: fixed, $t: 8rem, $b:null,$l:null);
+    @include pos($pos: fixed, $t: 8rem, $b:null);
     @include flex($flow: wrap);
     -ms-flex-line-pack: justify;
     align-content: space-between;
@@ -2892,7 +2885,7 @@ nav {
     overflow: auto;
     z-index: 31;
     top: 0;
-    height: 24rem;
+    height: 100vh;
     align-content: center;
     &.active {
       opacity: 1;
@@ -2925,8 +2918,8 @@ nav {
       }
       @include ipad_sm{
         width: 100%;
-        padding: 0;
-        text-align: center;
+        padding: 1rem;
+        // text-align: center;
         .site_btn {
           margin-top: 0.5rem;
         }
@@ -2939,6 +2932,10 @@ nav {
         height: 4rem;
         text-align: center;
         text-decoration: none;
+        color: #333;
+        @include ipad_sm{
+          font-size: 1.8rem;
+        }
         &:hover,
         &.active {
           color: $color !important;
@@ -2978,7 +2975,7 @@ nav {
           background: transparent;
           visibility: visible;
           opacity: 1;
-          text-align: center;
+          // text-align: center;
           padding: 0;
           margin: 0 auto !important;
           border: 0;
@@ -2999,6 +2996,8 @@ nav {
             text-decoration: none;
             @include ipad_sm {
               @include i_flex;
+              font-size: 1.8rem;
+              padding: 1rem 2rem;
             }
             &:hover {
               color: $color;
@@ -3014,6 +3013,10 @@ nav {
       }
       &.drop > a , &.drop > .drop_btn{
         position: relative;
+        @include ipad_sm{
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+        }
         &:after {
           content: "";
           @include chev;
@@ -3022,6 +3025,13 @@ nav {
           color: inherit;
           margin-left: 0.6rem;
           margin-top: 0.4rem;
+          @include ipad_sm{
+            width: 1.5rem;
+            height: 1.5rem;
+            color: inherit;
+            margin-left: 1.6rem;
+            margin-top: 0.2rem;
+          }
         }
       }
       
@@ -3110,6 +3120,9 @@ footer {
   margin-top: auto;
   overflow: hidden;
   font-size: 1.5rem;
+  @include ipad_sm{
+    padding-top: 17rem;
+  }
   .contain {
     z-index: 3;
   }
@@ -3124,23 +3137,97 @@ footer {
   }
   .col-xl-5{
     padding-right:7rem;
+    @include ipad{
+      padding-right: 1.5rem;
+      width: 28%;
+    }
+    @include ipad_sm{
+      width: 70%;
+    }
+    @include mobile_md{
+      width: 100%;
+    }
+
+  }
+  .col-xl-2{
+    @include ipad{
+      width: 21%;
+    }
+    @include ipad_sm{
+      width: 30%;
+    }
+    @include mobile_md{
+      width: 50%;
+    }
+    @include mobile_sm{
+      width: 100%;
+    }
+  }
+  .col-lg{
+    @include ipad_sm{
+      width: calc(100% / 3);
+    }
+    @include mobile_md{
+      width: 50%;
+    }
+    @include mobile_sm{
+      width: 100%;
+    }
   }
   .main_row {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    @include ipad_sm{
+      justify-content: unset;
+    }
+  }
+  .col-lg , .col-xl-2{
+    @include mobile_sm{
+      padding: .5rem 1.5rem;
+    }
+    .in_col{
+      @include mobile_sm{
+        background-color: rgba($primary-color , 0.6);
+       overflow: hidden;
+        @include radius(6px);
+      }
+    }
   }
   h4 {
     margin-bottom: 3rem;
     font-family: 'Regular';
     color: rgba($light , 0.8);
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    @include mobile_sm{
+      margin-bottom: 0;
+      padding: 1.5rem;
+      &:after{
+       @include pos($r:2rem,$l:null,$t:null,$b:null);
+        content: "";
+          @include chev;
+          width: 1.5rem;
+          height: 1.5rem;
+          color: inherit;
+          margin-left: 0.6rem;
+          margin-top: 0.4rem;
+      }
+    }
   }
   .list {
     @include list;
     @include flex($flow: wrap);
     margin: -0.6rem 0;
+    @include mobile_sm{
+      margin: 0;
+      border-top: 1px solid rgb(125 145 177 / 24%);
+      padding: 1.5rem;
+      display: none;
+      &.active{
+        display: block;
+      }
+    }
     > li {
       display: block;
       width: 100%;
