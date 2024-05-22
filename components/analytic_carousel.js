@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Analytics_carousel({ data }) {
   const settings = {
     dots: true,
+    arrows: false,
     nav: false,
     infinite: false,
     speed: 500,
@@ -55,8 +56,8 @@ export default function Analytics_carousel({ data }) {
             <div className="item" key={val.id}>
               <div className="image">
                 <img src={val.image} />
-                <p src={val.text}></p>
               </div>
+              <p>{val.text}</p>
             </div>
           );
         })}
