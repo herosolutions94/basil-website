@@ -7,18 +7,55 @@ export default function Pharma_Intelligence() {
     {
       id: 1,
       image: "/images/pa1.svg",
-      caption:
-        "<p>Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.</p>",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
     },
-    { id: 2, image: "/images/pa2.svg" },
-    { id: 3, image: "/images/pa3.svg" },
+    {
+      id: 2,
+      image: "/images/pa2.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 3,
+      image: "/images/pa3.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 4,
+      image: "/images/pa4.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 5,
+      image: "/images/pa5.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 6,
+      image: "/images/pa6.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 7,
+      image: "/images/pa7.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 8,
+      image: "/images/pa8.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
+    {
+      id: 9,
+      image: "/images/pa9.svg",
+      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+    },
   ];
   return (
     <div>
       <main>
         <section id="flex_banner">
           <div className="bgtext">
-            <h2>Pharma Intelligence</h2>
+            <h1>Pharma Intelligence</h1>
           </div>
           <div className="contain">
             <div className="flex mt">
@@ -35,10 +72,10 @@ export default function Pharma_Intelligence() {
                   and empower strategic, informed decisions at every turn
                 </p>
                 <div className="bTn">
-                  <Link href="" className="site_btn lg">
+                  <Link href="" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="" className="site_btn blank lg">
+                  <Link href="" className="site_btn blank ">
                     Read More
                   </Link>
                 </div>
@@ -60,6 +97,82 @@ export default function Pharma_Intelligence() {
             <Analytics_carousel data={data} />
           </div>
         </section>
+
+        <section id="help">
+          <div className="contain">
+            <div className="content_center">
+              <h2>How we can help?</h2>
+            </div>
+            <div className="flex">
+              <div className="colL">
+                <div className="image">
+                  <img src="/images/h1.svg" />
+                </div>
+              </div>
+              <div className="colR">
+                <h2>Accelerate Innovation in Drug Development</h2>
+                <p>
+                  Harness the integrated power of clinical trial, labeling,
+                  safety, and excipient data to drive your pharma innovations
+                  forward. Our AI-powered platforms serve as a foundation for
+                  developing breakthrough therapies and streamlining regulatory
+                  approvals
+                </p>
+                <div class="btn_blk">
+                  <Link class="site_btn color" href="/">
+                    Book a Demo
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="flex flx2">
+              <div className="colL">
+                <div className="image">
+                  <img src="/images/h2.svg" />
+                </div>
+              </div>
+              <div className="colR">
+                <h2>Enhance Market Entry and Compliance Strategies</h2>
+                <p>
+                  Leverage advanced data integration to proactively adapt to
+                  market and regulatory demands. Our data solutions help you
+                  foresee market shifts and comply with regulations, ensuring
+                  your products not only reach the market faster but also
+                  sustain compliance.
+                </p>
+                <div class="btn_blk">
+                  <Link class="site_btn color" href="/">
+                    Book a Demo
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="flex">
+              <div className="colL">
+                <div className="image">
+                  <img src="/images/h3.svg" />
+                </div>
+              </div>
+              <div className="colR">
+                <h2>Optimize Portfolio Management and Revenue Growth</h2>
+                <p>
+                  Access a comprehensive source of vital data covering market
+                  trends, safety reports, and patient outcomes. Utilize our
+                  analytical tools to effectively manage and expand your
+                  portfolio, identifying profitable opportunities and maximizing
+                  revenue from both existing and future products.
+                </p>
+                <div class="btn_blk">
+                  <Link class="site_btn color" href="/">
+                    Book a Demo
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>{/* white paper */}</section>
       </main>
     </div>
   );
