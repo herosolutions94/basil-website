@@ -12,6 +12,9 @@
   .col1 {
     padding-right: 40px;
     align-self: center;
+    @include ipad_sm {
+      padding-right: 0px;
+    }
     .sec_heading {
       padding-bottom: 10px;
       h2 {
@@ -143,11 +146,10 @@
     @include radius(30px);
     padding: 70px 50px;
     @include mobile_md {
-      padding: 70px 20px;
+      padding: 43px;
     }
     .col1 {
       width: 40%;
-
       align-self: center;
       text-align: center;
       padding-right: 80px;
@@ -161,10 +163,15 @@
         padding-right: 0;
         padding-bottom: 20px;
       }
+      @include mobile_md {
+        padding-bottom: 0;
+      }
     }
     .col2 {
       width: 60%;
-
+      @include mobile_md {
+        display: none !important;
+      }
       .image_area {
         display: flex;
         .block_1 {
@@ -247,10 +254,6 @@
           .image {
             width: 70px;
             margin: 0 auto;
-            // &::before {
-            //   @include pos;
-            //   background: url(../public/images/p1.svg);
-            // }
             img {
               width: 100%;
               height: 100%;
@@ -521,6 +524,12 @@
 // ============ uj_sec_source =======
 .uj_sec_source {
   background: #2568ad;
+  .slick-dots li button {
+    background: #fff;
+  }
+  .slick-dots li {
+    margin-bottom: 30px;
+  }
   .sec_heading {
     text-align: center;
     h2 {
@@ -545,6 +554,7 @@
     @include radius(20px);
     margin: 0 20px;
     height: 100%;
+    margin-bottom: 25px;
     .image {
       width: 93%;
       margin-bottom: 25px;
@@ -560,6 +570,8 @@
 }
 // =======
 .uj_testimonials {
+  padding-top: 0;
+
   .sec_heading {
     margin-bottom: 20px;
   }
@@ -743,6 +755,12 @@
         width: 48%;
         margin: 0 auto;
         position: relative;
+        @include ipad_sm {
+          width: 75%;
+        }
+        @include mobile_md {
+          width: 100%;
+        }
         .txtGrp {
           margin-bottom: 15px;
         }
@@ -785,32 +803,38 @@
     }
   }
 }
+// ======
 .uj_sec_find {
   padding-top: 0;
 }
+// ======
 .uj_chalange {
   padding-top: 0;
   .sec_heading {
     h2 {
-      font-size: 4rem;
+      font-size: 4rem !important;
     }
   }
   .image {
     padding-bottom: 81% !important;
   }
-  li {
-    position: relative;
-    display: block;
-    padding-left: 27px;
-    padding-bottom: 10px;
-    &::before {
-      position: absolute;
-      content: "";
-      background: url(../public/images/tick.svg);
-      top: 2px;
-      left: 0px;
-      width: 15px;
-      height: 15px;
+  ul {
+    padding-left: 0;
+    padding-top: 15px;
+    li {
+      position: relative;
+      display: block;
+      padding-left: 27px;
+      padding-bottom: 13px;
+      &::before {
+        position: absolute;
+        content: "";
+        background: url(../public/images/tick.svg);
+        top: 2px;
+        left: 0px;
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
@@ -868,6 +892,22 @@
           }
         }
       }
+    }
+  }
+}
+
+// ======
+.uj_testimonials_p {
+  padding-top: 10rem;
+  .item {
+    margin: 0;
+    width: calc(100% / 2);
+    padding: 10px;
+    @include mobile_md {
+      width: 100%;
+    }
+    .inner {
+      margin: 0;
     }
   }
 }
