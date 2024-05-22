@@ -3,8 +3,23 @@ import Link from "next/link";
 import Testimonials from "@/components/testimonials";
 import Source from "@/components/source";
 import Case_form from "@/components/case_form";
+import Whitepaper from "@/components/whitepaper";
 export default function case_study() {
   const [formPopup, setFormPopup] = useState(false);
+  const white_paper = [
+    {
+      id: "1",
+      image: "/images/integration_whitepaper1.png",
+      title:
+        "DELIVERING HIGH QUALITY DATA TO DRIVE INSIGHTS FOR INTERNAL COMPETITIVE INTELLIGENCE PLATFORM",
+    },
+    {
+      id: "2",
+      image: "/images/integration_whitepaper2.png",
+      title:
+        "UNIFIED SAFETY, LABEL AND CLINICAL TRIAL DATA TO DRIVE EFFICIENCY IN HOMEBREW PV PLATFORM",
+    },
+  ];
   const data = [
     {
       id: 1,
@@ -507,6 +522,15 @@ export default function case_study() {
               </p>
             </div>
             <Source data={data_1} />
+          </div>
+        </section>
+        {/* ==== */}
+        <section className="white_paper_sec">
+          <div className="contain">
+            <div className="heading_all">
+              <h2>Whitepaper</h2>
+            </div>
+            <Whitepaper data={white_paper} />
           </div>
         </section>
         {/* ========= */}
