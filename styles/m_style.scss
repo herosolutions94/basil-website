@@ -5,6 +5,9 @@
   border-radius: 0 20px 20px 0px;
   max-width: fit-content;
   margin-bottom: 30px;
+  @include mobile{
+    padding: 20px;
+  }
   h1 {
     background-image: linear-gradient(to right, #69b445 0%, #22a1d9 100%);
     -webkit-background-clip: text;
@@ -12,6 +15,9 @@
     color: transparent;
     margin-bottom: 0;
         font-size: 38px;
+        @include mobile{
+          font-size: 30px;
+        }
   }
 }
 
@@ -32,6 +38,14 @@
     width: 50%;
     padding-right: 60px;
     align-self: center;
+    @include ipad{
+      padding-right: 30px;
+    }
+    @include ipad_sm{
+      padding-right: 0px;
+      width: 100%;
+      margin-bottom: 30px;
+    }
   }
   .colR {
     width: 50%;
@@ -44,6 +58,10 @@
         @include pos;
         @include object(contain);
       }
+    }
+    @include ipad_sm{
+      width: 100%;
+      padding-left: 0px;
     }
   }
 }
@@ -71,10 +89,21 @@
 
 #help {
   padding-top: 2rem;
+  padding-bottom: 0rem;
+  .flex{
+    @include ipad_sm{
+      flex-direction: column-reverse;
+    }
+  }
   .colL {
     width: 50%;
     padding-right: 30px;
     align-self: center;
+    @include ipad_sm{
+      width: 100%;
+    padding-right: 0px;
+    align-self: center;
+    }
     .image {
       @include img;
       box-shadow: unset;
@@ -90,20 +119,41 @@
     width: 50%;
     padding-left: 40px;
     align-self: center;
+    @include ipad{
+      padding-left: 20px;
+    }
+    @include ipad_sm{
+              padding-left: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
   }
   .flex.flx2 {
     flex-flow: row-reverse;
     margin: 80px 0;
+    @include ipad_sm{
+      flex-flow: column-reverse;
+    margin: 40px 0;
+    }
     .colL {
       padding-left: 30px;
       padding-right: 0;
       .image {
         background-color: #f3f9f0;
       }
+      @include ipad_sm{
+        padding-left: 0px;
+      }
     }
     .colR {
       padding-right: 30px;
       padding-left: 0px;
+      @include ipad{
+        padding-right: 20px;
+      }
+      @include ipad_sm{
+        padding-right: 0px;
+      }
     }
   }
 }
@@ -156,9 +206,41 @@
   .colL {
     width: 50%;
     padding-right: 80px;
+    align-self: center;
+   
+    @include ipad{
+      padding-right: 40px;
+    }
+    @include ipad_sm{
+      width: 100% !important;
+      padding-right: 0px;
+      padding-bottom:30px;
+    }
+    .image{
+      @include img(100%);
+      background: unset;
+      box-shadow: none;
+      @include ipad_sm{
+        @include img(60%);
+        background: unset;
+        box-shadow: none;
+      }
+      @include mobile{
+        @include img(100% !important);
+        background: unset;
+        box-shadow: none;
+      }
+img{
+  @include pos;
+  @include object(contain);
+}
+    }
   }
   .colR {
     width: 50%;
+    @include ipad_sm{
+      width: 100% !important;
+    }
     ul {
       margin: 40px 0 0 0;
       padding: 0;
@@ -190,6 +272,12 @@
       @include img(100% !important);
       background: transparent !important;
       box-shadow: unset !important;
+      @include ipad_sm{
+        @include img(60% !important)
+      }
+      @include mobile{
+        @include img(100% !important);
+      }
       img {
         @include pos;
         @include object(contain);
@@ -204,6 +292,9 @@
       @include img(80% !important);
       background: transparent !important;
       box-shadow: unset !important;
+      @include ipad{
+        @include img(100% !important);
+      }
       img {
         @include pos;
         @include object(contain);
@@ -220,10 +311,20 @@
     }
   }
   .flex {
+    justify-content: center;
     .col {
       width: calc(100% / 3);
       flex: unset;
       padding: 20px;
+      @include ipad{
+        padding: 10px;
+      }
+      @include ipad_sm{
+        width: calc(100% / 2);
+      }
+      @include mobile{
+        width: calc(100% / 1);
+      }
       .inner {
         background-color: #fff;
         border-radius: 15px;
@@ -253,16 +354,34 @@
 }
 
 #two_img {
+  .flex{
+    flex-direction: column-reverse;
+  
   .colL {
     width: 50%;
     padding-right: 40px;
+    @include ipad_sm{
+      width: 100%;
+      padding-right: 0px;
+    }
     .outer {
       display: flex;
       gap: 30px;
+      @include ipad_sm{
+        justify-content: center;
+        margin-top: 30px;
+      }
       .image {
         height: 420px;
         overflow: hidden;
         border-radius: 15px;
+        @include ipad{
+          height: 350px;
+        }
+
+        @include mobile{
+          height: 250px;
+        }
         img {
           height: 100%;
           object-fit: cover;
@@ -274,19 +393,37 @@
       }
     }
   }
+  }
   .colR {
     width: 50%;
     padding-left: 30px;
     align-self: center;
+    @include ipad_sm{
+      width: 100%;
+      padding-left: 0px;
+    }
   }
 }
 
 #up_ico {
   padding-top: 0;
+  .flex{
+    justify-content:center;
+  
   .col {
     flex: unset;
     width: calc(100% / 3);
     padding: 20px;
+    @include ipad{
+      padding: 10px;
+    }
+    @include ipad_sm{
+      width: calc(100% / 2);
+    }
+    @include ipad_sm{
+      width: calc(100% / 1);
+    }
+    
     .inner {
       border: 1px solid #dddfe5;
       padding: 20px;
@@ -307,6 +444,7 @@
     }
   }
 }
+}
 
 .comp {
   padding-top: 5rem !important;
@@ -316,9 +454,17 @@
       background: transparent !important;
       box-shadow: unset !important;
       @include radius(10px);
+      @include ipad{
+        @include img(110% !important);
+      }
+      @include ipad_sm{
+        @include img(70% !important);
+  
+      }
+      
       img {
         @include pos;
-        @include object;
+        @include object(cover !important);
       }
     }
   }
@@ -337,18 +483,34 @@
 .clinical {
   .colL {
     width: 40% !important;
+    @include ipad_sm{
+      width: 100% !important;
+    }
   }
   .colR {
     width: 60% !important;
+    @include ipad_sm{
+      width: 100% !important;
+    }
     .outer {
       display: flex;
       gap: 20px;
+      @include mobile{
+      display:block;
+      }
       .left_col {
         width: 50%;
         margin-top: 70px;
+        @include mobile{
+          width: 100%;
+          margin-top: 0px;
+        }
       }
       .right_col {
         width: 50%;
+        @include mobile{
+          width: 100%;
+        }
       }
       .col {
         margin-bottom: 30px;
@@ -388,6 +550,15 @@
       background: transparent !important;
       box-shadow: unset !important;
       @include radius(10px);
+      @include ipad{
+        @include img(120% !important)
+      }
+      @include ipad_sm{
+        @include img(80% !important)
+      }
+      @include mobile{
+        @include img(100% !important);
+      }
       img {
         @include pos;
         @include object;
@@ -403,6 +574,15 @@
       background: transparent !important;
       box-shadow: unset !important;
       @include radius(10px);
+      @include ipad{
+        @include img(150% !important);
+      }
+      @include ipad_sm{
+        @include img(80% !important);
+      }
+      @include mobile{
+        @include img(100% !important);
+      }
       img {
         @include pos;
         @include object;

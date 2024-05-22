@@ -60,10 +60,37 @@ export default function Header({data}) {
                   <div className="drop_btn">Solutions</div>
                   <ul className={solutionDrop ? "sub sm active" : "sub sm"}>
                     <li onClick={ToggleAction}>
-                      <Link href="/data-modernization" onClick={closeSolutionDrop}>
-                      Data Modernization
+                      <Link href="/solutions/pharma_intelligence" onClick={closeSolutionDrop}>
+                   Pharma Intelligence
                       </Link>
                     </li>
+                    <li onClick={ToggleAction}>
+                      <Link href="/solutions/regulatory" onClick={closeSolutionDrop}>
+                   Regulatory
+                      </Link>
+                    </li>
+                    <li onClick={ToggleAction}>
+                      <Link href="/solutions/post_market" onClick={closeSolutionDrop}>
+                   Post Market
+                      </Link>
+                    </li>
+                    <li onClick={ToggleAction}>
+                      <Link href="/solutions/clinical_trial" onClick={closeSolutionDrop}>
+                  Clinical Trials
+                      </Link>
+                    </li>
+                    <li onClick={ToggleAction}>
+                      <Link href="/solutions/exec_dashboard" onClick={closeSolutionDrop}>
+                   Exec Dashboard
+                      </Link>
+                    </li>
+                    <li onClick={ToggleAction}>
+                      <Link href="/solutions/com_table" onClick={closeSolutionDrop}>
+                 Comparative Table Creator
+                      </Link>
+                    </li>
+                
+               
                   </ul>
                 </li>
               <li

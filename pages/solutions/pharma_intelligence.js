@@ -1,8 +1,21 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Whitepaper from "@/components/whitepaper";
 
 export default function Pharma_Intelligence() {
+  const white_paper = [
+    {
+        id:"1",
+        image:"/images/integration_whitepaper1.png",
+        title:"DELIVERING HIGH QUALITY DATA TO DRIVE INSIGHTS FOR INTERNAL COMPETITIVE INTELLIGENCE PLATFORM"
+    },
+    {
+        id:"2",
+        image:"/images/integration_whitepaper2.png",
+        title:"UNIFIED SAFETY, LABEL AND CLINICAL TRIAL DATA TO DRIVE EFFICIENCY IN HOMEBREW PV PLATFORM"
+    },
+]
   const data = [
     {
       id: 1,
@@ -172,7 +185,14 @@ export default function Pharma_Intelligence() {
           </div>
         </section>
 
-        <section>{/* white paper */}</section>
+        <section className="white_paper_sec">
+            <div className="contain">
+                <div className="heading_all">
+                    <h2>Whitepaper</h2>
+                </div>
+                <Whitepaper data = {white_paper}/>
+            </div>
+        </section>
       </main>
     </div>
   );
