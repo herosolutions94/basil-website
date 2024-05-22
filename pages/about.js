@@ -35,9 +35,9 @@ export default function About() {
                     </p>
                   </div>
                   <div className="btn_blk">
-                    <a href="" className="site_btn dark">
+                    <Link href="" className="site_btn dark">
                       Contact Us
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_1.webp" alt="" />
                     </div>
                     <div className="lower-content">
                       <h5>Medical Device Companies</h5>
@@ -77,70 +77,70 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_2.jpg" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>Pharma</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_3.jpg" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>CROs</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_4.jpg" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>Insurance</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_5.webp" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>Academic Institutions</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_6.jpeg" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>CMO/CDMOs</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_7.jpg" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>Consultancies</h5>
                     </div>
                   </div>
                 </div>
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_w_8.webp" alt="" />
                     </div>
                     <div className="lower-content">
-                      <h5>Medical Device Companies</h5>
+                      <h5>Service Industry</h5>
                     </div>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function About() {
           </div>
         </section>
         {/* ===== uj_sec_mission ==== */}
-        <section className="uj_sec_mission u_two_cols">
+        <section className="uj_sec_mission">
           <div className="contain">
             <div className="uj_inside">
               <div className="flex">
@@ -209,8 +209,31 @@ export default function About() {
                   </div>
                 </div>
                 <div className="cols col2">
-                  <div className="image">
-                    <img src="images/uj_mission.jpg" alt="" />
+                  <div class="image_area">
+                    <div class="block_1">
+                      <div class="image_1 image">
+                        <img src="images/uj_m_1.jpg" alt="" />
+                      </div>
+                      <div class="image_2 image">
+                        <img src="images//uj_m_2.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="block_1">
+                      <div class="image_1 image">
+                        <img src="images//uj_m_3.jpeg" alt="" />
+                      </div>
+                      <div class="image_2 image">
+                        <img src="images//uj_m_4.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="block_1">
+                      <div class="image_1 image">
+                        <img src="images//uj_m_5.jpeg" alt="" />
+                      </div>
+                      <div class="image_2 image">
+                        <img src="images//uj_m_6.jpeg" alt="" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -235,7 +258,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_c_1.png" alt="" />
                     </div>
                     <div className="lower-content">
                       <h5>Customization and Flexibility</h5>
@@ -250,7 +273,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_c_2.png" alt="" />
                     </div>
                     <div className="lower-content">
                       <h5>Advanced Security Protocols</h5>
@@ -266,7 +289,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_c_3.png" alt="" />
                     </div>
                     <div className="lower-content">
                       <h5>Expert Support</h5>
@@ -282,7 +305,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images" alt="" />
+                      <img src="images/uj_c_4.png" alt="" />
                     </div>
                     <div className="lower-content">
                       <h5>Efficiency and Reduced Complexity</h5>
