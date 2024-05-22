@@ -123,12 +123,12 @@ export default function Header({data}) {
                   <div className="drop_btn">Resources</div>
                   <ul className={resourceDrop ? "sub sm active" : "sub sm"}>
                     <li onClick={ToggleAction}>
-                      <Link href="/" onClick={closeDrop}>
+                      <Link href="/casestudy" onClick={closeDrop}>
                       Case studies
                       </Link>
                     </li>
                     <li onClick={ToggleAction}>
-                      <Link href="/" onClick={closeDrop}>
+                      <Link href="/testimonials" onClick={closeDrop}>
                       Testimonials
                       </Link>
                     </li>

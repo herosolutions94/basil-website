@@ -7,6 +7,9 @@
       width: 100%;
     }
   }
+  &.u_two_cols{
+    padding-top: 2rem;
+  }
 }
 .uj_sec_about {
   .col1 {
@@ -898,7 +901,7 @@
 
 // ======
 .uj_testimonials_p {
-  padding-top: 10rem;
+  padding-top: 4rem;
   .item {
     margin: 0;
     width: calc(100% / 2);
@@ -908,6 +911,29 @@
     }
     .inner {
       margin: 0;
+    }
+  }
+}
+
+
+.cate_info{
+  @include flex;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+  .category{
+    background: $color2;
+    width: fit-content;
+    padding: 5px 22px;
+    @include radius(15px);
+    p {
+      margin-bottom: 0;
+      color: $light;
+    }
+  }
+  .date{
+    align-self: center;
+    p{
+      margin-bottom: 0;
     }
   }
 }

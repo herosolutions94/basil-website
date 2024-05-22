@@ -23,7 +23,7 @@ export default function Comp_Table() {
   return (
     <div>
       <main>
-        <section id="flex_banner" className="regulatory">
+        <section id="flex_banner" className="regulatory p_t_b">
           <div className="bgtext">
             <h1>Comparative Table Creator</h1>
           </div>

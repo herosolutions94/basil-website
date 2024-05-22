@@ -33,7 +33,7 @@ export default function regulatory() {
   return (
     <div>
       <main>
-        <section id="flex_banner" className="regulatory">
+        <section id="flex_banner" className="regulatory p_t_b">
           <div className="bgtext">
             <h1>Regulatory</h1>
           </div>

@@ -41,68 +41,68 @@ export default function Footer() {
       {
         id: "sol_1",
         text: "Pharma Intel",
-        link: "/",
+        link: "/solutions/pharma_intelligence",
       },
       {
         id: "sol_2",
         text: "Regulatory Intel",
-        link: "/",
+        link: "/solutions/regulatory",
       },
       {
         id: "sol_3",
         text: "Post-market (MedTech)",
-        link: "/",
+        link: "/solutions/post_market",
       },
       {
         id: "sol_4",
         text: "Executive Dashboard",
-        link: "/",
+        link: "/solutions/exec_dashboard",
       },
       {
         id: "sol_5",
         text: "CER Table Creator",
-        link: "/",
+        link: "/solutions/com_table",
       },
       {
         id: "sol_6",
         text: "Clinical Trials",
-        link: "/",
+        link: "/solutions/clinical_trial",
       },
     ],
     capabilities: [
       {
         id: "cap_1",
         text: "Data harmonization",
-        link: "/",
+        link: "/capability/data-modernization",
       },
       {
         id: "cap_2",
         text: "External API",
-        link: "/",
+        link: "/capability/data-integration",
       }
     ],
     resources: [
       {
         id: "res_1",
         text: "Case studies",
-        link: "/",
+        link: "/casestudy",
       },
       {
         id: "res_2",
         text: "Citations",
-        link: "/",
+        link: "/casestudy",
       },
       {
         id: "res_3",
         text: "Testimonials",
-        link: "/",
+        link: "/testimonials",
       }
     ],
     about: [
       {
         id: "company",
         text: "Company",
-        link: "/",
+        link: "/about",
       },
       {
         id: "terms",

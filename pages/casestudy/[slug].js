@@ -4,7 +4,7 @@ const Slug = () => {
   return (
     <>
       <main>
-        <section className="uj_sec_guide">
+        <section className="uj_sec_guide p_t_b">
           <div className="contain">
             <div className="sec_heading">
               <h2>The Recruitment Funnel: A Comprehensive Guide</h2>
@@ -21,53 +21,63 @@ const Slug = () => {
             <div className="image">
               <img src="/images/detail_1.jpg" alt="" />
             </div>
-            <p>
-              Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
-              Ipsum dolor sit amet consectetur adipiscing elit pellentesque
-              habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
-              Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
-              dolor sit amet consectetur adipiscing elit Posuere morbi leo urna
-              molestiPosuere morbi leo urna molestie at. Ipsum dolor sit amet
-              consectetur adipiscing elit pellentesque habitant morbi. Odio ut
-              enim blandit volutpat maecenas volutpat. Tristique magna sit
-              Posuere morbi leo urna molestie at. Ipsum dolor sit amet
-              consectetur adipiscing elit
-            </p>
-            <p>
-              Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
-              Ipsum dolor sit amet consectetur adipiscing elit pellentesque
-              habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
-              Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
-              dolor sit amet consectetur adipiscing.{" "}
-            </p>
-            <p>
-              Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
-              Ipsum dolor sit amet consectetur adipiscing elit pellentesque
-              habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
-              Tristique magna sit Posuere morbi leo urna molestie at.Posuere
-              morbi leo urna molestiPosuere morbi leo urna molestie at. Ipsum
-              dolor sit amet consectetur adipiscing elit pellentesque habitant
-              morbi. Odio ut enim blandit volutpat maecenas volutpat. Tristique
-              magna sit Posuere morbi leo urna molestie at. Ipsum dolor sit amet
-              consectetur adipiscing elit Posuere morbi leo urna molestiPosuere
-              morbi leo urna molestie at. Ipsum dolor sit amet consectetur
-              adipiscing elit pellentesque habitant morbi. Odio ut enim blandit
-              volutpat maecenas volutpat. Tristique magna sit Posuere morbi leo
-              urna molestie at. Ipsum dolor sit amet consectetur adipiscing elit
-            </p>
-            <p>
-              osuere morbi leo urna molestiPosuere morbi leo urna molestie at.
-              Ipsum dolor sit amet consectetur adipiscing elit pellentesque
-              habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
-              Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
-              dolor sit amet consectetur adipiscing.{" "}
-            </p>
-            <p>
-              Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
-              Ipsum dolor sit amet consectetur adipiscing elit pellentesque
-              habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
-              Tristique magna sit Posuere morbi leo urna molestie at.
-            </p>
+            <div className="cate_info">
+              <div className="category">
+                  <p>Positive Psychology</p>
+              </div>
+              <div className="date">
+                <p>2 March, 2024</p>
+              </div>
+            </div>
+            <div className="ck_editor">
+              <p>
+                Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
+                Ipsum dolor sit amet consectetur adipiscing elit pellentesque
+                habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
+                Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
+                dolor sit amet consectetur adipiscing elit Posuere morbi leo urna
+                molestiPosuere morbi leo urna molestie at. Ipsum dolor sit amet
+                consectetur adipiscing elit pellentesque habitant morbi. Odio ut
+                enim blandit volutpat maecenas volutpat. Tristique magna sit
+                Posuere morbi leo urna molestie at. Ipsum dolor sit amet
+                consectetur adipiscing elit
+              </p>
+              <p>
+                Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
+                Ipsum dolor sit amet consectetur adipiscing elit pellentesque
+                habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
+                Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
+                dolor sit amet consectetur adipiscing.{" "}
+              </p>
+              <p>
+                Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
+                Ipsum dolor sit amet consectetur adipiscing elit pellentesque
+                habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
+                Tristique magna sit Posuere morbi leo urna molestie at.Posuere
+                morbi leo urna molestiPosuere morbi leo urna molestie at. Ipsum
+                dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Odio ut enim blandit volutpat maecenas volutpat. Tristique
+                magna sit Posuere morbi leo urna molestie at. Ipsum dolor sit amet
+                consectetur adipiscing elit Posuere morbi leo urna molestiPosuere
+                morbi leo urna molestie at. Ipsum dolor sit amet consectetur
+                adipiscing elit pellentesque habitant morbi. Odio ut enim blandit
+                volutpat maecenas volutpat. Tristique magna sit Posuere morbi leo
+                urna molestie at. Ipsum dolor sit amet consectetur adipiscing elit
+              </p>
+              <p>
+                osuere morbi leo urna molestiPosuere morbi leo urna molestie at.
+                Ipsum dolor sit amet consectetur adipiscing elit pellentesque
+                habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
+                Tristique magna sit Posuere morbi leo urna molestie at. Ipsum
+                dolor sit amet consectetur adipiscing.{" "}
+              </p>
+              <p>
+                Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
+                Ipsum dolor sit amet consectetur adipiscing elit pellentesque
+                habitant morbi. Odio ut enim blandit volutpat maecenas volutpat.
+                Tristique magna sit Posuere morbi leo urna molestie at.
+              </p>
+            </div>
           </div>
         </section>
         <section className="uj_sec_process">

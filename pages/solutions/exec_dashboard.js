@@ -53,7 +53,7 @@ export default function exec_dashboard() {
   return (
     <div>
       <main>
-        <section id="flex_banner" className="exec">
+        <section id="flex_banner" className="exec p_t_b">
           <div className="bgtext">
             <h1>Exec Dashboard & Alerts</h1>
           </div>

@@ -33,7 +33,7 @@ export default function Post_market() {
   return (
     <div>
       <main>
-        <section id="flex_banner" className="clinical">
+        <section id="flex_banner" className="clinical p_t_b">
           <div className="bgtext">
             <h1>Post Market</h1>
           </div>

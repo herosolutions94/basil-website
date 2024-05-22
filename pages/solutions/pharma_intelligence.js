@@ -1,9 +1,19 @@
-import React from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
 import Whitepaper from "@/components/whitepaper";
+import WhitepaperForm from "@/components/whitepaper-form";
 
 export default function Pharma_Intelligence() {
+  const [isFormVisible, setFormVisible] = useState(false);
+
+    const handleFormClick = () => {
+        setFormVisible(true);
+    };
+
+    const handleCloseForm = () => {
+        setFormVisible(false);
+    };
   const white_paper = [
     {
         id:"1",
@@ -66,7 +76,7 @@ export default function Pharma_Intelligence() {
   return (
     <div>
       <main>
-        <section id="flex_banner">
+        <section id="flex_banner" className="p_t_b">
           <div className="bgtext">
             <h1>Pharma Intelligence</h1>
           </div>
@@ -190,10 +200,11 @@ export default function Pharma_Intelligence() {
                 <div className="heading_all">
                     <h2>Whitepaper</h2>
                 </div>
-                <Whitepaper data = {white_paper}/>
+                <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>
             </div>
         </section>
       </main>
+      {isFormVisible && <WhitepaperForm onClose={handleCloseForm} />}
     </div>
   );
 }

@@ -4,8 +4,18 @@ import Testimonials from "@/components/testimonials";
 import Source from "@/components/source";
 import Case_form from "@/components/case_form";
 import Whitepaper from "@/components/whitepaper";
+import WhitepaperForm from "@/components/whitepaper-form";
 export default function case_study() {
   const [formPopup, setFormPopup] = useState(false);
+  const [isFormVisible, setFormVisible] = useState(false);
+
+    const handleFormClick = () => {
+        setFormVisible(true);
+    };
+
+    const handleCloseForm = () => {
+        setFormVisible(false);
+    };
   const white_paper = [
     {
       id: "1",
@@ -530,7 +540,7 @@ export default function case_study() {
             <div className="heading_all">
               <h2>Whitepaper</h2>
             </div>
-            <Whitepaper data={white_paper} />
+            <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>
           </div>
         </section>
         {/* ========= */}
@@ -547,6 +557,7 @@ export default function case_study() {
         </section>
       </main>
       <Case_form formPopup={formPopup} setFormPopup={setFormPopup} />
+      {isFormVisible && <WhitepaperForm onClose={handleCloseForm} />}
     </>
   );
 }

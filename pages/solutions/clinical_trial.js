@@ -23,7 +23,7 @@ export default function Clinical_trial() {
   return (
     <div>
       <main>
-        <section id="flex_banner" className="clinical">
+        <section id="flex_banner" className="clinical p_t_b">
           <div className="bgtext">
             <h1>Clinical Trials</h1>
           </div>
