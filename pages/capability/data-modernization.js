@@ -1,8 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Whitepaper from "@/components/whitepaper";
+import WhitepaperForm from "@/components/whitepaper-form";
 
 export default function DataModernization() {
+    const [isFormVisible, setFormVisible] = useState(false);
+
+    const handleFormClick = () => {
+        setFormVisible(true);
+    };
+
+    const handleCloseForm = () => {
+        setFormVisible(false);
+    };
     const white_paper = [
         {
             id:"1",
@@ -81,10 +91,11 @@ export default function DataModernization() {
                 <div className="heading_all">
                     <h2>Whitepaper</h2>
                 </div>
-                <Whitepaper data = {white_paper}/>
+                <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>
             </div>
         </section>
       </main>
+      {isFormVisible && <WhitepaperForm onClose={handleCloseForm} />}
     </>
   );
 }
