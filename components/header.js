@@ -25,18 +25,18 @@ export default function Header({data}) {
 
     const closeDrop = () => {
       setCapabilityDrop(false);
-      setToggle(false);
+      // setToggle(false);
       
     };
     const closeSolutionDrop = () => {
       setSolutionDrop(false);
-      setToggle(false);
+      // setToggle(false);
       
     };
 
     const closeResourceDrop = () => {
       setResourceDrop(false);
-      setToggle(false);
+      // setToggle(false);
       
     };
 
@@ -59,7 +59,7 @@ export default function Header({data}) {
                 >
                   <div className="drop_btn">Solutions</div>
                   <ul className={solutionDrop ? "sub sm active" : "sub sm"}>
-                    <li>
+                    <li onClick={ToggleAction}>
                       <Link href="/data-modernization" onClick={closeSolutionDrop}>
                       Data Modernization
                       </Link>
@@ -74,14 +74,14 @@ export default function Header({data}) {
                 >
                   <div className="drop_btn">Capability</div>
                   <ul className={capabilityDrop ? "sub sm active" : "sub sm"}>
-                    <li>
-                      <Link href="/data-modernization" onClick={closeDrop}>
+                    <li onClick={ToggleAction}>
+                      <Link href="/capability/data-modernization" onClick={closeDrop}>
                       Data Modernization
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/data-intefration" onClick={closeDrop}>
-                      API / Data Intefration
+                    <li onClick={ToggleAction}>
+                      <Link href="/capability/data-integration" onClick={closeDrop}>
+                      API / Data Integration
                       </Link>
                     </li>
                   </ul>
@@ -95,12 +95,12 @@ export default function Header({data}) {
                 >
                   <div className="drop_btn">Resources</div>
                   <ul className={resourceDrop ? "sub sm active" : "sub sm"}>
-                    <li>
+                    <li onClick={ToggleAction}>
                       <Link href="/" onClick={closeDrop}>
                       Case studies
                       </Link>
                     </li>
-                    <li>
+                    <li onClick={ToggleAction}>
                       <Link href="/" onClick={closeDrop}>
                       Testimonials
                       </Link>
@@ -108,7 +108,7 @@ export default function Header({data}) {
                   </ul>
                 </li>
               <li><Link href="/about" onClick={ToggleAction}>About Us</Link></li>
-              <li className="show_cell_lnk"><Link href="/" className="site_btn blank">Schedule Demo</Link></li>
+              <li className="show_cell_lnk"><Link href="/" className="site_btn blank" onClick={ToggleAction}>Schedule Demo</Link></li>
             </ul>
           </nav>
           <div className="login_btns">

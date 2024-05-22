@@ -1,8 +1,41 @@
 import Link from "next/link"
-import React from 'react'
+import React, { useState } from 'react'
 import Cta from "./cta";
 
 export default function Footer() {
+  const [footOne , setFootOne] = useState(false);
+  const [footTwo , setFootTwo] = useState(false);
+  const [footThree , setFootThree] = useState(false);
+  const [footFour , setFootFour] = useState(false);
+
+  const togFootOne = () =>{
+    setFootOne(!footOne);
+    setFootTwo(false);
+    setFootThree(false);
+    setFootFour(false);
+  }
+
+  const togFootTwo = () =>{
+    setFootOne(false);
+    setFootTwo(!footTwo);
+    setFootThree(false);
+    setFootFour(false);
+  }
+
+  const togFootThree = () =>{
+    setFootOne(false);
+    setFootTwo(false);
+    setFootThree(!footThree);
+    setFootFour(false);
+  }
+
+  const togFootFour = () =>{
+    setFootOne(false);
+    setFootTwo(false);
+    setFootThree(false);
+    setFootFour(!footFour);
+  }
+  
   const data = {
     solutions: [
       {
@@ -112,10 +145,10 @@ export default function Footer() {
               </div>
               <div className="col-xl-2">
                 <div className="in_col">
-                  <h4>
+                  <h4 onClick={togFootOne}>
                   Solutions
                   </h4>
-                  <ul className="list">
+                  <ul className={footOne ? "list active" : "list"}>
                     {data.solutions.map((val) => {
                       return (
                         <li key={val.id}>
@@ -128,10 +161,10 @@ export default function Footer() {
               </div>
               <div className="col-lg">
                 <div className="in_col">
-                  <h4>
+                  <h4 onClick={togFootTwo}>
                   Capabilities
                   </h4>
-                  <ul className="list">
+                  <ul className={footTwo ? "list active" : "list"}>
                     {data.capabilities.map((val) => {
                       return (
                         <li key={val.id}>
@@ -144,10 +177,10 @@ export default function Footer() {
               </div>
               <div className="col-lg">
                 <div className="in_col">
-                  <h4>
+                  <h4 onClick={togFootThree}>
                   Resources
                   </h4>
-                  <ul className="list">
+                  <ul className={footThree ? "list active" : "list"}>
                     {data.resources.map((val) => {
                       return (
                         <li key={val.id}>
@@ -160,10 +193,10 @@ export default function Footer() {
               </div>
               <div className="col-lg">
                 <div className="in_col">
-                  <h4>
+                  <h4 onClick={togFootFour}>
                   About Us
                   </h4>
-                  <ul className="list">
+                  <ul className={footFour ? "list active" : "list"}>
                     {data.about.map((val) => {
                       return (
                         <li key={val.id}>
