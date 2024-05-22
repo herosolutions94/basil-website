@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export default function Whitepaper({data}) {
+export default function Whitepaper({data, onFormClick}) {
    
     
     
@@ -8,7 +8,7 @@ export default function Whitepaper({data}) {
             {
                 data.map((val,i) => {
                     return(
-                        <div className="col" key={i}>
+                        <div className="col" key={i} onClick={onFormClick}>
                             <div className="image">
                                 <img src={val.image} alt={val.title}/>
                             </div>
