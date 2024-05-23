@@ -1,17 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Slider from 'react-slick';
-import PharmaIntellibence from "./tab-solutions-sections/pharma-intelligence";
-import Regulatory from "./tab-solutions-sections/regulatory";
-import PostMarket from "./tab-solutions-sections/post_market";
-import ClinicalTrials from "./tab-solutions-sections/clinical_trials";
-import ExecDashboard from "./tab-solutions-sections/exec_dashboard";
-import ComparativeTableCreator from "./tab-solutions-sections/comparative_table_creator";
-import DataModernization from "./tab-solutions-sections/data_modernization";
-import DataIntegration from "./tab-solutions-sections/data_integration";
-import Inform from "./quality-insights/inform";
-import Harmonize from "./quality-insights/harmonize";
-import Integrate from "./quality-insights/integrate";
+import PharmaIntellibence from "../components/tab-solutions-sections/pharma-intelligence";
+import Regulatory from "../components/tab-solutions-sections/regulatory";
+import PostMarket from "../components/tab-solutions-sections/post_market";
+import ClinicalTrials from "../components/tab-solutions-sections/clinical_trials";
+import ExecDashboard from "../components/tab-solutions-sections/exec_dashboard";
+import ComparativeTableCreator from "../components/tab-solutions-sections/comparative_table_creator";
+import DataModernization from "../components/tab-solutions-sections/data_modernization";
+import DataIntegration from "../components/tab-solutions-sections/data_integration";
+import Inform from "../components/quality-insights/inform";
+import Harmonize from "../components/quality-insights/harmonize";
+import Integrate from "../components/quality-insights/integrate";
 
 export default function Home() {
   const[tab , setTab] = useState(1);
