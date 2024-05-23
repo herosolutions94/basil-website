@@ -264,7 +264,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="delivering_result_sec">
+        {/* <section className="delivering_result_sec">
           <div className="contain">
               <div className="center_txt text-center">
                 <h2>Delivering Results</h2>
@@ -318,7 +318,7 @@ export default function Home() {
               {tabQuality == 11 && <Integrate data={quality_insights.integrate}/>}
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="big_cta">
           <div className="contain">
             <div className="cta_blk">
