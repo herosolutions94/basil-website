@@ -135,12 +135,12 @@ export default function Header({data}) {
                   </ul>
                 </li>
               <li><Link href="/about" onClick={ToggleAction}>About Us</Link></li>
-              <li className="show_cell_lnk"><Link href="/" className="site_btn blank" onClick={ToggleAction}>Schedule Demo</Link></li>
+              <li className="show_cell_lnk"><Link href="/contact" className="site_btn blank" onClick={ToggleAction}>Schedule Demo</Link></li>
             </ul>
           </nav>
           <div className="login_btns">
               <ul>
-                <li className="btn_blk"><Link href="/" className="site_btn blank">Schedule Demo</Link></li>
+                <li className="btn_blk"><Link href="/contact" className="site_btn blank">Schedule Demo</Link></li>
               </ul>
             </div>
           <div className="clearfix"></div>

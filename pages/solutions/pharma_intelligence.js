@@ -142,7 +142,7 @@ export default function Pharma_Intelligence() {
                   approvals
                 </p>
                 <div class="btn_blk">
-                  <Link class="site_btn color" href="/">
+                  <Link class="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>
@@ -164,7 +164,7 @@ export default function Pharma_Intelligence() {
                   sustain compliance.
                 </p>
                 <div class="btn_blk">
-                  <Link class="site_btn color" href="/">
+                  <Link class="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>
@@ -186,7 +186,7 @@ export default function Pharma_Intelligence() {
                   revenue from both existing and future products.
                 </p>
                 <div class="btn_blk">
-                  <Link class="site_btn color" href="/">
+                  <Link class="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>

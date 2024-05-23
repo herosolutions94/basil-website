@@ -2908,7 +2908,7 @@ nav {
     }
     > li {
       position: relative;
-      padding: 0 4rem;
+      padding: .9rem 4rem;
       padding-left: 0;
       &.show_cell_lnk{
         display: none;
@@ -2975,7 +2975,6 @@ nav {
           background: transparent;
           visibility: visible;
           opacity: 1;
-          // text-align: center;
           padding: 0;
           margin: 0 auto !important;
           border: 0;
@@ -2987,6 +2986,11 @@ nav {
         }
         &.active {
           display: block;
+          visibility: visible;
+          opacity: 1;
+          pointer-events: auto;
+          margin-top: 0;
+          @include trans;
         }
         > li {
           display: block;
@@ -3005,12 +3009,12 @@ nav {
           }
         }
       }
-      &:hover > .sub {
-        visibility: visible;
-        opacity: 1;
-        margin-top: 0;
-        pointer-events: auto;
-      }
+      // &:hover > .sub {
+      //   visibility: visible;
+      //   opacity: 1;
+      //   margin-top: 0;
+      //   pointer-events: auto;
+      // }
       &.drop > a , &.drop > .drop_btn{
         position: relative;
         @include ipad_sm{
