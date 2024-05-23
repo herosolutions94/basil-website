@@ -90,7 +90,7 @@ export default function Footer() {
       {
         id: "res_2",
         text: "Citations",
-        link: "/casestudy",
+        link: "/casestudy#citation",
       },
       {
         id: "res_3",
@@ -105,14 +105,19 @@ export default function Footer() {
         link: "/about",
       },
       {
+        id: "contact",
+        text: "Contact Us",
+        link: "/contact",
+      },
+      {
         id: "terms",
         text: "Terms & Conditions",
-        link: "/",
+        link: "/terms-conditions",
       },
       {
         id: "privacy",
         text: "Privacy policy",
-        link: "/",
+        link: "/privacy-policy",
       }
     ],
     

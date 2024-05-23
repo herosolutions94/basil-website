@@ -68,7 +68,7 @@ export default function Source({ data }) {
         {data.map((val) => {
           return (
             <div className="item" key={val.id}>
-              <div className="inner">
+              <Link href={val.lnk} className="inner">
                 <div className="source_flex">
                   <div className="image">
                     <img src={val.image} alt={val.name} />
@@ -77,7 +77,7 @@ export default function Source({ data }) {
                     <p>{val.detail}</p>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           );
         })}

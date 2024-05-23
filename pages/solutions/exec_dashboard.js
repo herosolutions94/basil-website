@@ -70,7 +70,6 @@ export default function exec_dashboard() {
                   strategic decisions and maintain a competitive edge.
                 </p>
                 <p>
-                  {" "}
                   Customize alerts for key products and companies, with robust
                   tracking tools that keep you informed about advancements in
                   medical devices, patents, and emerging technologies.
@@ -81,10 +80,10 @@ export default function exec_dashboard() {
                   operational efficiency and compliance.
                 </p>
                 <div className="bTn">
-                  <Link href="" className="site_btn ">
+                  <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="" className="site_btn blank ">
+                  <Link href="/about" className="site_btn blank ">
                     Read More
                   </Link>
                 </div>

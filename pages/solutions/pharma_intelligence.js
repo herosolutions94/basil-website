@@ -95,10 +95,10 @@ export default function Pharma_Intelligence() {
                   and empower strategic, informed decisions at every turn
                 </p>
                 <div className="bTn">
-                  <Link href="" className="site_btn ">
+                  <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="" className="site_btn blank ">
+                  <Link href="/about" className="site_btn blank ">
                     Read More
                   </Link>
                 </div>

@@ -116,7 +116,7 @@ export default function Home() {
       sub_heading:"RAPID INSIGHTS, RAPID DELIVERY",
       pera:"<p>Supercharge your pharma development and market delivery with our Pharma Intelligence Platform. Tap into the combined power of clinical trial, labeling, safety, and excipient data to boost your innovation, fast-track approvals, and skyrocket portfolio revenues.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/solutions/pharma_intelligence"
     },
     regulatory: {
       image:"/images/tab2.png",
@@ -124,7 +124,7 @@ export default function Home() {
       sub_heading:"ACCELERATE, NAVIGATE, INNOVATE, LEAD",
       pera:"<p>Harness the power of Basil Regulatory to accelerate your regulatory discovery and strategy, refine product planning, and gain competitive intelligence, all while navigating the regulatory landscape with unprecedented speed and accuracy.</p><p>Experience the future of MedTech with a taste of our platform — start with our free plan and discover how our solutions can transform your operations.</p>",
       button_lbl:"Activate Freemium",
-      link:"https://app.basilsys.com/"
+      link:"/solutions/regulatory"
     },
     post_market: {
       image:"/images/tab3.png",
@@ -132,7 +132,7 @@ export default function Home() {
       sub_heading:"TRANSFORM INSIGHTS INTO ADVANTAGE",
       pera:"<p>Unlock real-time insights and customizable data tools with our Post-Market Intelligence module to revolutionize your industry visibility. Gain instant MDR/IVDR data tables, extensive export options, and powerful search capabilities to streamline trend monitoring and reporting effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/solutions/post_market"
     },
     clinical_trials: {
       image:"/images/tab4.png",
@@ -140,7 +140,7 @@ export default function Home() {
       sub_heading:"UNLOCK COMPREHENSIVE CLINICAL INSIGHTS",
       pera:"<p>Gain unparalleled access to over 500k indexed clinical trials with comprehensive search capabilities, natural language full text analysis, and extensive regulatory data connections. Perform thorough pre-commercial due diligence on new technologies and early-stage research programs not yet FDA-cleared.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/solutions/clinical_trial"
     },
     exec_dashboard: {
       image:"/images/tab5.png",
@@ -148,7 +148,7 @@ export default function Home() {
       sub_heading:"DOMINATE STRATEGY WITH INSIGHTS",
       pera:"<p>Revolutionize your strategy with our executive dashboard, combining regulatory, clinical trials, and post-market intelligence into a streamlined, intuitive interface. Gain real-time alerts and actionable insights to master product monitoring, commercial strategy, launch planning, and competitor analysis effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/solutions/exec_dashboard"
     },
     comparative_table_creator: {
       image:"/images/tab6.png",
@@ -156,7 +156,7 @@ export default function Home() {
       sub_heading:"INSTANT SAFETY DATA INSIGHTS",
       pera:"<p>Gain real-time insights into complex emerging safety signals with our cutting-edge platform, allowing you to easily compare the safety and quality data of any medical device, product, or brand side-by-side. Effortlessly select products, access global safety records, and save, export, and share data to streamline your team's analysis and reporting.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/solutions/com_table"
     },
     data_modernization: {
       image:"/images/tab7.png",
@@ -164,7 +164,7 @@ export default function Home() {
       sub_heading:"AUTONOMOUS DATA, TRANSFORMATION POWER",
       pera:"<p>Stay ahead in today's data-driven world with Basil’s proprietary ML technology, designed to autonomously transform vast data into actionable insights for superior business outcomes. Empower your operations with Basil Systems, streamlining processes and unlocking precision, efficiency, and value at every step.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/capability/data-modernization"
     },
     data_integration: {
       image:"/images/tab8.png",
@@ -172,7 +172,7 @@ export default function Home() {
       sub_heading:"REVOLUTIONIZE CONNECTIVITY AND INTELLIGENCE",
       pera:"<p>Transform your enterprise with Basil Systems' revolutionary API and Data Integration technology, seamlessly bridging disparate systems and turbocharging data flows. Unlock your digital assets' full potential, driving efficiency and innovation to outperform competitors and redefine industry standards.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
-      link:"/"
+      link:"/capability/data-integration"
     },
   }
   const quality_insights = {
@@ -345,7 +345,7 @@ export default function Home() {
                   <p>Explore how Basil's AI-powered platform has revolutionized the MedTech and Pharma landscape through impactful case studies.</p>
                 </div>
                 <div className="btn_blk">
-                  <Link href="" className="site_btn dark">View All</Link>
+                  <Link href="/casestudy" className="site_btn dark">View All</Link>
                 </div>
               </div>
               <div className="featured_blog">
@@ -354,7 +354,7 @@ export default function Home() {
                           feature_posts.map((val)=>{
                               return(
                                   <div className="_col" key={val.id}>
-                                      <div className="inner"><Link href="/"></Link>
+                                      <div className="inner"><Link href="/casestudy/detail"></Link>
                                           <div className="image">
                                               <img src={val.image} alt={val.title} />
                                           </div>

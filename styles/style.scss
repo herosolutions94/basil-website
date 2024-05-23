@@ -888,3 +888,20 @@ padding-bottom: 0;
         }
     }
 }
+
+.text_pg{
+    .outer_blk{
+        .cmn_heading{
+            margin-bottom: 3rem;
+        }
+        .text-blk{
+            @include radius(25px);
+            padding: 5rem;
+            background-color: rgba($color , 0.1);
+            @include mobile{
+                padding: 3rem;
+            }
+
+        }
+    }
+}

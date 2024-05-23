@@ -5,7 +5,7 @@ export default function ContactUs() {
   return (
     <>
       <main>
-        <section className="contact_pg">
+        <section className="contact_pg p_t_b">
             <div className="contain">
                 <h1 className="text-center">Get In Touch With Us</h1>
                 <div className="flex">

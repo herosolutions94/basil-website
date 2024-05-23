@@ -35,7 +35,7 @@ export default function About() {
                     </p>
                   </div>
                   <div className="btn_blk">
-                    <Link href="" className="site_btn dark">
+                    <Link href="/contact" className="site_btn dark">
                       Contact Us
                     </Link>
                   </div>

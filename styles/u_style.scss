@@ -7,9 +7,6 @@
       width: 100%;
     }
   }
-  &.u_two_cols{
-    padding-top: 2rem;
-  }
 }
 .uj_sec_about {
   .col1 {
@@ -356,6 +353,7 @@
         position: relative;
         padding-bottom: 85%;
         @include radius(15px);
+        overflow: hidden;
         @include ipad {
           padding-bottom: 74% !important;
         }
@@ -370,6 +368,13 @@
         img {
           @include uj_img;
           @include radius(15px);
+          @include trans;
+        }
+        &:hover{
+          img{
+            @include trans;
+            transform: scale(1.2);
+          }
         }
         .content {
           z-index: 2;
@@ -426,8 +431,16 @@
       position: relative;
       padding-bottom: 65%;
       cursor: pointer;
+      overflow: hidden;
       img {
         @include uj_img;
+        @include trans;
+      }
+      &:hover{
+        img{
+          @include trans;
+          transform: scale(1.2);
+        }
       }
     }
     .main_line p {
@@ -449,10 +462,15 @@
     .cta {
       margin-top: 20px;
       a {
-        color: #5a9f40;
+        color: $color2;
         padding: 5px 22px;
         background: #599e3f30;
         border-radius: 27px;
+        font-size: 1.4rem;
+        &:hover{
+          background-color: $color;
+          color: $light;
+        }
       }
     }
   }
@@ -558,6 +576,7 @@
     margin: 0 20px;
     height: 100%;
     margin-bottom: 25px;
+    display: block;
     .image {
       width: 93%;
       margin-bottom: 25px;
@@ -604,6 +623,7 @@
       .lower_content {
         margin-top: 25px;
         p {
+          margin-bottom: 0;
           span {
             color: $color2;
           }
@@ -763,6 +783,12 @@
         }
         @include mobile_md {
           width: 100%;
+          padding: 2rem;
+          h4{
+            font-size: 1.6rem;
+            padding-right: 3rem;
+            margin-bottom: 2rem;
+          }
         }
         .txtGrp {
           margin-bottom: 15px;

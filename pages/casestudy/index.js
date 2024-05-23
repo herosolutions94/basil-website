@@ -54,18 +54,21 @@ export default function case_study() {
       image: "/images/sor-1.png",
       detail:
         "Use of Recalled Devices in New Device Authorizations Under the FDA’s 510(k) Pathway and Risk of Subsequent Recalls",
+      lnk:"/"
     },
     {
       id: 2,
       image: "/images/sor-2.png",
       detail:
         "Post-Shock Asystole in Patients Dying Out of Hospital While Wearing a Cardioverter Defibrillator",
+        lnk:"/"
     },
     {
       id: 3,
       image: "/images/sor-3.png",
       detail:
         "Leadless pacemaker perforations: Clinical consequences and related device and user problems",
+        lnk:"/"
     },
   ];
   return (
@@ -520,7 +523,7 @@ export default function case_study() {
           </div>
         </section>
         {/* ========= */}
-        <section className="uj_sec_source">
+        <section className="uj_sec_source" id="citation">
           <div className="contain">
             <div className="sec_heading">
               <h2>Basil as a Trusted Source</h2>

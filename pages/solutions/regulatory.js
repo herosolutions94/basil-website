@@ -52,10 +52,10 @@ export default function regulatory() {
                   unprecedented speed.
                 </p>
                 <div className="bTn">
-                  <Link href="" className="site_btn ">
+                  <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="" className="site_btn blank ">
+                  <Link href="/about" className="site_btn blank ">
                     Read More
                   </Link>
                 </div>
@@ -161,7 +161,7 @@ export default function regulatory() {
                 </p>
                 <p> Fortune 500 medical device manufacturer</p>
                 <div className="bTn">
-                  <Link href="" className="site_btn ">
+                  <Link href="/about" className="site_btn ">
                     Read More
                   </Link>
                 </div>

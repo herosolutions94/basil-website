@@ -2934,7 +2934,7 @@ nav {
         text-decoration: none;
         color: #333;
         @include ipad_sm{
-          font-size: 1.8rem;
+          font-size: 2.5rem;
         }
         &:hover,
         &.active {
@@ -2996,7 +2996,7 @@ nav {
             text-decoration: none;
             @include ipad_sm {
               @include i_flex;
-              font-size: 1.8rem;
+              font-size: 2.5rem;
               padding: 1rem 2rem;
             }
             &:hover {
@@ -3014,7 +3014,7 @@ nav {
       &.drop > a , &.drop > .drop_btn{
         position: relative;
         @include ipad_sm{
-          font-size: 1.8rem;
+          font-size: 2.5rem;
           margin-bottom: 1rem;
         }
         &:after {
