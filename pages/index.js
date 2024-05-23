@@ -75,40 +75,7 @@ export default function Home() {
       image:"/images/logo8.svg"
     }
   ]
-  const delivery_result_tabs = [
-    {
-      id:"1",
-      title:"Pharma Intelligence",
-    },
-    {
-      id:"2",
-      title:"Regulatory (MedTech)",
-    },
-    {
-      id:"3",
-      title:"Post-market (MedTech)",
-    },
-    {
-      id:"4",
-      title:"Clinical Trials",
-    },
-    {
-      id:"5",
-      title:"Exec Dashboard",
-    },
-    {
-      id:"6",
-      title:"Comparative Table Creator",
-    },
-    {
-      id:"7",
-      title:"Data Modernization",
-    },
-    {
-      id:"8",
-      title:"API / Data Integration",
-    },
-  ]
+
   const solutions = {
     pharma_intelligence: {
       image:"/images/tab1.webp",
@@ -272,24 +239,58 @@ export default function Home() {
               </div>
               <div className="result_tabs flex">
                 <div className="colL">
-                  {delivery_result_tabs.map((val,i) => {
-                    return(
-                      <div className={tab == val.id ? "latest_tabs active" : "latest_tabs"} key={i} onClick={() => setTab(val.id)}>
-                        <span>{val.title}</span>
-                      </div>
-                    );
-                  })}
+                  <div className={tab === 1 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(1)}>
+                    <span>Pharma Intelligence</span>
+                  </div>
+                  <div className={tab === 2 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(2)}>
+                    <span>Regulatory (MedTech)</span>
+                  </div>
+                  <div className={tab === 3 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(3)}>
+                    <span>Post-market (MedTech)</span>
+                  </div>
+                  <div className={tab === 4 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(4)}>
+                    <span>Clinical Trials</span>
+                  </div>
+                  <div className={tab === 5 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(5)}>
+                    <span>Exec Dashboard</span>
+                  </div>
+                  <div className={tab === 6 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(6)}>
+                    <span>Comparative Table Creator</span>
+                  </div>
+                  <div className={tab === 7 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(7)}>
+                    <span>Data Modernization</span>
+                  </div>
+                  <div className={tab === 8 ? "latest_tabs active" : "latest_tabs"} onClick={() => setTab(8)}>
+                    <span>API / Data Integration</span>
+                  </div>
                 </div>
                 <div className="colR">
                   <div className="tabs_content">
-                    {tab == 1 && <PharmaIntellibence data = {solutions.pharma_intelligence}/>}
-                    {tab == 2 && <Regulatory data = {solutions.regulatory}/>}
-                    {tab == 3 && <PostMarket data = {solutions.post_market}/>}
-                    {tab == 4 && <ClinicalTrials data = {solutions.clinical_trials}/>}
-                    {tab == 5 && <ExecDashboard data = {solutions.exec_dashboard}/>}
-                    {tab == 6 && <ComparativeTableCreator data = {solutions.comparative_table_creator}/>}
-                    {tab == 7 && <DataModernization data = {solutions.data_modernization}/>}
-                    {tab == 8 && <DataIntegration data = {solutions.data_integration}/>}
+                    <div className={tab === 1 ? "not_show tab_show_current" : "not_show"}>
+                      <PharmaIntellibence data = {solutions.pharma_intelligence}/>
+                    </div>
+                    <div className={tab === 2 ? "not_show tab_show_current" : "not_show"}>
+                      <Regulatory data = {solutions.regulatory}/>
+                    </div>
+                    <div className={tab === 3 ? "not_show tab_show_current" : "not_show"}>
+                      <PostMarket data = {solutions.post_market}/>
+                    </div>
+                    <div className={tab === 4 ? "not_show tab_show_current" : "not_show"}>
+                      <ClinicalTrials data = {solutions.clinical_trials}/>
+                    </div>
+                    <div className={tab === 5 ? "not_show tab_show_current" : "not_show"}>
+                      <ExecDashboard data = {solutions.exec_dashboard}/>
+                    </div>
+                    <div className={tab === 6 ? "not_show tab_show_current" : "not_show"}>
+                    <ComparativeTableCreator data = {solutions.comparative_table_creator}/>
+                    </div>
+                    <div className={tab === 7 ? "not_show tab_show_current" : "not_show"}>
+                    <DataModernization data = {solutions.data_modernization}/>
+                    </div>
+                    <div className={tab === 8 ? "not_show tab_show_current" : "not_show"}>
+                    <DataIntegration data = {solutions.data_integration}/>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -302,20 +303,27 @@ export default function Home() {
               <p>Transforming your Data into Decisions</p>
             </div>
             <div className="quality_tabs">
-              <div className={tabQuality == 9 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(9)}>
+              
+              <div className={tabQuality === 9 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(9)}>
                 <span>Inform</span>
               </div>
-              <div className={tabQuality == 10 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(10)}>
+              <div className={tabQuality === 10 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(10)}>
                 <span>Harmonize</span>
               </div>
-              <div className={tabQuality == 11 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(11)}>
+              <div className={tabQuality === 11 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(11)}>
                 <span>Integrate</span>
               </div>
             </div>
             <div className="tabs_content">
-              {tabQuality == 9 && <Inform data={quality_insights.inform}/>}
-              {tabQuality == 10 && <Harmonize data={quality_insights.harmonize}/>}
-              {tabQuality == 11 && <Integrate data={quality_insights.integrate}/>}
+              <div className={tabQuality === 9 ? "not_show tab_show_current" : "not_show"}>
+                <Inform data={quality_insights.inform}/>
+              </div>
+              <div className={tabQuality === 10 ? "not_show tab_show_current" : "not_show"}>
+              <Harmonize data={quality_insights.harmonize}/>
+              </div>
+              <div className={tabQuality === 11 ? "not_show tab_show_current" : "not_show"}>
+              <Integrate data={quality_insights.integrate}/>
+              </div>
             </div>
           </div>
         </section>

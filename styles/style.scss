@@ -905,3 +905,10 @@ padding-bottom: 0;
         }
     }
 }
+
+.not_show{
+    display: none;
+    &.tab_show_current{
+        display: block;
+    }
+}
