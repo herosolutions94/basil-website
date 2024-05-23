@@ -35,17 +35,16 @@ export default function case_study() {
       id: 1,
       image: "/images/uj_quote.svg",
       comment:
-        " “People now recognise that having a good performance conversation means that something happens as a result. “With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
-      name: "Albert Flores",
-      designation: "Product Manager at Jomanar",
+        " Basil is fantastic. The Ecosystem is a tremendous time-saver and insight generator. It provides me with a landscape I can effortlessly navigate, allowing me to assess related technologies whenever I discover something intriguing.",
+      name: "VP, Regulatory Affairs",
+      designation: "Boston Scientific",
     },
     {
       id: 2,
       image: "/images/uj_quote.svg",
-      comment:
-        " “People now recognise that having a good performance conversation means that something happens as a result. “With Landingfolio, the design team can now build design which identifies employees’ career aspirations and goals and from which we approach managers and check to see what is happening.”",
-      name: "Albert Flores",
-      designation: "Product Manager at Jomanar",
+      comment:"It's amazing!  You did that in like 2 seconds. I just spent probably a whole week trying to find and filter through this data. That just saved me weeks worth of scouring data and its even more complete and accurate.",
+      name: "Sr. Regulatory Affairs Specialist",
+      designation: "Bayer",
     },
   ];
   const data_1 = [

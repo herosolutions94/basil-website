@@ -45,16 +45,12 @@ export default function testimonials() {
                     </div>
                     <div className="testi_footer">
                       <p>
-                        “Basil is fantastic. The Ecosystem is a tremendous
-                        time-saver and insight generator. It provides me with a
-                        landscape I can effortlessly navigate, allowing me to
-                        assess related technologies whenever I discover
-                        something intriguing.”
+                        “It's amazing!  You did that in like 2 seconds. I just spent probably a whole week trying to find and filter through this data. That just saved me weeks worth of scouring data and its even more complete and accurate.”
                       </p>
                       <div className="lower_content">
-                        <h5>VP, Regulatory Affairs</h5>
+                        <h5>Sr. Regulatory Affairs Specialist</h5>
                         <p>
-                          <span>Boston Scientific</span>
+                          <span>Bayer</span>
                         </p>
                       </div>
                     </div>
@@ -69,16 +65,12 @@ export default function testimonials() {
                     </div>
                     <div className="testi_footer">
                       <p>
-                        “Basil is fantastic. The Ecosystem is a tremendous
-                        time-saver and insight generator. It provides me with a
-                        landscape I can effortlessly navigate, allowing me to
-                        assess related technologies whenever I discover
-                        something intriguing.”
+                      “See how many things are interconnected and referenced multiple times across different product codes. That's invaluable data for us to help us build our plans and our strategies and improve our efficiency.”
                       </p>
                       <div className="lower_content">
-                        <h5>VP, Regulatory Affairs</h5>
+                        <h5>VP, Quality</h5>
                         <p>
-                          <span>Boston Scientific</span>
+                          <span>Vicarious Surgical</span>
                         </p>
                       </div>
                     </div>
@@ -93,16 +85,12 @@ export default function testimonials() {
                     </div>
                     <div className="testi_footer">
                       <p>
-                        “Basil is fantastic. The Ecosystem is a tremendous
-                        time-saver and insight generator. It provides me with a
-                        landscape I can effortlessly navigate, allowing me to
-                        assess related technologies whenever I discover
-                        something intriguing.”
+                      “The Team at Basil systems is honest and reliable, providing advice and points of view that are grounded in fact”
                       </p>
                       <div className="lower_content">
-                        <h5>VP, Regulatory Affairs</h5>
+                        <h5>Director, Drug Safety</h5>
                         <p>
-                          <span>Boston Scientific</span>
+                          <span>Top 10 Pharma Company</span>
                         </p>
                       </div>
                     </div>

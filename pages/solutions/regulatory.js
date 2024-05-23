@@ -156,6 +156,7 @@ export default function regulatory() {
                   long-standing problems with FDA data. We use it everyday for
                   regulatory research and strategy.”
                 </p>
+                <div className="mini_br"></div>
                 <p>
                   <strong>VP Regulatory</strong>
                 </p>
