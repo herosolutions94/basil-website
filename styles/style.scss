@@ -96,10 +96,10 @@
 .trusted_sec{
     padding: 9rem 0;
     @include ipad{
-        padding-top: 7rem;
+        padding: 7rem 0;
     }
     @include mobile{
-        padding-top: 4rem;
+        padding: 4rem 0;
     }
     .slide_side{
         width: 82%;
@@ -530,6 +530,7 @@ padding-bottom: 0;
                 overflow: hidden;
                 position: relative;
                 padding-bottom: 145%;
+                cursor: pointer;
                 @include ipad_sm{
                     padding-bottom: 70%;
                 }

@@ -12,7 +12,7 @@ export default function Case_form({ formPopup, setFormPopup }) {
                   <div
                     className="crosBtn"
                     onClick={() => setFormPopup(false)}></div>
-                  <form>
+                  <form action="/casestudy/detail">
                     <h4>
                       Please fill out the required details below and we will
                       email you the requested study shortly.
@@ -44,9 +44,9 @@ export default function Case_form({ formPopup, setFormPopup }) {
                       </div>
                       <div className="col-md-12">
                         <div className="btn_blk">
-                          <Link href="" className="site_btn color">
+                          <button type="submit" className="site_btn color">
                             Submit
-                          </Link>
+                          </button>
                         </div>
                       </div>
                     </div>

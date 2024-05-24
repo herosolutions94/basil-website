@@ -13,9 +13,19 @@ import Inform from "../components/quality-insights/inform";
 import Harmonize from "../components/quality-insights/harmonize";
 import Integrate from "../components/quality-insights/integrate";
 import Image from "next/image";
+import WhitepaperForm from "@/components/whitepaper-form";
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Home() {
+  const [isFormVisible, setFormVisible] = useState(false);
+
+  const handleFormClick = () => {
+      setFormVisible(true);
+  };
+
+  const handleCloseForm = () => {
+      setFormVisible(false);
+  };
   const[tab , setTab] = useState(1);
   const[tabQuality , setTabQuality] = useState(9);
   const settings = {
@@ -131,7 +141,7 @@ export default function Home() {
   ]
   const solutions = {
     pharma_intelligence: {
-      image:"/images/tab1.webp",
+      image:"/images/tab1.jpeg",
       heading:"PHARMA INTELLIGENCE MODULE",
       sub_heading:"RAPID INSIGHTS, RAPID DELIVERY",
       pera:"<p>Supercharge your pharma development and market delivery with our Pharma Intelligence Platform. Tap into the combined power of clinical trial, labeling, safety, and excipient data to boost your innovation, fast-track approvals, and skyrocket portfolio revenues.</p><p>Click below to learn how we can help your organization.</p>",
@@ -561,7 +571,7 @@ export default function Home() {
                   <h2>Transform Your MedTech and Pharma Operations with AI-Powered Insights</h2>
                   <p>Discover how Basil's cutting-edge platform can revolutionize your approach to healthcare innovation. Harness the power of AI to gain deep market and clinical intelligence, streamline your decision-making processes, and stay ahead of the competition. Ready to experience the future of healthcare technology? Get started today!</p>
                   <div className="btn_blk">
-                    <Link href="" className="site_btn dim">Schedule Demo</Link>
+                    <Link href="/contact" className="site_btn dim">Schedule Demo</Link>
                   </div>
                 </div>
                 <div className="img_side">
@@ -589,7 +599,7 @@ export default function Home() {
                           feature_posts.map((val)=>{
                               return(
                                   <div className="_col" key={val.id}>
-                                      <div className="inner"><Link href="/casestudy/detail"></Link>
+                                      <div className="inner" onClick={handleFormClick}>
                                           <div className="image">
                                               <Image src={val.image} alt={val.title} width={600} height={400}/>
                                           </div>
@@ -608,6 +618,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      {isFormVisible && <WhitepaperForm onClose={handleCloseForm} />}
 </>
 );
 }

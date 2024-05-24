@@ -681,6 +681,7 @@
     .image {
       position: relative;
       padding-bottom: 40%;
+      @include radius(20px);
       cursor: pointer;
       @include ipad {
         padding-bottom: 56% !important;
@@ -712,6 +713,7 @@
       .image {
         position: relative;
         padding-bottom: 85%;
+        @include radius(20px);
         @include ipad {
           padding-bottom: 114% !important;
         }
@@ -750,6 +752,7 @@
       .image {
         position: relative;
         padding-bottom: 47%;
+        @include radius(20px);
         @include ipad {
           padding-bottom: 69% !important;
         }

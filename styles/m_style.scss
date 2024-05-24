@@ -65,12 +65,15 @@
 
 #analytics {
   padding-top: 0;
+  @include mobile{
+    padding-bottom: 8rem;
+  }
   .content_center {
     margin-bottom: 0;
   }
   .analytic_carousel_full{
     max-width: 90rem;
-    margin: auto;
+    margin:2rem auto 0;
   }
   .item {
     .image {
@@ -382,7 +385,7 @@ img{
       gap: 30px;
       @include ipad_sm{
         justify-content: center;
-        margin-top: 30px;
+        margin-bottom: 30px;
       }
       .image {
         height: 420px;
