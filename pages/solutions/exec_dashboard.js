@@ -84,9 +84,6 @@ export default function exec_dashboard() {
                   <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="/about" className="site_btn blank ">
-                    Read More
-                  </Link>
                 </div>
               </div>
               <div className="colR">

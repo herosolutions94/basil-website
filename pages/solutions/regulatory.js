@@ -56,14 +56,11 @@ export default function regulatory() {
                   <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                  <Link href="/about" className="site_btn blank ">
-                    Read More
-                  </Link>
                 </div>
               </div>
               <div className="colR">
                 <div className="image">
-                  <Image src="/images/r1.svg" width={500} height={600} priority/>
+                  <Image src="/images/Reg_intel.svg" width={500} height={600} priority/>
                 </div>
               </div>
             </div>
@@ -163,8 +160,8 @@ export default function regulatory() {
                 </p>
                 <p> Fortune 500 medical device manufacturer</p>
                 <div className="bTn">
-                  <Link href="/about" className="site_btn ">
-                    Read More
+                  <Link href="/contact" className="site_btn ">
+                    Contact Us
                   </Link>
                 </div>
               </div>

@@ -141,12 +141,12 @@
     .slick-center{
         .slide_item {
             @include trans;
-            transform: scale(1.5);
+            transform: scale(1.6);
             z-index: 1;
-            -webkit-transform: scale(1.5);
-            -moz-transform: scale(1.5);
-            -ms-transform: scale(1.5);
-            -o-transform: scale(1.5);
+            -webkit-transform: scale(1.6);
+            -moz-transform: scale(1.6);
+            -ms-transform: scale(1.6);
+            -o-transform: scale(1.6);
         }
     }
 }

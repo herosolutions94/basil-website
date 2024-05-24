@@ -5837,13 +5837,13 @@ margin-bottom: 0;
   }
 
   .slick-prev {
-    left: 5rem!important;
+    left: 3rem!important;
     z-index: 1!important;
     width: 4rem!important;
     height: 4rem!important;
-    background: $color!important;
+    // background: $color!important;
     @include radius(50px);
-    padding: 1rem!important;
+    padding: 0rem!important;
     @include trans;
     &:hover{
       @include trans;
@@ -5851,13 +5851,13 @@ margin-bottom: 0;
     }
   }
   .slick-next {
-    right: 5rem!important;
+    right: 3rem!important;
     z-index: 1!important;
     width: 4rem!important;
     height: 4rem!important;
     background: $color!important;
     @include radius(50px);
-    padding: 1rem!important;
+    padding: 0rem!important;
     @include trans;
     &:hover{
       @include trans;

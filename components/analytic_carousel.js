@@ -7,9 +7,10 @@ import Image from "next/image";
 export default function Analytics_carousel({ data }) {
   const settings = {
     dots: true,
-    arrows: false,
-    nav: false,
-    infinite: false,
+    arrows: true,
+    nav: true,
+    autoplay:true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -51,7 +52,7 @@ export default function Analytics_carousel({ data }) {
   };
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} className="analytic_carousel_full">
         {data.map((val) => {
           return (
             <div className="item" key={val.id}>

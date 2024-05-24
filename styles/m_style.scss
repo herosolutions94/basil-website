@@ -68,9 +68,13 @@
   .content_center {
     margin-bottom: 0;
   }
+  .analytic_carousel_full{
+    max-width: 90rem;
+    margin: auto;
+  }
   .item {
     .image {
-      @include img(45%);
+      @include img(43%);
       background: transparent;
       box-shadow: unset;
       img {
@@ -84,6 +88,12 @@
     }
     p {
       text-align: center;
+    }
+  }
+  .slick-prev , .slick-next{
+    background-color: transparent!important;
+    &:before{
+      display: none;
     }
   }
 }

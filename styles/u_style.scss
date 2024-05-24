@@ -298,6 +298,9 @@
     @include mobile_md {
       width: 100%;
     }
+    .inner{
+      cursor: pointer;
+    }
     padding: 10px;
     &:first-child {
       width: 46%;
@@ -431,6 +434,12 @@
     }
     h4 {
       color: #1a1a1a;
+      cursor: pointer;
+      @include trans;
+      &:hover{
+        color: $color;
+        @include trans;
+      }
     }
     .image {
       position: relative;
@@ -466,17 +475,20 @@
     }
     .cta {
       margin-top: 20px;
-      a {
-        color: $color2;
-        padding: 5px 22px;
-        background: #599e3f30;
-        border-radius: 27px;
-        font-size: 1.4rem;
-        &:hover{
-          background-color: $color;
-          color: $light;
-        }
+      color: $color2;
+      padding: 5px 22px;
+      background: #599e3f30;
+      border-radius: 27px;
+      font-size: 1.4rem;
+      @include trans;
+      width: fit-content;
+      cursor: pointer;
+      &:hover{
+        background-color: $color;
+        color: $light;
+        @include trans;
       }
+      
     }
   }
   .pagination {
@@ -640,7 +652,7 @@
 // ======  uj_case_3 =====
 .uj_case_3 {
   padding-top: 0;
-  padding-bottom: 0;
+  // padding-bottom: 0;
   .sec_heading {
     margin-bottom: 0;
     text-align: center;

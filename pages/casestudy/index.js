@@ -87,7 +87,7 @@ export default function case_study() {
             </div>
             <div className="flex flex_row">
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_case_1.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -102,10 +102,10 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_case_2.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -120,10 +120,10 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_case_3.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -138,10 +138,10 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_case_4.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -156,10 +156,10 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_case_5.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -174,10 +174,10 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div className="uj_cols">
-                <Link href="/casestudy/detail" className="inner">
+                <div className="inner" onClick={() => setFormPopup(true)}>
                   <div className="image">
                     <Image src="/images/uj_m_6.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -192,7 +192,7 @@ export default function case_study() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -215,35 +215,29 @@ export default function case_study() {
             <div className="flex flex_row">
               <div className="col1">
                 <div className="cols">
-                  <div className="inner">
-                    <div className="image" onClick={() => setFormPopup(true)}>
+                  <div className="inner" onClick={() => setFormPopup(true)}>
+                    <div className="image">
                       <Image src="/images/uj_cs_3.jpg" alt="" width={500} height={500}/>
                     </div>
                     <div className="content">
                       <div className="main_line">
                         <p>Basil System</p>
                       </div>
-                      <h4>
-                        <Link href="/casestudy/detail">
-                          Reducing Time to Submission and Approval for 510(k)
-                        </Link>
-                      </h4>
+                      <h4>Reducing Time to Submission and Approval for 510(k)</h4>
                       <p>
                         Like to know the secrets of transforming a 2-14 team
                         into a 3x Super Bowl winning Dynasty?
                       </p>
-                      <div className="cta">
-                        <Link href="/casestudy/detail">Read More</Link>
-                      </div>
+                      <div className="cta">Read More </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col2">
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" onClick={() => setFormPopup(true)}>
                     <div className="photo">
-                      <div className="image" onClick={() => setFormPopup(true)}>
+                      <div className="image">
                         <Image src="/images/uj_cs_1.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
@@ -251,25 +245,19 @@ export default function case_study() {
                       <div className="main_line">
                         <p>Basil System</p>
                       </div>
-                      <h4>
-                        <Link href="/casestudy/detail">
-                          Migrating to Linear 101
-                        </Link>
-                      </h4>
+                      <h4>Migrating to Linear 101 </h4>
                       <p>
                         Linear helps streamline software projects, sprints,
                         tasks, and bug tracking. Here’s how to get...
                       </p>
-                      <div className="cta">
-                        <Link href="/casestudy/detail">Read More</Link>
-                      </div>
+                      <div className="cta">Read More </div>
                     </div>
                   </div>
                 </div>
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" onClick={() => setFormPopup(true)}>
                     <div className="photo">
-                      <div className="image" onClick={() => setFormPopup(true)}>
+                      <div className="image">
                         <Image src="/images/uj_cs_2.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
@@ -277,18 +265,12 @@ export default function case_study() {
                       <div className="main_line">
                         <p>Basil System</p>
                       </div>
-                      <h4>
-                        <Link href="/casestudy/detail">
-                          Building your API Stack
-                        </Link>
-                      </h4>
+                      <h4>Building your API Stack</h4>
                       <p>
                         The rise of RESTful APIs has been met by a rise in tools
                         for creating, testing, and manag...
                       </p>
-                      <div className="cta">
-                        <Link href="/casestudy/detail">Read More</Link>
-                      </div>
+                      <div className="cta">Read More </div>
                     </div>
                   </div>
                 </div>
@@ -296,9 +278,9 @@ export default function case_study() {
 
               <div className="col3">
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" onClick={() => setFormPopup(true)}>
                     <div className="photo">
-                      <div className="image" onClick={() => setFormPopup(true)}>
+                      <div className="image">
                         <Image src="/images/uj_cs_4.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
@@ -306,11 +288,7 @@ export default function case_study() {
                       <div className="main_line">
                         <p>Basil System</p>
                       </div>
-                      <h4>
-                        <Link href="/casestudy/detail">
-                          The Recruitment Funnel: A Comprehensive Guide
-                        </Link>
-                      </h4>
+                      <h4>The Recruitment Funnel: A Comprehensive Guide</h4>
                       <p>
                         A grid system is a design tool used to arrange content
                         on a webpage. It is a series of vertical and horizontal
@@ -320,9 +298,7 @@ export default function case_study() {
                         across a website, and can help to make the layout more
                         visually appealing and easier to navigate.
                       </p>
-                      <div className="cta">
-                        <Link href="/casestudy/detail">Read More</Link>
-                      </div>
+                      <div className="cta">Read More </div>
                     </div>
                   </div>
                 </div>
@@ -331,7 +307,7 @@ export default function case_study() {
           </div>
         </section>
         {/* ========= */}
-        <section className="uj_case_2">
+        {/* <section className="uj_case_2">
           <div className="contain">
             <div className="sec_top">
               <p>All Case Studies</p>
@@ -521,7 +497,7 @@ export default function case_study() {
               </li>
             </ul>
           </div>
-        </section>
+        </section> */}
         {/* ========= */}
         <section className="uj_sec_source" id="citation">
           <div className="contain">

@@ -52,30 +52,48 @@ export default function Home() {
   };
 
   const trusted = [
+    
     {
-      image:"/images/logo1.svg"
+      image:"/images/JNJ.svg"
     },
     {
-      image:"/images/logo2.svg"
+      image:"/images/Boston_Scientific.svg"
     },
     {
-      image:"/images/logo3.svg"
+      image:"/images/bayer.svg"
     },
     {
-      image:"/images/logo4.svg"
+      image:"/images/Bausch.svg"
     },
     {
-      image:"/images/logo5.svg"
+      image:"/images/Medtronic.svg"
     },
     {
-      image:"/images/logo6.svg"
+      image:"/images/Siemens.svg"
     },
     {
-      image:"/images/logo7.svg"
+      image:"/images/avanos.svg"
     },
     {
-      image:"/images/logo8.svg"
+      image:"/images/MeritMedical.svg"
+    },
+    {
+      image:"/images/InariLogo.svg"
+    },
+    {
+      image:"/images/Phillips.svg"
+    },
+    {
+      image:"/images/Zoll.svg"
+    },
+    {
+      image:"/images/RQM.svg"
+    },
+    {
+      image:"/images/3M.svg"
     }
+    
+    
   ]
   const delivery_result_tabs = [
     {
