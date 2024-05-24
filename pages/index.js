@@ -288,7 +288,7 @@ export default function Home() {
                 </div>
                 <div className="colR">
                   <div className="tabs_content">
-                  <AnimatePresence mode="wait">
+                  {/* <AnimatePresence mode="wait">
                     {tab == 1 && (
                       <motion.div
                         key={1}
@@ -377,7 +377,103 @@ export default function Home() {
                         <DataIntegration data={solutions.data_integration} />
                       </motion.div>
                     )}
-                  </AnimatePresence>
+                  </AnimatePresence> */}
+                    <div className={tab == 1 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <PharmaIntellibence data={solutions.pharma_intelligence} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 2 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <Regulatory data={solutions.regulatory} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 3 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <PostMarket data={solutions.post_market} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 4 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                         key="modal"
+                         initial={{ opacity: 0, y: "3%" }}
+                         whileInView={{ opacity: 1, y: "0%" }}
+                         viewport={{ once: false }}
+                         exit={{ opacity: 0, y: "-3%" }}
+                         transition={{ duration: 0.3 }}
+                        >
+                          <ClinicalTrials data={solutions.clinical_trials} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 5 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <ExecDashboard data={solutions.exec_dashboard} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 6 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <ComparativeTableCreator data={solutions.comparative_table_creator} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 7 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <DataModernization data={solutions.data_modernization} />
+                        </motion.div>
+                    </div>
+                    <div className={tab == 8 ? "not_show tab_show_current" : "not_show"}>
+                        <motion.div
+                          key="modal"
+                          initial={{ opacity: 0, y: "3%" }}
+                          whileInView={{ opacity: 1, y: "0%" }}
+                          viewport={{ once: false }}
+                          exit={{ opacity: 0, y: "-3%" }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <DataIntegration data={solutions.data_integration} />
+                        </motion.div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -401,41 +497,42 @@ export default function Home() {
               </div>
             </div>
             <div className="tabs_content">
-              <AnimatePresence mode="wait">
-                {tabQuality === 9 && (
+                <div className={tabQuality == 9 ? "not_show tab_show_current" : "not_show"}>
                   <motion.div
-                    key={9}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
+                    key="modal"
+                    initial={{ opacity: 0, y: "3%" }}
+                    whileInView={{ opacity: 1, y: "0%" }}
+                    viewport={{ once: false }}
+                    exit={{ opacity: 0, y: "-3%" }}
                     transition={{ duration: 0.3 }}
                   >
                     <Inform data={quality_insights.inform} />
                   </motion.div>
-                )}
-                {tabQuality === 10 && (
+                </div>
+                <div className={tabQuality == 10 ? "not_show tab_show_current" : "not_show"}>
                   <motion.div
-                    key={10}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
+                    key="modal"
+                    initial={{ opacity: 0, y: "3%" }}
+                    whileInView={{ opacity: 1, y: "0%" }}
+                    viewport={{ once: false }}
+                    exit={{ opacity: 0, y: "-3%" }}
                     transition={{ duration: 0.3 }}
                   >
                     <Harmonize data={quality_insights.harmonize} />
                   </motion.div>
-                )}
-                {tabQuality === 11 && (
+                </div>
+                <div className={tabQuality == 11 ? "not_show tab_show_current" : "not_show"}>
                   <motion.div
-                    key={11}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
+                    kkey="modal"
+                    initial={{ opacity: 0, y: "3%" }}
+                    whileInView={{ opacity: 1, y: "0%" }}
+                    viewport={{ once: false }}
+                    exit={{ opacity: 0, y: "-3%" }}
                     transition={{ duration: 0.3 }}
                   >
                     <Integrate data={quality_insights.integrate} />
                   </motion.div>
-                )}
-              </AnimatePresence>
+                </div>
             </div>
           </div>
         </section>
