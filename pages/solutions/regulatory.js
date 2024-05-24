@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Image from "next/image";
 
 export default function regulatory() {
   const data = [
@@ -62,7 +63,7 @@ export default function regulatory() {
               </div>
               <div className="colR">
                 <div className="image">
-                  <img src="/images/r1.svg" />
+                  <Image src="/images/r1.svg" width={500} height={600} priority/>
                 </div>
               </div>
             </div>
@@ -142,10 +143,10 @@ export default function regulatory() {
               <div className="colL">
                 <div className="outer">
                   <div className="image1 image">
-                    <img src="/images/r2.svg" />
+                    <Image src="/images/r2.svg" width={300} height={500} priority />
                   </div>
                   <div className="image2 image">
-                    <img src="/images/r3.svg" />
+                    <Image src="/images/r3.svg" width={300} height={500} priority/>
                   </div>
                 </div>
               </div>

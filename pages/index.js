@@ -12,6 +12,8 @@ import DataIntegration from "../components/tab-solutions-sections/data_integrati
 import Inform from "../components/quality-insights/inform";
 import Harmonize from "../components/quality-insights/harmonize";
 import Integrate from "../components/quality-insights/integrate";
+import Image from "next/image";
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Home() {
   const[tab , setTab] = useState(1);
@@ -26,7 +28,7 @@ export default function Home() {
     centerMode: true,
     centerPadding: '0',
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -232,16 +234,20 @@ export default function Home() {
         </section>
         <section className="trusted_sec">
           <div className="contain">
+            <div className="flex">
               <h3>Trusted By</h3>
-              <Slider {...settings} className="trusted_slider">
-              {trusted.map((val, index) => (
-                <div key={index} className="slide_item">
-                  <div className="image">
-                    <img src={val.image} alt="trusted by" />
-                  </div>
-                </div>
-              ))}
-            </Slider>
+              <div className="slide_side">
+                  <Slider {...settings} className="trusted_slider">
+                  {trusted.map((val, index) => (
+                    <div key={index} className="slide_item">
+                      <div className="image">
+                        <img src={val.image} alt="trusted by" />
+                      </div>
+                    </div>
+                  ))}
+                  </Slider>
+              </div>
+            </div>
           </div>
         </section>
         <section className="insights_sec">
@@ -249,7 +255,7 @@ export default function Home() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/rapid_insights.webp" alt="rapid insights" />
+                  <Image src="/images/rapid_insights.webp" alt="rapid insights" width={500} height={300}/>
                 </div>
               </div>
               <div className="colR">
@@ -282,14 +288,96 @@ export default function Home() {
                 </div>
                 <div className="colR">
                   <div className="tabs_content">
-                    {tab == 1 && <PharmaIntellibence data = {solutions.pharma_intelligence}/>}
-                    {tab == 2 && <Regulatory data = {solutions.regulatory}/>}
-                    {tab == 3 && <PostMarket data = {solutions.post_market}/>}
-                    {tab == 4 && <ClinicalTrials data = {solutions.clinical_trials}/>}
-                    {tab == 5 && <ExecDashboard data = {solutions.exec_dashboard}/>}
-                    {tab == 6 && <ComparativeTableCreator data = {solutions.comparative_table_creator}/>}
-                    {tab == 7 && <DataModernization data = {solutions.data_modernization}/>}
-                    {tab == 8 && <DataIntegration data = {solutions.data_integration}/>}
+                  <AnimatePresence mode="wait">
+                    {tab == 1 && (
+                      <motion.div
+                        key={1}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <PharmaIntellibence data={solutions.pharma_intelligence} />
+                      </motion.div>
+                    )}
+                    {tab == 2 && (
+                      <motion.div
+                        key={2}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <Regulatory data={solutions.regulatory} />
+                      </motion.div>
+                    )}
+                    {tab == 3 && (
+                      <motion.div
+                        key={3}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <PostMarket data={solutions.post_market} />
+                      </motion.div>
+                    )}
+                    {tab == 4 && (
+                      <motion.div
+                        key={4}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <ClinicalTrials data={solutions.clinical_trials} />
+                      </motion.div>
+                    )}
+                    {tab == 5 && (
+                      <motion.div
+                        key={5}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <ExecDashboard data={solutions.exec_dashboard} />
+                      </motion.div>
+                    )}
+                    {tab == 6 && (
+                      <motion.div
+                        key={6}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <ComparativeTableCreator data={solutions.comparative_table_creator} />
+                      </motion.div>
+                    )}
+                    {tab == 7 && (
+                      <motion.div
+                        key={7}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <DataModernization data={solutions.data_modernization} />
+                      </motion.div>
+                    )}
+                    {tab == 8 && (
+                      <motion.div
+                        key={8}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <DataIntegration data={solutions.data_integration} />
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                   </div>
                 </div>
               </div>
@@ -313,9 +401,41 @@ export default function Home() {
               </div>
             </div>
             <div className="tabs_content">
-              {tabQuality == 9 && <Inform data={quality_insights.inform}/>}
-              {tabQuality == 10 && <Harmonize data={quality_insights.harmonize}/>}
-              {tabQuality == 11 && <Integrate data={quality_insights.integrate}/>}
+              <AnimatePresence mode="wait">
+                {tabQuality === 9 && (
+                  <motion.div
+                    key={9}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Inform data={quality_insights.inform} />
+                  </motion.div>
+                )}
+                {tabQuality === 10 && (
+                  <motion.div
+                    key={10}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Harmonize data={quality_insights.harmonize} />
+                  </motion.div>
+                )}
+                {tabQuality === 11 && (
+                  <motion.div
+                    key={11}
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <Integrate data={quality_insights.integrate} />
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </div>
         </section>
@@ -356,7 +476,7 @@ export default function Home() {
                                   <div className="_col" key={val.id}>
                                       <div className="inner"><Link href="/casestudy/detail"></Link>
                                           <div className="image">
-                                              <img src={val.image} alt={val.title} />
+                                              <Image src={val.image} alt={val.title} width={600} height={400}/>
                                           </div>
                                           <div className="cntnt">
                                               <div className="category">{val.category}</div>

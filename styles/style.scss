@@ -57,7 +57,7 @@
 .banner{
     background: url(/images/home_banner.webp);
     @include bg;
-    padding: 15rem 0;
+    padding: 10rem 0;
     @include mobile{
         padding: 5rem 0;
     }
@@ -94,12 +94,33 @@
 
 // ======trusted_sec===
 .trusted_sec{
+    padding: 9rem 0;
+    @include ipad{
+        padding-top: 7rem;
+    }
+    @include mobile{
+        padding-top: 4rem;
+    }
+    .slide_side{
+        width: 82%;
+        padding-left: 1rem;
+        @include ipad_sm{
+            width: 100%;
+            margin-top: 2rem;
+            padding-left: 0;
+        }
+    }
     h3{
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
+        width: 18%;
+        align-self: center;
+        @include ipad_sm{
+            width: 100%;
+        }
     }
     .trusted_slider{
         background-color: #FCFCFC;
-        padding: 3rem 0;
+        padding: 1rem 0;
         @include radius(20px);
     }
     .slide_item{
@@ -113,11 +134,13 @@
             }
             img{
                 @include object(contain);
+                @include trans;
             }
         }
     }
     .slick-center{
         .slide_item {
+            @include trans;
             transform: scale(1.5);
             z-index: 1;
             -webkit-transform: scale(1.5);

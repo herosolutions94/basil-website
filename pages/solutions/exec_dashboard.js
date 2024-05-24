@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Image from "next/image";
 
 export default function exec_dashboard() {
   const data = [
@@ -90,7 +91,7 @@ export default function exec_dashboard() {
               </div>
               <div className="colR">
                 <div className="image">
-                  <img src="/images/ex1.svg" />
+                  <Image src="/images/ex1.svg" width={600} height={600} priority/>
                 </div>
               </div>
             </div>
@@ -111,7 +112,7 @@ export default function exec_dashboard() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/ex2.svg" alt="" />
+                  <Image src="/images/ex2.svg" alt="" width={600} height={700} priority/>
                 </div>
               </div>
               <div className="colR">

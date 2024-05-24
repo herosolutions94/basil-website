@@ -3,6 +3,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 export default function Analytics_carousel({ data }) {
   const settings = {
     dots: true,
@@ -55,9 +56,11 @@ export default function Analytics_carousel({ data }) {
           return (
             <div className="item" key={val.id}>
               <div className="image">
-                <img src={val.image} />
+                <Image src={val.image} width={1100} height={700} priority/>
               </div>
-              <p>{val.text}</p>
+              <div className="txt_cntnt_wide">
+                <p>{val.text}</p>
+              </div>
             </div>
           );
         })}

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Image from "next/image";
 
 export default function Post_market() {
   const data = [
@@ -139,7 +140,7 @@ export default function Post_market() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/Postmarket.jpg" alt="" />
+                  <Image src="/images/Postmarket.jpg" alt="" width={800} height={700} priority/>
                 </div>
               </div>
               <div className="colR">

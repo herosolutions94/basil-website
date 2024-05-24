@@ -1,11 +1,12 @@
 import Link from 'next/link'
+import Image from 'next/image';
 export default function ExecDashboard({data}) {
     return (
         <div className="inner_tabs_content">
         <div className="flex">
             <div className="tab_left">
                 <div className="image">
-                    <img src={data.image} alt={data.heading}/>
+                <Image src={data.image} alt={data.heading} width={300} height={500} priority/>
                 </div>
             </div>
             <div className="tab_right">

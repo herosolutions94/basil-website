@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Image from "next/image";
 
 export default function Comp_Table() {
   const data = [
@@ -96,7 +97,7 @@ export default function Comp_Table() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/comptable.jpg" alt="" />
+                  <Image src="/images/comptable.jpg" alt="" width={700} height={700} priority/>
                 </div>
               </div>
               <div className="colR">

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -43,7 +44,7 @@ export default function About() {
               </div>
               <div className="cols col2">
                 <div className="image">
-                  <img src="images/uj_about_1.svg" alt="" />
+                  <Image src="images/uj_about_1.svg" alt="" priority width={500} height={600}/>
                 </div>
               </div>
             </div>
@@ -67,7 +68,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_1.webp" alt="" />
+                      <Image src="/images/uj_w_1.webp" alt="" width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Medical Device Companies</h5>
@@ -77,7 +78,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_2.jpg" alt="" />
+                      <Image src="/images/uj_w_2.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Pharma</h5>
@@ -87,7 +88,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_3.jpg" alt="" />
+                      <Image src="/images/uj_w_3.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>CROs</h5>
@@ -97,7 +98,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_4.jpg" alt="" />
+                      <Image src="/images/uj_w_4.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Insurance</h5>
@@ -107,7 +108,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_5.webp" alt="" />
+                      <Image src="/images/uj_w_5.webp" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Academic Institutions</h5>
@@ -117,7 +118,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_6.jpeg" alt="" />
+                      <Image src="/images/uj_w_6.jpeg" alt=""  width={400} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>CMO/CDMOs</h5>
@@ -127,7 +128,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_7.jpg" alt="" />
+                      <Image src="/images/uj_w_7.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Consultancies</h5>
@@ -137,7 +138,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <img src="images/uj_w_8.webp" alt="" />
+                      <Image src="/images/uj_w_8.webp" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Service Industry</h5>
@@ -154,7 +155,7 @@ export default function About() {
             <div className="flex">
               <div className="cols col1">
                 <div className="image">
-                  <img src="images/uj_history.jpeg" alt="" />
+                  <Image src="/images/uj_history.jpeg" alt=""  width={700} height={500}/>
                 </div>
               </div>
               <div className="cols col2">
@@ -212,26 +213,26 @@ export default function About() {
                   <div class="image_area">
                     <div class="block_1">
                       <div class="image_1 image">
-                        <img src="images/uj_m_1.jpg" alt="" />
+                        <Image src="/images/uj_m_1.jpg" alt=""  width={400} height={400}/>
                       </div>
                       <div class="image_2 image">
-                        <img src="images//uj_m_2.jpg" alt="" />
+                        <Image src="/images/uj_m_2.jpg" alt=""  width={400} height={200}/>
                       </div>
                     </div>
                     <div class="block_1">
                       <div class="image_1 image">
-                        <img src="images//uj_m_3.jpeg" alt="" />
+                        <Image src="/images/uj_m_3.jpeg" alt=""  width={400} height={200}/>
                       </div>
                       <div class="image_2 image">
-                        <img src="images//uj_m_4.jpg" alt="" />
+                        <img src="/images/uj_m_4.jpg" alt=""  width={400} height={400}/>
                       </div>
                     </div>
                     <div class="block_1">
                       <div class="image_1 image">
-                        <img src="images//uj_m_5.jpeg" alt="" />
+                        <Image src="/images/uj_m_5.jpeg" alt=""  width={400} height={400}/>
                       </div>
                       <div class="image_2 image">
-                        <img src="images//uj_m_6.jpeg" alt="" />
+                        <Image src="/images/uj_m_6.jpeg" alt=""  width={400} height={200}/>
                       </div>
                     </div>
                   </div>

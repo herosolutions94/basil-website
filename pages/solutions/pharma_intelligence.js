@@ -3,6 +3,7 @@ import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
 import Whitepaper from "@/components/whitepaper";
 import WhitepaperForm from "@/components/whitepaper-form";
+import Image from "next/image";
 
 export default function Pharma_Intelligence() {
   const [isFormVisible, setFormVisible] = useState(false);
@@ -105,7 +106,7 @@ export default function Pharma_Intelligence() {
               </div>
               <div className="colR">
                 <div className="image">
-                  <img src="/images/p1.svg" />
+                  <Image src="/images/p1.svg" width={600} height={700} priority/>
                 </div>
               </div>
             </div>
@@ -129,7 +130,7 @@ export default function Pharma_Intelligence() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/h1.svg" />
+                  <Image src="/images/h1.svg" width={600} height={600}/>
                 </div>
               </div>
               <div className="colR">
@@ -151,7 +152,7 @@ export default function Pharma_Intelligence() {
             <div className="flex flx2">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/h2.svg" />
+                  <Image src="/images/h2.svg" width={600} height={600}/>
                 </div>
               </div>
               <div className="colR">
@@ -173,7 +174,7 @@ export default function Pharma_Intelligence() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/h3.svg" />
+                  <Image src="/images/h3.svg" width={600} height={600}/>
                 </div>
               </div>
               <div className="colR">

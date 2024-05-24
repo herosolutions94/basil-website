@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Whitepaper from "@/components/whitepaper";
 import WhitepaperForm from "@/components/whitepaper-form";
+import Image from "next/image";
 
 export default function DataModernization() {
     const [isFormVisible, setFormVisible] = useState(false);
@@ -43,7 +44,7 @@ export default function DataModernization() {
                         <div className="col">
                             <div className="outer_blk_img">
                                 <div className="image">
-                                    <img src="/images/data-modernization.svg" alt="Data Modernization" />
+                                    <Image src="/images/data-modernization.svg" alt="Data Modernization" width={700} height={1000} priority/>
                                 </div>
                             </div>
                         </div>

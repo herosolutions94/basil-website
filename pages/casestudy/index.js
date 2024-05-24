@@ -5,6 +5,7 @@ import Source from "@/components/source";
 import Case_form from "@/components/case_form";
 import Whitepaper from "@/components/whitepaper";
 import WhitepaperForm from "@/components/whitepaper-form";
+import Image from "next/image";
 export default function case_study() {
   const [formPopup, setFormPopup] = useState(false);
   const [isFormVisible, setFormVisible] = useState(false);
@@ -88,7 +89,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_case_1.jpg" alt="" />
+                    <Image src="/images/uj_case_1.jpg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -106,7 +107,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_case_2.jpg" alt="" />
+                    <Image src="/images/uj_case_2.jpg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -124,7 +125,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_case_3.jpg" alt="" />
+                    <Image src="/images/uj_case_3.jpg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -142,7 +143,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_case_4.jpg" alt="" />
+                    <Image src="/images/uj_case_4.jpg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -160,7 +161,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_case_5.jpeg" alt="" />
+                    <Image src="/images/uj_case_5.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -178,7 +179,7 @@ export default function case_study() {
               <div className="uj_cols">
                 <Link href="/casestudy/detail" className="inner">
                   <div className="image">
-                    <img src="images/uj_m_6.jpeg" alt="" />
+                    <Image src="/images/uj_m_6.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
                       <div className="category">
                         <p>Positive Psychology</p>
@@ -216,7 +217,7 @@ export default function case_study() {
                 <div className="cols">
                   <div className="inner">
                     <div className="image" onClick={() => setFormPopup(true)}>
-                      <img src="images/uj_cs_3.jpg" alt="" />
+                      <Image src="/images/uj_cs_3.jpg" alt="" width={500} height={500}/>
                     </div>
                     <div className="content">
                       <div className="main_line">
@@ -243,7 +244,7 @@ export default function case_study() {
                   <div className="inner">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
-                        <img src="images/uj_cs_1.jpg" alt="" />
+                        <Image src="/images/uj_cs_1.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
                     <div className="content">
@@ -269,7 +270,7 @@ export default function case_study() {
                   <div className="inner">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
-                        <img src="images/uj_cs_2.jpg" alt="" />
+                        <Image src="/images/uj_cs_2.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
                     <div className="content">
@@ -298,7 +299,7 @@ export default function case_study() {
                   <div className="inner">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
-                        <img src="images/uj_cs_4.jpg" alt="" />
+                        <Image src="/images/uj_cs_4.jpg" alt="" width={500} height={500}/>
                       </div>
                     </div>
                     <div className="content">
@@ -339,7 +340,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_case_3.jpg" alt="" />
+                    <Image src="/images/uj_case_3.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">
@@ -363,7 +364,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_all_1.jpg" alt="" />
+                    <Image src="/images/uj_all_1.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">
@@ -385,7 +386,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_all_2.jpg" alt="" />
+                    <Image src="/images/uj_all_2.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">
@@ -407,7 +408,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_all_3.jpg" alt="" />
+                    <Image src="/images/uj_all_3.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">
@@ -431,7 +432,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_all_4.jpg" alt="" />
+                    <Image src="/images/uj_all_4.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">
@@ -455,7 +456,7 @@ export default function case_study() {
               <div className="cols">
                 <div className="inner">
                   <div className="image" onClick={() => setFormPopup(true)}>
-                    <img src="images/uj_all_5.jpg" alt="" />
+                    <Image src="/images/uj_all_5.jpg" alt="" width={500} height={500}/>
                   </div>
                   <div className="content">
                     <div className="main_line">

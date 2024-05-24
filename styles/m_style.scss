@@ -70,13 +70,17 @@
   }
   .item {
     .image {
-      @include img(55%);
+      @include img(45%);
       background: transparent;
       box-shadow: unset;
       img {
         @include object(contain);
         @include pos;
       }
+    }
+    .txt_cntnt_wide{
+      max-width: 80rem;
+      margin: 1rem auto;
     }
     p {
       text-align: center;

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Analytics_carousel from "@/components/analytic_carousel";
+import Image from "next/image";
 
 export default function Clinical_trial() {
   const data = [
@@ -131,7 +132,7 @@ export default function Clinical_trial() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <img src="/images/clinical.jpg" alt="" />
+                  <Image src="/images/clinical.jpg" alt="" width={700} height={800} priority/>
                 </div>
               </div>
               <div className="colR">

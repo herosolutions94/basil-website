@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Whitepaper from "@/components/whitepaper";
 import WhitepaperForm from "@/components/whitepaper-form";
+import Image from "next/image";
 
 export default function DataIntegration() {
     const [isFormVisible, setFormVisible] = useState(false);
@@ -38,7 +39,7 @@ export default function DataIntegration() {
                         <div className="col">
                             <div className="outer_blk_img">
                                 <div className="image">
-                                    <img src="/images/data-integration.svg" alt="API / Data Integration" />
+                                    <Image src="/images/data-integration.svg" alt="API / Data Integration" width={700} height={1000} priority/>
                                 </div>
                             </div>
                         </div>
