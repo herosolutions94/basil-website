@@ -5,7 +5,7 @@ export default function Inform({data}) {
         <div className="flex rverse_flex">
             <div className="tab_left">
                 <div className="image">
-                <Image src={data.image} alt={data.heading} width={700} height={400} priority/>
+                <Image src={data.image} alt={data.heading} width={1000} height={800} priority/>
                 </div>
             </div>
             <div className="tab_right">

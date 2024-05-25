@@ -57,9 +57,14 @@
 .banner{
     background: url(/images/home_banner.webp);
     @include bg;
-    padding: 10rem 0;
-    @include mobile{
-        padding: 5rem 0;
+    height: 80vh;
+    @include flex(center,center);
+    padding: 7rem 0;
+    .contain{
+        width: 100%;
+    }
+    @include ipad_sm{
+        height: 100%;
     }
     &:before{
         @include pos;
@@ -118,18 +123,23 @@
             width: 100%;
         }
     }
-    .trusted_slider{
-        background-color: #FCFCFC;
-        padding: 1rem 0;
-        @include radius(20px);
-    }
+    // .trusted_slider{
+    //     background-color: #FCFCFC;
+    //     padding: 1rem 0;
+    //     @include radius(20px);
+    // }
     .slide_item{
         padding: 20px;
+        margin-top: 2rem;
         .image{
-            height: 3rem;
+            height: 10rem;
             overflow: hidden;
             width: 10rem;
-            @include mobile{
+            @include trans;
+            padding: 1rem;
+            @include radius(50%);
+            border: 1px solid #dddddd00;
+            @include ipad_sm{
                 width: 100%;
             }
             img{
@@ -140,13 +150,19 @@
     }
     .slick-center{
         .slide_item {
-            @include trans;
-            transform: scale(1.6);
-            z-index: 1;
-            -webkit-transform: scale(1.6);
-            -moz-transform: scale(1.6);
-            -ms-transform: scale(1.6);
-            -o-transform: scale(1.6);
+            .image{
+                width: 12rem;
+                height: 12rem;
+                border: 1px solid #ddd;
+                margin-top: -4rem;
+                @include trans;
+                // transform: scale(1.6);
+                // z-index: 1;
+                // -webkit-transform: scale(1.6);
+                // -moz-transform: scale(1.6);
+                // -ms-transform: scale(1.6);
+                // -o-transform: scale(1.6);
+            }
         }
     }
 }

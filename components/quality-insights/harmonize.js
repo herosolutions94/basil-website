@@ -5,7 +5,7 @@ export default function Harmonize({data}) {
         <div className="flex">
             <div className="tab_left">
                 <div className="image">
-                <Image src={data.image} alt={data.heading} width={500} height={400} priority/>
+                <Image src={data.image} alt={data.heading} width={1000} height={800} priority/>
                 </div>
             </div>
             <div className="tab_right">

@@ -149,7 +149,7 @@ export default function Home() {
       link:"/solutions/pharma_intelligence"
     },
     regulatory: {
-      image:"/images/tab2.png",
+      image:"/images/regulatory_tab.png",
       heading:"MEDTECH REGULATORY MODULE",
       sub_heading:"ACCELERATE, NAVIGATE, INNOVATE, LEAD",
       pera:"<p>Harness the power of Basil Regulatory to accelerate your regulatory discovery and strategy, refine product planning, and gain competitive intelligence, all while navigating the regulatory landscape with unprecedented speed and accuracy.</p><p>Experience the future of MedTech with a taste of our platform — start with our free plan and discover how our solutions can transform your operations.</p>",
@@ -157,7 +157,7 @@ export default function Home() {
       link:"/solutions/regulatory"
     },
     post_market: {
-      image:"/images/tab3.png",
+      image:"/images/Postmarket.jpg",
       heading:"POST-MARKET (MEDTECH) MODULE",
       sub_heading:"TRANSFORM INSIGHTS INTO ADVANTAGE",
       pera:"<p>Unlock real-time insights and customizable data tools with our Post-Market Intelligence module to revolutionize your industry visibility. Gain instant MDR/IVDR data tables, extensive export options, and powerful search capabilities to streamline trend monitoring and reporting effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
@@ -165,7 +165,7 @@ export default function Home() {
       link:"/solutions/post_market"
     },
     clinical_trials: {
-      image:"/images/tab4.png",
+      image:"/images/clinical.jpg",
       heading:"CLINICAL TRIALS (MEDTECH) MODULE",
       sub_heading:"UNLOCK COMPREHENSIVE CLINICAL INSIGHTS",
       pera:"<p>Gain unparalleled access to over 500k indexed clinical trials with comprehensive search capabilities, natural language full text analysis, and extensive regulatory data connections. Perform thorough pre-commercial due diligence on new technologies and early-stage research programs not yet FDA-cleared.</p><p>Click below to learn how we can help your organization.</p>",
@@ -173,7 +173,7 @@ export default function Home() {
       link:"/solutions/clinical_trial"
     },
     exec_dashboard: {
-      image:"/images/tab5.png",
+      image:"/images/rapid_insights.webp",
       heading:"EXEC DASHBOARD (MEDTECH) MODULE",
       sub_heading:"DOMINATE STRATEGY WITH INSIGHTS",
       pera:"<p>Revolutionize your strategy with our executive dashboard, combining regulatory, clinical trials, and post-market intelligence into a streamlined, intuitive interface. Gain real-time alerts and actionable insights to master product monitoring, commercial strategy, launch planning, and competitor analysis effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
@@ -207,18 +207,18 @@ export default function Home() {
   }
   const quality_insights = {
     inform : {
-      image:"/images/inisghts.webp",
+      image:"/images/inisghts.png",
       heading:"Efficiency and Insight at Your Fingertips",
       pera:"<p>Unlock the full potential of industry data with Basil Systems' cutting-edge platform.  Designed for life sciences, our platform empowers Pharma and MedTech professionals to access, analyze, and visualize high-quality, disparate data.  Make informed decisions with ease and speed, achieving powerful insights that drive your business forward.</p>"
     },
     harmonize:{
-      image:"/images/harmonize.webp",
+      image:"/images/harmonize.png",
       heading:"Revolutionary AI / ML Implementation",
       pera:"<p>Harness the power of Basil Systems' proprietary AI and ML tools to index your internal datasets.  Experience the pinnacle of data harmonization across your legacy and disparate systems.  Our sophisticated algorithms and ontologies are crafted to synchronize and elevate your internal data quality, ensuring you're working with the most accurate and actionable information.</p>"
     },
     integrate:{
-      image:"/images/integrate.webp",
-      heading:"Powerful Data Integrationp",
+      image:"/images/integrate.png",
+      heading:"Powerful Data Integration",
       pera:"<p>Combine Basil’s comprehensive indexed industry with your own proprietary internal data.  We offer multiple options to merge our advanced data solutions into your existing infrastructure, tailoring everything to align with your specific ontologies. The result? A unified, coherent data ecosystem that propels your workflows and analytics</p>"
     }
   }
@@ -250,7 +250,7 @@ export default function Home() {
       <main>
         <section className="banner">
           <div className="contain">
-            <div className="txt">
+            <div className="txt" data-aos="fade-up" data-aos-duration="800">
               <h1><em>Where Data</em>Meets Discovery</h1>
               <p>Revolutionizing healthcare innovation with AI and data, driving smarter decisions and accelerating market success.</p>
               <div className="btn_blk">
@@ -262,14 +262,14 @@ export default function Home() {
         </section>
         <section className="trusted_sec">
           <div className="contain">
-            <div className="flex">
+            <div className="flex" data-aos="fade-up" data-aos-duration="1000">
               <h3>Trusted By</h3>
               <div className="slide_side">
                   <Slider {...settings} className="trusted_slider">
                   {trusted.map((val, index) => (
                     <div key={index} className="slide_item">
                       <div className="image">
-                        <img src={val.image} alt="trusted by" />
+                        <Image src={val.image} alt="trusted by" width={400} height={200}/>
                       </div>
                     </div>
                   ))}
@@ -282,15 +282,14 @@ export default function Home() {
           <div className="contain">
             <div className="flex">
               <div className="colL">
-                <div className="image">
-                  <Image src="/images/rapid_insights.webp" alt="rapid insights" width={500} height={300}/>
+                <div className="image" data-aos="fade-up" data-aos-duration="1200">
+                  <Image src="/images/rapid_insights.webp" alt="rapid insights" width={800} height={500}/>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="1400">
                 <h2>Unlock Rapid Insights with Basil</h2>
-                <p>TRANSFORM PRODUCT DEVELOPMENT WITH ADVANCED AI AND MACHINE LEARNING</p>
-                <p>Basil leverages advanced AI and Machine Learning technologies to dramatically speed access to the vital insights that drive product development success.</p>
-                <p>Whether leveraging its powerful SaaS platform or using its technologies on your internal data, Basil unlocks intelligence buried in multiple disconnected data sources – empowering organizations to make data-driven decisions. </p>
+                <p>Basil harnesses the power of advanced AI and Machine Learning to significantly accelerate access to crucial insights that catalyze product development success.</p>
+                <p>Whether leveraging its powerful SaaS platform or using its technologies on your internal data, Basil unlocks intelligence buried in multiple disconnected data sources – empowering organizations to make data-driven decisions.</p>
                 <div className="btn_blk">
                   <Link href="/about" className="site_btn color">Read More</Link>
                 </div>
@@ -300,12 +299,12 @@ export default function Home() {
         </section>
         <section className="delivering_result_sec">
           <div className="contain">
-              <div className="center_txt text-center">
+              <div className="center_txt text-center" data-aos="fade-up" data-aos-duration="1600">
                 <h2>Delivering Results</h2>
                 <p>Faster Times to Approval, Competitive Analytics, Regulatory Compliance, Product Innovation & more </p>
               </div>
               <div className="result_tabs flex">
-                <div className="colL">
+                <div className="colL" data-aos="fade-up" data-aos-duration="1800">
                   {delivery_result_tabs.map((val,i) => {
                     return(
                       <div className={tab == val.id ? "latest_tabs active" : "latest_tabs"} key={i} onClick={() => setTab(val.id)}>
@@ -315,97 +314,7 @@ export default function Home() {
                   })}
                 </div>
                 <div className="colR">
-                  <div className="tabs_content">
-                  {/* <AnimatePresence mode="wait">
-                    {tab == 1 && (
-                      <motion.div
-                        key={1}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <PharmaIntellibence data={solutions.pharma_intelligence} />
-                      </motion.div>
-                    )}
-                    {tab == 2 && (
-                      <motion.div
-                        key={2}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <Regulatory data={solutions.regulatory} />
-                      </motion.div>
-                    )}
-                    {tab == 3 && (
-                      <motion.div
-                        key={3}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <PostMarket data={solutions.post_market} />
-                      </motion.div>
-                    )}
-                    {tab == 4 && (
-                      <motion.div
-                        key={4}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <ClinicalTrials data={solutions.clinical_trials} />
-                      </motion.div>
-                    )}
-                    {tab == 5 && (
-                      <motion.div
-                        key={5}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <ExecDashboard data={solutions.exec_dashboard} />
-                      </motion.div>
-                    )}
-                    {tab == 6 && (
-                      <motion.div
-                        key={6}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <ComparativeTableCreator data={solutions.comparative_table_creator} />
-                      </motion.div>
-                    )}
-                    {tab == 7 && (
-                      <motion.div
-                        key={7}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <DataModernization data={solutions.data_modernization} />
-                      </motion.div>
-                    )}
-                    {tab == 8 && (
-                      <motion.div
-                        key={8}
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <DataIntegration data={solutions.data_integration} />
-                      </motion.div>
-                    )}
-                  </AnimatePresence> */}
+                  <div className="tabs_content" data-aos="fade-up" data-aos-duration="2000">
                     <div className={tab == 1 ? "not_show tab_show_current" : "not_show"}>
                         <motion.div
                           key="modal"
@@ -509,11 +418,11 @@ export default function Home() {
         </section>
         <section className="quality_insight_sec">
           <div className="contain">
-            <div className="center_txt text-center">
+            <div className="center_txt text-center" data-aos="fade-up" data-aos-duration="1100">
               <h2>Quality Data Insights & Analytics</h2>
               <p>Transforming your Data into Decisions</p>
             </div>
-            <div className="quality_tabs">
+            <div className="quality_tabs" data-aos="fade-up" data-aos-duration="1200">
               <div className={tabQuality == 9 ? "latest_tabs color_tabs active" : "latest_tabs color_tabs"} onClick={() => setTabQuality(9)}>
                 <span>Inform</span>
               </div>
@@ -524,7 +433,7 @@ export default function Home() {
                 <span>Integrate</span>
               </div>
             </div>
-            <div className="tabs_content">
+            <div className="tabs_content" data-aos="fade-up" data-aos-duration="1300">
                 <div className={tabQuality == 9 ? "not_show tab_show_current" : "not_show"}>
                   <motion.div
                     key="modal"
@@ -567,7 +476,7 @@ export default function Home() {
         <section className="big_cta">
           <div className="contain">
             <div className="cta_blk">
-                <div className="txt">
+                <div className="txt" data-aos="fade-up" data-aos-duration="1400">
                   <h2>Transform Your MedTech and Pharma Operations with AI-Powered Insights</h2>
                   <p>Discover how Basil's cutting-edge platform can revolutionize your approach to healthcare innovation. Harness the power of AI to gain deep market and clinical intelligence, streamline your decision-making processes, and stay ahead of the competition. Ready to experience the future of healthcare technology? Get started today!</p>
                   <div className="btn_blk">
@@ -575,7 +484,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="img_side">
-                  <div className="image">
+                  <div className="image" data-aos="fade-up" data-aos-duration="1500">
                     <img src="/images/ai_shape.svg" alt="" />
                   </div>
                 </div>
@@ -584,21 +493,21 @@ export default function Home() {
         </section>
         <section className="feature_case_study">
           <div className="contain">
-              <div className="text_head_flex">
+              <div className="text_head_flex" data-aos="fade-up" data-aos-duration="1600">
                 <div className="content_text">
                   <h2>Unlock Success Stories: Real-World Results with Basil</h2>
-                  <p>Explore how Basil's AI-powered platform has revolutionized the MedTech and Pharma landscape through impactful case studies.</p>
+                  <p>Explore how Basil’s AI-powered platform has revolutionized the MedTech and Pharma landscape through innovative technologies and insights.</p>
                 </div>
                 <div className="btn_blk">
                   <Link href="/casestudy" className="site_btn dark">View All</Link>
                 </div>
               </div>
               <div className="featured_blog">
-                  <div className="flex">
+                  <div className="flex" data-aos="fade-up" data-aos-duration="1700">
                       {
                           feature_posts.map((val)=>{
                               return(
-                                  <div className="_col" key={val.id}>
+                                  <div className="_col" key={val.id} >
                                       <div className="inner" onClick={handleFormClick}>
                                           <div className="image">
                                               <Image src={val.image} alt={val.title} width={600} height={400}/>

@@ -6,7 +6,7 @@ export default function Regulatory({data}) {
         <div className="flex">
             <div className="tab_left">
                 <div className="image">
-                <Image src={data.image} alt={data.heading} width={300} height={500} priority/>
+                <Image src={data.image} alt={data.heading} width={700} height={700} priority/>
                 </div>
             </div>
             <div className="tab_right">
