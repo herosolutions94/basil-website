@@ -475,8 +475,8 @@ export default function Home() {
         </section>
         <section className="big_cta">
           <div className="contain">
-            <div className="cta_blk">
-                <div className="txt" data-aos="fade-up" data-aos-duration="1400">
+            <div className="cta_blk" data-aos="fade-up" data-aos-duration="1400">
+                <div className="txt">
                   <h2>Transform Your MedTech and Pharma Operations with AI-Powered Insights</h2>
                   <p>Discover how Basil's cutting-edge platform can revolutionize your approach to healthcare innovation. Harness the power of AI to gain deep market and clinical intelligence, streamline your decision-making processes, and stay ahead of the competition. Ready to experience the future of healthcare technology? Get started today!</p>
                   <div className="btn_blk">
@@ -484,7 +484,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="img_side">
-                  <div className="image" data-aos="fade-up" data-aos-duration="1500">
+                  <div className="image">
                     <img src="/images/ai_shape.svg" alt="" />
                   </div>
                 </div>
