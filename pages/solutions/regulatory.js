@@ -7,7 +7,7 @@ export default function regulatory() {
   const data = [
     {
       id: 1,
-      image: "/images/regulatory_screen1.png",
+      image: "/images/regulatory_screen1.svg",
       text: "Search results",
     },
     {
@@ -17,17 +17,17 @@ export default function regulatory() {
     },
     {
       id: 3,
-      image: "/images/ra1.svg",
+      image: "/images/regulatory_screen3.svg",
       text: "Review time statistics",
     },
     {
       id: 4,
-      image: "/images/ra4.svg",
+      image: "/images/regulatory_screen4.svg",
       text: "List of devices (UDI: Unique Device Identifier) database with sample pop-up",
     },
     {
       id: 5,
-      image: "/images/ra5.svg",
+      image: "/images/regulatory_screen5.svg",
       text: "PMA Supplements by Time and Type",
     },
   ];
