@@ -29,50 +29,26 @@ export default function Pharma_Intelligence() {
 ]
   const data = [
     {
-      id: 1,
-      image: "/images/pa1.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 2,
-      image: "/images/pa2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 3,
-      image: "/images/pa3.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 4,
-      image: "/images/pa4.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 5,
-      image: "/images/pa5.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
       id: 6,
       image: "/images/pa6.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Discover key insights with our comparative analytics, showcasing the variance of reported adverse events across different drug brands.",
     },
     {
       id: 7,
       image: "/images/pa7.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Review all registered clinical trials for drugs / active ingredients – and quickly search within, view results, and more.",
     },
     {
-      id: 8,
-      image: "/images/pa8.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      id: 1,
+      image: "/images/pa1.svg",
+      text: "Whether grammatical or substantial, identify every change ever made to every label for any drug – by label section.",
     },
     {
-      id: 9,
-      image: "/images/pa9.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      id: 3,
+      image: "/images/pa3.svg",
+      text: "No change too big or too small – every modification in the history of a drug label is highlighted and searchable.",
     },
+    
   ];
   return (
     <div>

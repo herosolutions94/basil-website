@@ -57,7 +57,7 @@ export default function Analytics_carousel({ data }) {
           return (
             <div className="item" key={val.id}>
               <div className="image">
-                <Image src={val.image} width={1100} height={700} priority/>
+                <Image src={val.image} width={1500} height={600} priority/>
               </div>
               <div className="txt_cntnt_wide">
                 <p>{val.text}</p>

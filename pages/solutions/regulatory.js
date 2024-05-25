@@ -7,28 +7,28 @@ export default function regulatory() {
   const data = [
     {
       id: 1,
-      image: "/images/ra3.svg",
-      text: "List of devices (UDI: Unique Device Identifier) database with sample pop-up",
+      image: "/images/regulatory_screen1.png",
+      text: "Search results",
     },
     {
       id: 2,
-      image: "/images/ra2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/regulatory_screen2.svg",
+      text: "510(k) visual interactive ecosystem",
     },
     {
       id: 3,
       image: "/images/ra1.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Review time statistics",
     },
     {
       id: 4,
       image: "/images/ra4.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "List of devices (UDI: Unique Device Identifier) database with sample pop-up",
     },
     {
       id: 5,
       image: "/images/ra5.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "PMA Supplements by Time and Type",
     },
   ];
   return (
