@@ -7,28 +7,28 @@ export default function Post_market() {
   const data = [
     {
       id: 1,
-      image: "/images/pm1.svg",
-      text: "Quickly track industry trends and spot potential problems or opportunities  (Adverse event trends by product brand)",
+      image: "/images/pm2.svg",
+      text: "Post-Market Intelligence dashboard showing recent cardiovascular panel events and device design recalls",
     },
     {
       id: 2,
-      image: "/images/pm2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/pm5.svg",
+      text: "Quickly track industry trends and spot potential problems or opportunities (Adverse event trends by product brand)",
     },
     {
       id: 3,
-      image: "/images/pm3.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/pm4.svg",
+      text: "Post-Market dashboard’s Top Ten lists (across the entire FDA medtech dataset, May 2022)",
     },
     {
       id: 4,
-      image: "/images/pm4.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/pm3.svg",
+      text: "Trends of Adverse Events and Recalls under one product code (LIT) since 2010",
     },
     {
       id: 5,
-      image: "/images/pm5.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/pm1.svg",
+      text: "Post-Market Intelligence: CER/PSUR data table generator for MDR/IVDR",
     },
   ];
   return (
@@ -54,7 +54,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico.svg" />
+                            <img src="/images/notification-bell.png" />
                           </div>
                           <h4>Immediate insights and alerts</h4>
                         </div>
@@ -70,7 +70,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico2.svg" />
+                            <img src="/images/grid.png" />
                           </div>
                           <h4>Instant data tables for MDR/IVDR</h4>
                         </div>
@@ -89,7 +89,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico3.svg" />
+                            <img src="/images/upload.png" />
                           </div>
                           <h4>Novel tools, extensive export</h4>
                         </div>
@@ -106,7 +106,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/ru4.svg" />
+                            <img src="/images/search.png" />
                           </div>
                           <h4>Rich, customizable search</h4>
                         </div>

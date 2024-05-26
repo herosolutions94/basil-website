@@ -8,17 +8,17 @@ export default function Comp_Table() {
     {
       id: 1,
       image: "/images/cp1.svg",
-      text: "List of devices (UDI: Unique Device Identifier) database with sample pop-up",
+      text: "Detailed list of all event records for audit review and export",
     },
     {
       id: 2,
       image: "/images/cp2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Adverse events by brand, broken down by product and patient problems",
     },
     {
       id: 3,
       image: "/images/cp3.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Save / load tables for quick reviews and easy updates",
     },
   ];
   return (
@@ -41,7 +41,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/ru1.svg" />
+                    <img src="/images/edit.png" />
                   </div>
                   <h4>Customize Your Analysis with Ease</h4>
                   <p>
@@ -54,7 +54,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/ru2.svg" />
+                    <img src="/images/web.png" />
                   </div>
                   <h4>Access Comprehensive Safety Records Globally </h4>
                   <p>
@@ -68,7 +68,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/ru3.svg" />
+                    <img src="/images/collaboration.png" />
                   </div>
                   <h4>Seamless Collaboration and Reporting Tools </h4>
                   <p>

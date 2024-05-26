@@ -45,7 +45,7 @@ export default function DataIntegration() {
                         </div>
                         <div className="col">
                             <h2>Augment internal data with Basil’s data</h2>
-                            <h5>Basil’s comprehensive data can be accessed via SaaS <em>- or -</em> It can be delivered and integrated with your proprietary data</h5>
+                            <h5>Basil’s comprehensive data can be accessed via SaaS or It can be delivered and integrated with your proprietary data</h5>
                             <p>Transform your enterprise landscape with Basil Systems' revolutionary API and Data Integration technology, specifically engineered to catapult your business into a new era of connectivity and intelligence. Our state-of-the-art integration tools seamlessly bridge the gap between disparate systems and turbocharge your data flows. This transformation turns complex data ecosystems into streamlined powerhouses of efficiency and innovation, allowing you to unlock the full potential of your digital assets and propel your operations to unprecedented heights.</p>
                             <p>Our technology ensures that every piece of data across your organization works in perfect harmony, driving success and enabling you to outperform competitors. Embrace this game-changing opportunity with Basil Systems and lead the revolution in data integration, redefining what's possible in your industry.</p>
                         </div>

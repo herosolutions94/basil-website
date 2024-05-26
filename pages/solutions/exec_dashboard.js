@@ -13,43 +13,13 @@ export default function exec_dashboard() {
     {
       id: 2,
       image: "/images/pa2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      text: "Summaries, visualizations and analytics of post-market events – updated in real-time",
     },
     {
       id: 3,
       image: "/images/pa3.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 4,
-      image: "/images/pa4.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 5,
-      image: "/images/pa5.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 6,
-      image: "/images/pa6.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 7,
-      image: "/images/pa7.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 8,
-      image: "/images/pa8.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
-    {
-      id: 9,
-      image: "/images/pa9.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
-    },
+      text: "Select which companies, brands and products to receive alerts on as new events happen",
+    }
   ];
   return (
     <div>

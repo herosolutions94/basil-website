@@ -134,6 +134,66 @@ export default function regulatory() {
           </div>
         </section>
 
+        <section id="up_ico" className="p_t_y">
+          <div className="contain">
+            <div className="content_center">
+              <h2>Unmatched capabilities</h2>
+            </div>
+            <div className="flex">
+              <div className="col">
+                <div className="inner">
+                  <div className="icon">
+                    <img src="/images/big-data.png" />
+                  </div>
+                  <h4>State-of-the-art big data architecture</h4>
+                  <p>
+                  US FDA, NIH, FOIA, Australian TGA, Health Canada & MedEffect, GMDN and more
+                  </p>
+                  <p>Over 500,000 full clinical trial records</p>
+                  <p>
+                  AI/ML-powered indexing, cross referencing and error correction
+                  </p>
+                  <p>Updated and refreshed multiple times daily</p>
+                </div>
+              </div>
+              <div className="col">
+                <div className="inner">
+                  <div className="icon">
+                    <img src="/images/analytics.png" />
+                  </div>
+                  <h4>
+                  Full-text natural language search
+                  </h4>
+                  <p>
+                  Across all records, files, documents and categories, at once
+                  </p>
+                  <p>Explore applications, product codes, regulations, recalls, adverse events and more</p>
+                  <p>
+                  Enables true exploration and discovery that was not previously possible
+                  </p>
+                </div>
+              </div>
+              <div className="col">
+                <div className="inner">
+                  <div className="icon">
+                    <img src="/images/interest-rate.png" />
+                  </div>
+                  <h4>Unique, powerful features</h4>
+                  <p>
+                  World’s only visual interactive 510(k) predicate and reference navigator
+                  </p>
+                  <p>
+                  Time-to-approval statistics for benchmarking 
+                  </p>
+                  <p>
+                  Instant quality trends to assess regulatory strategy risks 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="two_img">
           <div className="contain">
             <div className="flex">
@@ -163,72 +223,6 @@ export default function regulatory() {
                   <Link href="/contact" className="site_btn ">
                     Contact Us
                   </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="up_ico">
-          <div className="contain">
-            <div className="content_center">
-              <h2>Unmatched capabilities</h2>
-            </div>
-            <div className="flex">
-              <div className="col">
-                <div className="inner">
-                  <div className="icon">
-                    <img src="/images/ru1.svg" />
-                  </div>
-                  <h4>State-of-the-art big data architecture</h4>
-                  <p>
-                    US FDA, NIH, FOIA, Australian TGA, Health Canada &
-                    MedEffect, GMDN and more
-                  </p>
-                  <p>Over 500,000 full clinical trial records</p>
-                  <p>
-                    AI/ML-powered indexing, cross referencing and error
-                    correction
-                  </p>
-                  <p>Updated and refreshed multiple times daily</p>
-                </div>
-              </div>
-              <div className="col">
-                <div className="inner">
-                  <div className="icon">
-                    <img src="/images/ru2.svg" />
-                  </div>
-                  <h4>
-                    State-of-tUnique, powerful featureshe-art big data
-                    architecture
-                  </h4>
-                  <p>
-                    World’s only visual interactive 510(k) predicate and
-                    reference navigator
-                  </p>
-                  <p>Time-to-approval statistics for benchmarking </p>
-                  <p>
-                    Instant quality trends to assess regulatory strategy risks 
-                  </p>
-                </div>
-              </div>
-              <div className="col">
-                <div className="inner">
-                  <div className="icon">
-                    <img src="/images/ru3.svg" />
-                  </div>
-                  <h4>Full-text natural language search</h4>
-                  <p>
-                    Across all records, files, documents and categories, at once
-                  </p>
-                  <p>
-                    Explore applications, product codes, regulations, recalls,
-                    adverse events and more
-                  </p>
-                  <p>
-                    Enables true exploration and discovery that was not
-                    previously possible
-                  </p>
                 </div>
               </div>
             </div>

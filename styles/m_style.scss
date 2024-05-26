@@ -446,9 +446,12 @@ img{
       @include radius(30px);
       height: 100%;
       .icon {
-        height: 45px;
-        width: 45px;
-        margin-bottom: 30px;
+        // height: 45px;
+        // width: 45px;
+        // margin-bottom: 30px;
+        height: 60px;
+        width: 60px;
+        margin-bottom: 1.5rem;
         img {
           height: 100%;
         }
@@ -604,5 +607,12 @@ img{
         @include object;
       }
     }
+  }
+}
+
+.p_t_y{
+  padding:11rem 0 0!important;
+  @include mobile{
+    padding:4rem 0 0;
   }
 }

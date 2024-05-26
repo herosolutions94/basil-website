@@ -7,18 +7,18 @@ export default function Clinical_trial() {
   const data = [
     {
       id: 1,
-      image: "/images/cla1.svg",
-      text: "List of devices (UDI: Unique Device Identifier) database with sample pop-up",
+      image: "/images/clinical_screen1.svg",
+      text: "Keyword search with optional selection of submission-related trials",
     },
     {
       id: 2,
-      image: "/images/cla2.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/clinical_screen2.svg",
+      text: "Results tables, adverse reactions, references and more",
     },
     {
       id: 3,
-      image: "/images/cla3.svg",
-      text: "Basil Systems offers robust analytics that provide deep insights into FDA data. With detailed reports and customizable metrics, you can easily track and optimize your regulatory strategies.",
+      image: "/images/clinical_screen3.svg",
+      text: "Full trial details, exportable to PDF",
     },
   ];
   return (
