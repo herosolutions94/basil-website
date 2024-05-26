@@ -81,11 +81,25 @@ export default function DataModernization() {
                         </div>
                     </div>
 
-                    <div className="mini_txt_blk">
+                    {/* <div className="mini_txt_blk">
                         <p>Working with structured and unstructured data, Basil enables a scalable and flexible environment that supports diverse analytics applications and prepares your infrastructure for sophisticated data operations.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
+        </section>
+        <section className="big_cta apabilty_big_cta">
+          <div className="contain">
+            <div className="cta_blk">
+                <div className="txt">
+                  <p>Working with structured and unstructured data, Basil enables a scalable and flexible environment that supports diverse analytics applications and prepares your infrastructure for sophisticated data operations.</p>
+                </div>
+                <div className="img_side">
+                  <div className="image">
+                    <img src="/images/ai_shape.svg" alt="" />
+                  </div>
+                </div>
+            </div>
+          </div>
         </section>
         <section className="white_paper_sec">
             <div className="contain">

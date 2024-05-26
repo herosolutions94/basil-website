@@ -491,6 +491,25 @@ padding-bottom: 0;
         }
        
     }
+    &.apabilty_big_cta{
+        .cta_blk{
+            max-width: 80rem;
+            margin: 0 auto;
+            .img_side{
+                .image{
+                    width: 25rem;
+                    height: 20rem;
+                    overflow: hidden;
+                    @include mobile_sm{
+                        width: 100%;
+                    }
+                    img{
+                        @include object(contain);
+                    }
+                }
+            }
+        }
+    }
 }
 
 // =================feature_case_study===========

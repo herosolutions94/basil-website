@@ -31,6 +31,24 @@ export default function regulatory() {
       text: "PMA Supplements by Time and Type",
     },
   ];
+
+  const testi = [
+    {
+      id: 1,
+      image: "/images/uj_quote.svg",
+      comment:
+        " Basil is fantastic. The Ecosystem is a tremendous time-saver and insight generator. It provides me with a landscape I can effortlessly navigate, allowing me to assess related technologies whenever I discover something intriguing.",
+      name: "VP, Regulatory Affairs",
+      designation: "Boston Scientific",
+    },
+    {
+      id: 2,
+      image: "/images/uj_quote.svg",
+      comment:"It's amazing!  You did that in like 2 seconds. I just spent probably a whole week trying to find and filter through this data. That just saved me weeks worth of scouring data and its even more complete and accurate.",
+      name: "Sr. Regulatory Affairs Specialist",
+      designation: "Bayer",
+    },
+  ];
   return (
     <div>
       <main>
@@ -194,6 +212,7 @@ export default function regulatory() {
           </div>
         </section>
 
+        
         <section id="two_img">
           <div className="contain">
             <div className="flex">
