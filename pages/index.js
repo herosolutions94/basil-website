@@ -158,7 +158,7 @@ export default function Home() {
     },
     post_market: {
       image:"/images/Postmarket.jpg",
-      heading:"POST-MARKET (MEDTECH) MODULE",
+      heading:"MedTech Post-Market Intelligence",
       sub_heading:"TRANSFORM INSIGHTS INTO ADVANTAGE",
       pera:"<p>Unlock real-time insights and customizable data tools with our Post-Market Intelligence module to revolutionize your industry visibility. Gain instant MDR/IVDR data tables, extensive export options, and powerful search capabilities to streamline trend monitoring and reporting effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
@@ -166,7 +166,7 @@ export default function Home() {
     },
     clinical_trials: {
       image:"/images/clinical.jpg",
-      heading:"CLINICAL TRIALS (MEDTECH) MODULE",
+      heading:"Clinical Trials",
       sub_heading:"UNLOCK COMPREHENSIVE CLINICAL INSIGHTS",
       pera:"<p>Gain unparalleled access to over 500k indexed clinical trials with comprehensive search capabilities, natural language full text analysis, and extensive regulatory data connections. Perform thorough pre-commercial due diligence on new technologies and early-stage research programs not yet FDA-cleared.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
@@ -174,14 +174,14 @@ export default function Home() {
     },
     exec_dashboard: {
       image:"/images/rapid_insights.webp",
-      heading:"EXEC DASHBOARD (MEDTECH) MODULE",
+      heading:"MedTech Exec Dashboard",
       sub_heading:"DOMINATE STRATEGY WITH INSIGHTS",
       pera:"<p>Revolutionize your strategy with our executive dashboard, combining regulatory, clinical trials, and post-market intelligence into a streamlined, intuitive interface. Gain real-time alerts and actionable insights to master product monitoring, commercial strategy, launch planning, and competitor analysis effortlessly.</p><p>Click below to learn how we can help your organization.</p>",
       button_lbl:"Learn More",
       link:"/solutions/exec_dashboard"
     },
     comparative_table_creator: {
-      image:"/images/tab6.png",
+      image:"/images/comptable.jpg",
       heading:"COMPARATIVE TABLE CREATOR",
       sub_heading:"INSTANT SAFETY DATA INSIGHTS",
       pera:"<p>Gain real-time insights into complex emerging safety signals with our cutting-edge platform, allowing you to easily compare the safety and quality data of any medical device, product, or brand side-by-side. Effortlessly select products, access global safety records, and save, export, and share data to streamline your team's analysis and reporting.</p><p>Click below to learn how we can help your organization.</p>",

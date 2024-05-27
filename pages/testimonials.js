@@ -9,9 +9,6 @@ export default function testimonials() {
             <div className="sec_heading">
               <h2>What Our Clients Say</h2>
             </div>
-            <div className="sec_content">
-              <p>Our customers say Excellent</p>
-            </div>
             <div className="flex">
               <div className="item">
                 <div className="inner">
