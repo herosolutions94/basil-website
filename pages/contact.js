@@ -10,26 +10,26 @@ export default function ContactUs() {
                 <h1 className="text-center">Get In Touch With Us</h1>
                 <div className="flex">
                     <div className="colL">
-                        <h4>Let’s discuss on something cool together</h4>
-                        <p>Suspendisse posuere nisi eu neque pharetra tristique iaculis erat tempor. Curabitur sed justo auctor sodals nunc in finibus purus donec tellus tristique iaculis erat tempor.</p>
+                        <h4>Connect with Us!</h4>
+                        <p>We’re excited to hear from you! Whether you have questions about our products, need assistance with our solutions, or just want to share your thoughts, we welcome your inquiries. Below are the details on how to reach us. Let’s start a conversation, and our friendly team will get back to you promptly.</p>
                         <ul>
                             <li>
-                                <Link href="">
+                                <Link href="mailto:Info@BasilSystems.com">
                                     <img src="/images/email.svg" alt="" />
-                                    <span>basil_system@gmail.com</span>
+                                    <span>Info@BasilSystems.com</span>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="">
+                                <Link href="https://www.linkedin.com/company/basilsystems/">
                                     <img src="/images/linkedin_contact.svg" alt="" />
-                                    <span>www.linkedin.com/basilsystem</span>
+                                    <span>https://www.linkedin.com/company/basilsystems/</span>
                                 </Link>
                             </li>
                         </ul>
                     </div>
                     <div className="colR">
                         <form>
-                            <h4>Need Any Help?</h4>
+                            <p>Alternatively, you can use the contact form below to get in touch with us. Please fill in the required fields and hit 'Send Message'. We aim to respond to all queries within 24 hours during business days.</p>
                             <div className="txt_grp">
                                 <input type="text" className="input" name="fname" placeholder="First Name"/>
                             </div>
