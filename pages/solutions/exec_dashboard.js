@@ -7,17 +7,17 @@ export default function exec_dashboard() {
   const data = [
     {
       id: 1,
-      image: "/images/pa1.svg",
+      image: "/images/ed1.svg",
       text: "Executive dashboard of new product clearances, approvals, clinical trials & more",
     },
     {
       id: 2,
-      image: "/images/pa2.svg",
+      image: "/images/ed2.svg",
       text: "Summaries, visualizations and analytics of post-market events – updated in real-time",
     },
     {
       id: 3,
-      image: "/images/pa3.svg",
+      image: "/images/ed3.svg",
       text: "Select which companies, brands and products to receive alerts on as new events happen",
     }
   ];
