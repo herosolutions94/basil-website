@@ -456,42 +456,42 @@ export default function case_study() {
             </div>
             <ul className="pagination">
               <li>
-                <a href="/casestudy/detail" class="pre-nxt">
+                <a href="/casestudy/detail" className="pre-nxt">
                   Previous
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid active">
+                <a href="/casestudy/detail" className="mid active">
                   1
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid">
+                <a href="/casestudy/detail" className="mid">
                   2
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid">
+                <a href="/casestudy/detail" className="mid">
                   3
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid">
+                <a href="/casestudy/detail" className="mid">
                   4
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid">
+                <a href="/casestudy/detail" className="mid">
                   5
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="mid">
+                <a href="/casestudy/detail" className="mid">
                   6
                 </a>
               </li>
               <li>
-                <a href="/casestudy/detail" class="pre-nxt">
+                <a href="/casestudy/detail" className="pre-nxt">
                   Next
                 </a>
               </li>

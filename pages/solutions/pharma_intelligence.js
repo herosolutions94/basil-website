@@ -115,8 +115,8 @@ export default function Pharma_Intelligence() {
                   developing breakthrough therapies and streamlining regulatory
                   approvals
                 </p>
-                <div class="btn_blk">
-                  <Link class="site_btn color" href="/contact">
+                <div className="btn_blk">
+                  <Link className="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>
@@ -137,8 +137,8 @@ export default function Pharma_Intelligence() {
                   your products not only reach the market faster but also
                   sustain compliance.
                 </p>
-                <div class="btn_blk">
-                  <Link class="site_btn color" href="/contact">
+                <div className="btn_blk">
+                  <Link className="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>
@@ -159,8 +159,8 @@ export default function Pharma_Intelligence() {
                   portfolio, identifying profitable opportunities and maximizing
                   revenue from both existing and future products.
                 </p>
-                <div class="btn_blk">
-                  <Link class="site_btn color" href="/contact">
+                <div className="btn_blk">
+                  <Link className="site_btn color" href="/contact">
                     Book a Demo
                   </Link>
                 </div>

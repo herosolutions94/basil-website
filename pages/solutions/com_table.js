@@ -41,7 +41,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" alt=""/>
                   </div>
                   <h4>Customize Your Analysis with Ease</h4>
                   <p>
@@ -54,7 +54,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/web.png" />
+                    <img src="/images/web.png" alt=""/>
                   </div>
                   <h4>Access Comprehensive Safety Records Globally </h4>
                   <p>
@@ -68,7 +68,7 @@ export default function Comp_Table() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/collaboration.png" />
+                    <img src="/images/collaboration.png" alt=""/>
                   </div>
                   <h4>Seamless Collaboration and Reporting Tools </h4>
                   <p>

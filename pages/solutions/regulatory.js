@@ -78,7 +78,7 @@ export default function regulatory() {
               </div>
               <div className="colR">
                 <div className="image">
-                  <Image src="/images/Reg_intel.svg" width={500} height={600} priority/>
+                  <Image src="/images/Reg_intel.svg" width={500} height={600} priority alt=""/>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function regulatory() {
                 <div className="inner">
                   <div className="head">
                     <div className="icon">
-                      <img src="/images/rico3.svg" />
+                      <img src="/images/rico3.svg" alt=""/>
                     </div>
                     <h4>Product planning and strategy</h4>
                   </div>
@@ -161,7 +161,7 @@ export default function regulatory() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/big-data.png" />
+                    <img src="/images/big-data.png" alt=""/>
                   </div>
                   <h4>State-of-the-art big data architecture</h4>
                   <p>
@@ -177,7 +177,7 @@ export default function regulatory() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/analytics.png" />
+                    <img src="/images/analytics.png" alt=""/>
                   </div>
                   <h4>
                   Full-text natural language search
@@ -194,7 +194,7 @@ export default function regulatory() {
               <div className="col">
                 <div className="inner">
                   <div className="icon">
-                    <img src="/images/interest-rate.png" />
+                    <img src="/images/interest-rate.png" alt=""/>
                   </div>
                   <h4>Unique, powerful features</h4>
                   <p>
@@ -219,10 +219,10 @@ export default function regulatory() {
               <div className="colL">
                 <div className="outer">
                   <div className="image1 image">
-                    <Image src="/images/r2.svg" width={300} height={500} priority />
+                    <Image src="/images/r2.svg" width={300} height={500} priority alt=""/>
                   </div>
                   <div className="image2 image">
-                    <Image src="/images/r3.svg" width={300} height={500} priority/>
+                    <Image src="/images/r3.svg" width={300} height={500} priority alt=""/>
                   </div>
                 </div>
               </div>

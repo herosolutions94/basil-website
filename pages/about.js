@@ -210,28 +210,28 @@ export default function About() {
                   </div>
                 </div>
                 <div className="cols col2">
-                  <div class="image_area">
-                    <div class="block_1">
-                      <div class="image_1 image">
+                  <div className="image_area">
+                    <div className="block_1">
+                      <div className="image_1 image">
                         <Image src="/images/uj_m_1.jpg" alt=""  width={400} height={400}/>
                       </div>
-                      <div class="image_2 image">
+                      <div className="image_2 image">
                         <Image src="/images/uj_m_2.jpg" alt=""  width={400} height={200}/>
                       </div>
                     </div>
-                    <div class="block_1">
-                      <div class="image_1 image">
+                    <div className="block_1">
+                      <div className="image_1 image">
                         <Image src="/images/uj_m_3.jpeg" alt=""  width={400} height={200}/>
                       </div>
-                      <div class="image_2 image">
+                      <div className="image_2 image">
                         <img src="/images/uj_m_4.jpg" alt=""  width={400} height={400}/>
                       </div>
                     </div>
-                    <div class="block_1">
-                      <div class="image_1 image">
+                    <div className="block_1">
+                      <div className="image_1 image">
                         <Image src="/images/uj_m_5.jpeg" alt=""  width={400} height={400}/>
                       </div>
-                      <div class="image_2 image">
+                      <div className="image_2 image">
                         <Image src="/images/uj_m_6.jpeg" alt=""  width={400} height={200}/>
                       </div>
                     </div>

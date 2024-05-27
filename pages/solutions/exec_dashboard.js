@@ -58,7 +58,7 @@ export default function exec_dashboard() {
               </div>
               <div className="colR">
                 <div className="image">
-                  <Image src="/images/ex1.svg" width={600} height={600} priority/>
+                  <Image src="/images/ex1.svg" width={600} height={600} priority alt=""/>
                 </div>
               </div>
             </div>

@@ -77,9 +77,12 @@
   }
   .item {
     .image {
-      @include img(43%);
+      @include img(55%);
       background: transparent;
       box-shadow: unset;
+      @include ipad_sm{
+        padding-bottom: 45%;
+      }
       img {
         @include object(contain);
         @include pos;

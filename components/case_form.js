@@ -5,10 +5,10 @@ export default function Case_form({ formPopup, setFormPopup }) {
     <>
       {formPopup === true ? (
         <div className="popup uj_popup" style={{ display: "block" }}>
-          <div class="tableDv">
-            <div class="tableCell">
-              <div class="contain">
-                <div class=" inside">
+          <div className="tableDv">
+            <div className="tableCell">
+              <div className="contain">
+                <div className=" inside">
                   <div
                     className="crosBtn"
                     onClick={() => setFormPopup(false)}></div>

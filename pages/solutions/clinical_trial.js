@@ -45,7 +45,7 @@ export default function Clinical_trial() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico.svg" />
+                            <img src="/images/rico.svg" alt=""/>
                           </div>
                           <h4>Over 500k indexed trials and growing</h4>
                         </div>
@@ -62,7 +62,7 @@ export default function Clinical_trial() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico2.svg" />
+                            <img src="/images/rico2.svg" alt=""/>
                           </div>
                           <h4>Natural language, full text analysis</h4>
                         </div>
@@ -81,7 +81,7 @@ export default function Clinical_trial() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/rico3.svg" />
+                            <img src="/images/rico3.svg" alt=""/>
                           </div>
                           <h4>Comprehensive search: see everything at once</h4>
                         </div>
@@ -98,7 +98,7 @@ export default function Clinical_trial() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/ru4.svg" />
+                            <img src="/images/ru4.svg" alt=""/>
                           </div>
                           <h4>Pre-commercial due diligence</h4>
                         </div>
@@ -132,7 +132,7 @@ export default function Clinical_trial() {
             <div className="flex">
               <div className="colL">
                 <div className="image">
-                  <Image src="/images/clinical.jpg" alt="" width={700} height={800} priority/>
+                  <Image src="/images/clinical.jpg" alt="" width={700} height={800} priority />
                 </div>
               </div>
               <div className="colR">

@@ -54,7 +54,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/notification-bell.png" />
+                            <img src="/images/notification-bell.png" alt=""/>
                           </div>
                           <h4>Immediate insights and alerts</h4>
                         </div>
@@ -70,7 +70,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/grid.png" />
+                            <img src="/images/grid.png" alt=""/>
                           </div>
                           <h4>Instant data tables for MDR/IVDR</h4>
                         </div>
@@ -89,7 +89,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/upload.png" />
+                            <img src="/images/upload.png" alt=""/>
                           </div>
                           <h4>Novel tools, extensive export</h4>
                         </div>
@@ -106,7 +106,7 @@ export default function Post_market() {
                       <div className="inner">
                         <div className="head">
                           <div className="icon">
-                            <img src="/images/search.png" />
+                            <img src="/images/search.png" alt=""/>
                           </div>
                           <h4>Rich, customizable search</h4>
                         </div>

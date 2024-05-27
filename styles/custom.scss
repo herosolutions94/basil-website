@@ -5838,7 +5838,7 @@ margin-bottom: 0;
   }
 
   .slick-prev {
-    left: 3rem!important;
+    left: -3rem!important;
     z-index: 1!important;
     width: 4rem!important;
     height: 4rem!important;
@@ -5850,12 +5850,15 @@ margin-bottom: 0;
       @include trans;
       opacity: 0.8;
     }
-    @include mobile_md{
+    @include ipad_sm{
       left: 0!important;
+    }
+    @include mobile_sm{
+      top: 36%;
     }
   }
   .slick-next {
-    right: 3rem!important;
+    right: -3rem!important;
     z-index: 1!important;
     width: 4rem!important;
     height: 4rem!important;
@@ -5867,8 +5870,11 @@ margin-bottom: 0;
       @include trans;
       opacity: 0.8;
     }
-    @include mobile_md{
+    @include ipad_sm{
       right: 0!important;
+    }
+    @include mobile_sm{
+      top: 36%;
     }
   }
 
