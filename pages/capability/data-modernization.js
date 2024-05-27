@@ -36,12 +36,12 @@ export default function DataModernization() {
             <div className="grid_capability">
                 <div className="contain">
                     <div className="flex">
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <h2>Impactful AI begins with High Quality Data</h2>
                             <p>In today’s data-driven world, staying ahead means harnessing the power of cutting-edge technology for continuous evolution. Basil’s proprietary ML technology is engineered to autonomously transform and optimize vast volumes of accumulated data into a more accessible, usable, and actionable format, driving meaningful insights and superior business outcomes.</p>
                             <p>Our technology ensures that your business can fully leverage modern innovations, streamlining your operations and setting the stage for future advancements. With Basil Systems, empower your operations with smart technology that delivers precision, efficiency, and value at every step.</p>
                         </div>
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <div className="outer_blk_img">
                                 <div className="image">
                                     <Image src="/images/data-modernization.svg" alt="Data Modernization" width={700} height={1000} priority/>
@@ -54,25 +54,25 @@ export default function DataModernization() {
 
             <div className="icons_modernization">
                 <div className="contain">
-                    <div className="cap_txt">
+                    <div className="cap_txt" data-aos="fade-up" data-aos-duration="800">
                         <p>Basil Systems' Data Modernization solution transforms outdated data management systems into state-of-the-art environments through:</p>
                     </div>
                     <div className="flex">
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <div className="image_icon">
                                 <img src="/images/data_indexing.svg" alt="Data Indexing"/>
                             </div>
                             <h4>Data Indexing</h4>
                             <p>Our advanced indexing technology enhances the accessibility and manageability of your data. By structuring your data optimally, our system ensures quick retrieval and efficient usage, boosting performance across all your business processes. This enables you to focus more on strategic initiatives rather than data management hassles.</p>
                         </div>
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <div className="image_icon">
                                 <img src="/images/data_harmonization.svg" alt="Data Harmonization"/>
                             </div>
                             <h4>Data Harmonization</h4>
                             <p>Our technology harmonizes data across various formats and sources, creating a unified data framework that fosters seamless integration and enables more precise analysis. With everything aligned and coherent, your data becomes a more powerful tool in your decision-making arsenal.</p>
                         </div>
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <div className="image_icon">
                                 <img src="/images/making_data.svg" alt="Making Data “AI Ready”"/>
                             </div>
@@ -89,7 +89,7 @@ export default function DataModernization() {
         </section>
         <section className="big_cta apabilty_big_cta">
           <div className="contain">
-            <div className="cta_blk">
+            <div className="cta_blk" data-aos="fade-up" data-aos-duration="800">
                 <div className="txt">
                   <p>Working with structured and unstructured data, Basil enables a scalable and flexible environment that supports diverse analytics applications and prepares your infrastructure for sophisticated data operations.</p>
                 </div>
@@ -103,7 +103,7 @@ export default function DataModernization() {
         </section>
         <section className="white_paper_sec">
             <div className="contain">
-                <div className="heading_all">
+                <div className="heading_all" data-aos="fade-up" data-aos-duration="800">
                     <h2>Whitepaper</h2>
                 </div>
                 <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>

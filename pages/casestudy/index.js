@@ -76,10 +76,10 @@ export default function case_study() {
       <main>
         <section className="uj_sec_case_1">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>Providing Solutions to Life Science Companies</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Explore how Basil's AI-powered platform has revolutionized the
                 MedTech and Pharma landscape through impactful case studies.
@@ -87,7 +87,7 @@ export default function case_study() {
             </div>
             <div className="flex flex_row">
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_case_1.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -105,7 +105,7 @@ export default function case_study() {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_case_2.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -123,7 +123,7 @@ export default function case_study() {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_case_3.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -141,7 +141,7 @@ export default function case_study() {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_case_4.jpg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -159,7 +159,7 @@ export default function case_study() {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_case_5.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -177,7 +177,7 @@ export default function case_study() {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="inner" onClick={() => setFormPopup(true)}>
+                <div className="inner" onClick={() => setFormPopup(true)} data-aos="fade-up" data-aos-duration="800">
                   <div className="image">
                     <Image src="/images/uj_m_6.jpeg" alt="" width={600} height={400}/>
                     <div className="content">
@@ -200,22 +200,22 @@ export default function case_study() {
         {/* ========= */}
         <section className="uj_case_2 uj_case_3">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>Case Studies</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Basil has worked with customers to capture real-world ROI and
                 benefits in different applications
               </p>
             </div>
-            <div className="sec_top">
+            <div className="sec_top" data-aos="fade-up" data-aos-duration="800">
               <p>Recent Case Studies</p>
             </div>
             <div className="flex flex_row">
               <div className="col1">
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image" onClick={() => setFormPopup(true)}>
                       <Image src="/images/uj_cs_3.jpg" alt="" width={500} height={500}/>
                     </div>
@@ -235,7 +235,7 @@ export default function case_study() {
               </div>
               <div className="col2">
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
                         <Image src="/images/uj_cs_1.jpg" alt="" width={500} height={500}/>
@@ -255,7 +255,7 @@ export default function case_study() {
                   </div>
                 </div>
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
                         <Image src="/images/uj_cs_2.jpg" alt="" width={500} height={500}/>
@@ -278,7 +278,7 @@ export default function case_study() {
 
               <div className="col3">
                 <div className="cols">
-                  <div className="inner">
+                  <div className="inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="photo">
                       <div className="image" onClick={() => setFormPopup(true)}>
                         <Image src="/images/uj_cs_4.jpg" alt="" width={500} height={500}/>
@@ -501,22 +501,24 @@ export default function case_study() {
         {/* ========= */}
         <section className="uj_sec_source" id="citation">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>Basil as a Trusted Source</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 As a source and methodology in leading research publications
                 (for example): 
               </p>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Source data={data_1} />
+            </div>
           </div>
         </section>
         {/* ==== */}
         <section className="white_paper_sec">
           <div className="contain">
-            <div className="heading_all">
+            <div className="heading_all" data-aos="fade-up" data-aos-duration="800">
               <h2>Whitepaper</h2>
             </div>
             <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>
@@ -525,13 +527,15 @@ export default function case_study() {
         {/* ========= */}
         <section className="uj_testimonials">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>What Our Clients Say</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>Our customers say Excellent</p>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Testimonials data={data} />
+            </div>
           </div>
         </section>
       </main>

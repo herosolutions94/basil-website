@@ -6,12 +6,12 @@ export default function testimonials() {
       <main>
         <section className="uj_testimonials uj_testimonials_p">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>What Our Clients Say</h2>
             </div>
             <div className="flex">
               <div className="item">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="testi_flex">
                     <div className="testi_icon">
                       <img src="images/quote.svg" alt="" />
@@ -35,7 +35,7 @@ export default function testimonials() {
                 </div>
               </div>
               <div className="item">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="testi_flex">
                     <div className="testi_icon">
                       <img src="images/quote.svg" alt="" />
@@ -55,7 +55,7 @@ export default function testimonials() {
                 </div>
               </div>
               <div className="item">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="testi_flex">
                     <div className="testi_icon">
                       <img src="images/quote.svg" alt="" />
@@ -75,7 +75,7 @@ export default function testimonials() {
                 </div>
               </div>
               <div className="item">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="testi_flex">
                     <div className="testi_icon">
                       <img src="images/quote.svg" alt="" />

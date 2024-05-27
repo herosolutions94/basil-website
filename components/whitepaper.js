@@ -5,7 +5,7 @@ export default function Whitepaper({data, onFormClick}) {
     
     
     return (
-        <div className="flex">
+        <div className="flex" data-aos="fade-up" data-aos-duration="800">
             {
                 data.map((val,i) => {
                     return(

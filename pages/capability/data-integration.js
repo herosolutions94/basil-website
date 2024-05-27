@@ -36,14 +36,14 @@ export default function DataIntegration() {
             <div className="grid_capability">
                 <div className="contain">
                     <div className="flex revers_flex">
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <div className="outer_blk_img">
                                 <div className="image">
                                     <Image src="/images/data-integration.svg" alt="API / Data Integration" width={700} height={1000} priority/>
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col" data-aos="fade-up" data-aos-duration="800">
                             <h2>Augment internal data with Basil’s data</h2>
                             <h5>Basil’s comprehensive data can be accessed via SaaS or It can be delivered and integrated with your proprietary data</h5>
                             <p>Transform your enterprise landscape with Basil Systems' revolutionary API and Data Integration technology, specifically engineered to catapult your business into a new era of connectivity and intelligence. Our state-of-the-art integration tools seamlessly bridge the gap between disparate systems and turbocharge your data flows. This transformation turns complex data ecosystems into streamlined powerhouses of efficiency and innovation, allowing you to unlock the full potential of your digital assets and propel your operations to unprecedented heights.</p>
@@ -56,12 +56,12 @@ export default function DataIntegration() {
 
             <div className="icons_modernization">
                 <div className="contain">
-                    <div className="cap_txt data_integration_cap_text">
+                    <div className="cap_txt data_integration_cap_text" data-aos="fade-up" data-aos-duration="800">
                         <h2>How we can help</h2>
                     </div>
                     <div className="flex data_integration_flex">
                         <div className="col">
-                            <div className="inner">
+                            <div className="inner" data-aos="fade-up" data-aos-duration="800">
                                 <div className="image_icon">
                                     <img src="/images/api_development.svg" alt="API Development and Management"/>
                                 </div>
@@ -70,7 +70,7 @@ export default function DataIntegration() {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="inner">
+                            <div className="inner" data-aos="fade-up" data-aos-duration="800">
                                 <div className="image_icon">
                                     <img src="/images/system_interoperability.svg" alt="System Interoperability"/>
                                 </div>
@@ -79,7 +79,7 @@ export default function DataIntegration() {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="inner">
+                            <div className="inner" data-aos="fade-up" data-aos-duration="800">
                                 <div className="image_icon">
                                     <img src="/images/data_consolidation.svg" alt="Data Consolidation"/>
                                 </div>
@@ -88,7 +88,7 @@ export default function DataIntegration() {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="inner">
+                            <div className="inner" data-aos="fade-up" data-aos-duration="800">
                                 <div className="image_icon">
                                     <img src="/images/scalable_integration.svg" alt="Scalable Integration Architectures"/>
                                 </div>
@@ -102,7 +102,7 @@ export default function DataIntegration() {
         </section>
         <section className="white_paper_sec">
             <div className="contain">
-                <div className="heading_all">
+                <div className="heading_all" data-aos="fade-up" data-aos-duration="800">
                     <h2>Whitepaper</h2>
                 </div>
                 <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>

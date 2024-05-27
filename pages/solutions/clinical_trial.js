@@ -30,7 +30,7 @@ export default function Clinical_trial() {
           </div>
           <div className="contain">
             <div className="flex mt">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <h2>Integrated, comprehensive access to clinical trials</h2>
                 <p>
                   Quickly investigate clinical research and evidence generation
@@ -42,7 +42,7 @@ export default function Clinical_trial() {
                 <div className="outer">
                   <div className="left_col">
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/rico.svg" alt=""/>
@@ -59,7 +59,7 @@ export default function Clinical_trial() {
                       </div>
                     </div>
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/rico2.svg" alt=""/>
@@ -78,7 +78,7 @@ export default function Clinical_trial() {
                   </div>
                   <div className="right_col">
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/rico3.svg" alt=""/>
@@ -95,7 +95,7 @@ export default function Clinical_trial() {
                       </div>
                     </div>
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/ru4.svg" alt=""/>
@@ -120,25 +120,27 @@ export default function Clinical_trial() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Comprehensive research - continuously updated</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
         <section id="process" className="comp clinicl">
           <div className="contain">
             <div className="flex">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/clinical.jpg" alt="" width={700} height={800} priority />
                 </div>
               </div>
               <div className="colR">
-                <h2>Extracting value from Clinical Trials </h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Extracting value from Clinical Trials </h2>
                 <ul>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico1.svg" alt="" />
                     </div>
@@ -152,7 +154,7 @@ export default function Clinical_trial() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico2.svg" alt="" />
                     </div>
@@ -164,7 +166,7 @@ export default function Clinical_trial() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico3.svg" alt="" />
                     </div>
@@ -176,7 +178,7 @@ export default function Clinical_trial() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico4.svg" alt="" />
                     </div>

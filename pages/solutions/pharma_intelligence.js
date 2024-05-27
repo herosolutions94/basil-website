@@ -59,7 +59,7 @@ export default function Pharma_Intelligence() {
           </div>
           <div className="contain">
             <div className="flex mt">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <p>
                   Supercharge your pharma development and market delivery with
                   our Pharma Intelligence Platform. Tap into the combined power
@@ -77,7 +77,7 @@ export default function Pharma_Intelligence() {
                   </Link>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/p1.svg" width={600} height={700} priority/>
                 </div>
@@ -88,25 +88,27 @@ export default function Pharma_Intelligence() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Comprehensive Analytics</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
         <section id="help">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>How we can help?</h2>
             </div>
             <div className="flex">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/h1.svg" width={600} height={600}/>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <h2>Accelerate Innovation in Drug Development</h2>
                 <p>
                   Harness the integrated power of clinical trial, labeling,
@@ -123,12 +125,12 @@ export default function Pharma_Intelligence() {
               </div>
             </div>
             <div className="flex flx2">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/h2.svg" width={600} height={600}/>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <h2>Enhance Market Entry and Compliance Strategies</h2>
                 <p>
                   Leverage advanced data integration to proactively adapt to
@@ -145,12 +147,12 @@ export default function Pharma_Intelligence() {
               </div>
             </div>
             <div className="flex">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/h3.svg" width={600} height={600}/>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <h2>Optimize Portfolio Management and Revenue Growth</h2>
                 <p>
                   Access a comprehensive source of vital data covering market
@@ -171,7 +173,7 @@ export default function Pharma_Intelligence() {
 
         <section className="white_paper_sec">
             <div className="contain">
-                <div className="heading_all">
+                <div className="heading_all" data-aos="fade-up" data-aos-duration="800">
                     <h2>Whitepaper</h2>
                 </div>
                 <Whitepaper data = {white_paper} onFormClick={handleFormClick}/>

@@ -10,7 +10,7 @@ export default function About() {
         <section className="uj_sec_about u_two_cols">
           <div className="contain">
             <div className="flex">
-              <div className="cols col1">
+              <div className="cols col1" data-aos="fade-up" data-aos-duration="800">
                 <div className="inner">
                   <div className="sec_heading">
                     <h2>About Basil Systems</h2>
@@ -42,7 +42,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div className="cols col2">
+              <div className="cols col2" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="images/uj_about_1.svg" alt="" priority width={500} height={600}/>
                 </div>
@@ -54,10 +54,10 @@ export default function About() {
         <section className="uj_sec_work">
           <div className="contain">
             <div className="uj_inside">
-              <div className="sec_heading">
+              <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
                 <h2>Who we work with</h2>
               </div>
-              <div className="sec_content">
+              <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
                 <p>
                   Basil Systems serves a diverse range of stakeholders in the
                   healthcare ecosystem by providing critical data analytics and
@@ -66,7 +66,7 @@ export default function About() {
               </div>
               <div className="flex">
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/uj_w_1.webp" alt="" width={200} height={200}/>
                     </div>
@@ -76,7 +76,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/uj_w_2.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -86,7 +86,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/uj_w_3.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -96,7 +96,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/Insurance.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -106,7 +106,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/academic.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -116,7 +116,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/uj_w_6.jpeg" alt=""  width={400} height={200}/>
                     </div>
@@ -126,7 +126,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/uj_w_7.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -136,7 +136,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <Image src="/images/lawfirm.jpg" alt=""  width={200} height={200}/>
                     </div>
@@ -153,17 +153,17 @@ export default function About() {
         <section className="uj_sec_history u_two_cols">
           <div className="contain">
             <div className="flex">
-              <div className="cols col1">
+              <div className="cols col1" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/uj_history.jpeg" alt=""  width={700} height={500}/>
                 </div>
               </div>
               <div className="cols col2">
                 <div className="inner">
-                  <div className="sec_heading">
+                  <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>Our History</h2>
                   </div>
-                  <div className="sec-content">
+                  <div className="sec-content" data-aos="fade-up" data-aos-duration="800">
                     <p>
                       Basil Systems is dedicated to enhancing patient outcomes
                       and saving lives by optimizing the operational efficiency
@@ -190,7 +190,7 @@ export default function About() {
             <div className="uj_inside">
               <div className="flex">
                 <div className="cols col1">
-                  <div className="inner">
+                  <div className="inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="sec_heading">
                       <h2>Our Mission</h2>
                     </div>
@@ -210,7 +210,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="cols col2">
-                  <div className="image_area">
+                  <div className="image_area" data-aos="fade-up" data-aos-duration="800">
                     <div className="block_1">
                       <div className="image_1 image">
                         <Image src="/images/uj_m_1.jpg" alt=""  width={400} height={400}/>
@@ -245,10 +245,10 @@ export default function About() {
         <section className="uj_sec_choose">
           <div className="contain">
             <div className="uj_inside">
-              <div className="sec_heading">
+              <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
                 <h2>Why chose Basil Systems</h2>
               </div>
-              <div className="sec_content">
+              <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
                 <p>
                   Embrace the future of data integration with Basil Systems. We
                   are dedicated to delivering high-quality, scalable solutions
@@ -257,7 +257,7 @@ export default function About() {
               </div>
               <div className="flex">
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="images/uj_c_1.png" alt="" />
                     </div>
@@ -272,7 +272,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="images/uj_c_2.png" alt="" />
                     </div>
@@ -288,7 +288,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="images/uj_c_3.png" alt="" />
                     </div>
@@ -304,7 +304,7 @@ export default function About() {
                   </div>
                 </div>
                 <div className="uj_cols">
-                  <div className="uj_inner">
+                  <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="images/uj_c_4.png" alt="" />
                     </div>

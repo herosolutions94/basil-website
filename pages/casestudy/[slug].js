@@ -6,10 +6,10 @@ const Slug = () => {
       <main>
         <section className="uj_sec_guide p_t_b">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>The Recruitment Funnel: A Comprehensive Guide</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Posuere morbi leo urna molestiPosuere morbi leo urna molestie
                 at. Ipsum dolor sit amet consectetur adipiscing elit
@@ -18,10 +18,10 @@ const Slug = () => {
                 molestie at. Ipsum dolor sit amet consectetur adipiscing elit
               </p>
             </div>
-            <div className="image">
+            <div className="image" data-aos="fade-up" data-aos-duration="800">
               <img src="/images/detail_1.jpg" alt="" />
             </div>
-            <div className="cate_info">
+            <div className="cate_info" data-aos="fade-up" data-aos-duration="800">
               <div className="category">
                   <p>Positive Psychology</p>
               </div>
@@ -29,7 +29,7 @@ const Slug = () => {
                 <p>2 March, 2024</p>
               </div>
             </div>
-            <div className="ck_editor">
+            <div className="ck_editor" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Posuere morbi leo urna molestiPosuere morbi leo urna molestie at.
                 Ipsum dolor sit amet consectetur adipiscing elit pellentesque
@@ -82,10 +82,10 @@ const Slug = () => {
         </section>
         <section className="uj_sec_process">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>Working Process</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Neque porro est qui dolorem ipsum quia quaed inventore veritatis
                 et quasi architecto beatae vitae dicta sunt explicabo. Aelltes
@@ -99,7 +99,7 @@ const Slug = () => {
             </div>
             <div className="flex">
               <div className="uj_cols">
-                <div className="uj_inner">
+                <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="num">
                     <p>1</p>
                   </div>
@@ -115,7 +115,7 @@ const Slug = () => {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="uj_inner">
+                <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="num">
                     <p>2</p>
                   </div>
@@ -130,7 +130,7 @@ const Slug = () => {
                 </div>
               </div>
               <div className="uj_cols">
-                <div className="uj_inner">
+                <div className="uj_inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="num">
                     <p>3</p>
                   </div>
@@ -153,10 +153,10 @@ const Slug = () => {
             <div className="flex">
               <div className="cols col1">
                 <div className="inner">
-                  <div className="sec_heading">
+                  <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
                     <h2>The Challenge</h2>
                   </div>
-                  <div className="sec-content">
+                  <div className="sec-content" data-aos="fade-up" data-aos-duration="800">
                     <p>
                       Neque porro est qui dolorem ipsum quia quaed inventore
                       veritatis et quasi architecto beatae vitae dicta sunt
@@ -179,7 +179,7 @@ const Slug = () => {
                 </div>
               </div>
               <div className="cols col2">
-                <div className="image">
+                <div className="image" data-aos="fade-up" data-aos-duration="800">
                   <img src="/images/uj_chalange.jpg" alt="" />
                 </div>
               </div>
@@ -189,10 +189,10 @@ const Slug = () => {
         {/* ======== */}
         <section className="uj_sec_find">
           <div className="contain">
-            <div className="sec_heading">
+            <div className="sec_heading" data-aos="fade-up" data-aos-duration="800">
               <h2>Final Result</h2>
             </div>
-            <div className="sec_content">
+            <div className="sec_content" data-aos="fade-up" data-aos-duration="800">
               <p>
                 Neque porro est qui dolorem ipsum quia quaed inventore veritatis
                 et quasi architecto beatae vitae dicta sunt explicabo. Aelltes

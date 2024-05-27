@@ -58,7 +58,7 @@ export default function regulatory() {
           </div>
           <div className="contain">
             <div className="flex mt">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <h2>
                   Accelerating time to clearance and approvals – With
                   unparalleled regulatory insights and analytics
@@ -76,7 +76,7 @@ export default function regulatory() {
                   </Link>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/Reg_intel.svg" width={500} height={600} priority alt=""/>
                 </div>
@@ -87,21 +87,23 @@ export default function regulatory() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Rich real-time data</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
         <section id="blue_sec">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>How organizations are using Basil Regulatory</h2>
             </div>
             <div className="flex">
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="head">
                     <div className="icon">
                       <img src="/images/rico.svg" />
@@ -117,7 +119,7 @@ export default function regulatory() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="head">
                     <div className="icon">
                       <img src="/images/rico2.svg" />
@@ -133,7 +135,7 @@ export default function regulatory() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="head">
                     <div className="icon">
                       <img src="/images/rico3.svg" alt=""/>
@@ -154,12 +156,12 @@ export default function regulatory() {
 
         <section id="up_ico" className="p_t_y">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Unmatched capabilities</h2>
             </div>
             <div className="flex">
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/big-data.png" alt=""/>
                   </div>
@@ -175,7 +177,7 @@ export default function regulatory() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/analytics.png" alt=""/>
                   </div>
@@ -192,7 +194,7 @@ export default function regulatory() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/interest-rate.png" alt=""/>
                   </div>
@@ -216,7 +218,7 @@ export default function regulatory() {
         <section id="two_img">
           <div className="contain">
             <div className="flex">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="outer">
                   <div className="image1 image">
                     <Image src="/images/r2.svg" width={300} height={500} priority alt=""/>
@@ -226,7 +228,7 @@ export default function regulatory() {
                   </div>
                 </div>
               </div>
-              <div className="colR">
+              <div className="colR" data-aos="fade-up" data-aos-duration="800">
                 <h2>Basil Systems is simply revolutionary</h2>
                 <p>
                   “Basil Systems is simply revolutionary. They solved the

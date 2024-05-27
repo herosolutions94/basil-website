@@ -40,7 +40,7 @@ export default function Post_market() {
           </div>
           <div className="contain">
             <div className="flex mt">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <h2>Unprecedented access to market insights</h2>
                 <p>
                   Our Post-Market Intelligence (PMI) module greatly enhances
@@ -51,7 +51,7 @@ export default function Post_market() {
                 <div className="outer">
                   <div className="left_col">
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/notification-bell.png" alt=""/>
@@ -67,7 +67,7 @@ export default function Post_market() {
                       </div>
                     </div>
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/grid.png" alt=""/>
@@ -86,7 +86,7 @@ export default function Post_market() {
                   </div>
                   <div className="right_col">
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/upload.png" alt=""/>
@@ -103,7 +103,7 @@ export default function Post_market() {
                       </div>
                     </div>
                     <div className="col">
-                      <div className="inner">
+                      <div className="inner" data-aos="fade-up" data-aos-duration="800">
                         <div className="head">
                           <div className="icon">
                             <img src="/images/search.png" alt=""/>
@@ -128,25 +128,27 @@ export default function Post_market() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Uniquely actionable intelligence</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
         <section id="process" className="comp post_market">
           <div className="contain">
             <div className="flex">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
                   <Image src="/images/Postmarket.jpg" alt="" width={800} height={700} priority/>
                 </div>
               </div>
               <div className="colR">
-                <h2>Post-Market module highlights</h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Post-Market module highlights</h2>
                 <ul>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico1.svg" alt="" />
                     </div>
@@ -159,7 +161,7 @@ export default function Post_market() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico2.svg" alt="" />
                     </div>
@@ -171,7 +173,7 @@ export default function Post_market() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico3.svg" alt="" />
                     </div>
@@ -183,7 +185,7 @@ export default function Post_market() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico4.svg" alt="" />
                     </div>
@@ -196,7 +198,7 @@ export default function Post_market() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/pc1.svg" alt="" />
                     </div>

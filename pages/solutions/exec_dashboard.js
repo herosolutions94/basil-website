@@ -30,7 +30,7 @@ export default function exec_dashboard() {
           </div>
           <div className="contain">
             <div className="flex mt">
-              <div className="colL">
+              <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <p>
                   Stay ahead in the MedTech industry with our platform that
                   delivers real-time updates on device approvals, medical
@@ -57,7 +57,7 @@ export default function exec_dashboard() {
                 </div>
               </div>
               <div className="colR">
-                <div className="image">
+                <div className="image" data-aos="fade-up" data-aos-duration="800">
                   <Image src="/images/ex1.svg" width={600} height={600} priority alt=""/>
                 </div>
               </div>
@@ -67,10 +67,12 @@ export default function exec_dashboard() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Comprehensive Snapshots of Recent Activitiess</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
@@ -78,14 +80,14 @@ export default function exec_dashboard() {
           <div className="contain">
             <div className="flex">
               <div className="colL">
-                <div className="image">
+                <div className="image" data-aos="fade-up" data-aos-duration="800">
                   <Image src="/images/ex2.svg" alt="" width={600} height={700} priority/>
                 </div>
               </div>
               <div className="colR">
-                <h2>Exec Dashboard </h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Exec Dashboard </h2>
                 <ul>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico1.svg" alt="" />
                     </div>
@@ -101,7 +103,7 @@ export default function exec_dashboard() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico2.svg" alt="" />
                     </div>
@@ -119,7 +121,7 @@ export default function exec_dashboard() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico3.svg" alt="" />
                     </div>
@@ -136,7 +138,7 @@ export default function exec_dashboard() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico4.svg" alt="" />
                     </div>

@@ -8,8 +8,8 @@ export default function PrivacyPolicy() {
         <section className="text_pg p_t_b">
           <div className="contain">
               <div className="outer_blk">
-                <h1 className="cmn_heading text-center">Privacy Policy</h1>
-                <div className="text-blk ck_editor">
+                <h1 className="cmn_heading text-center" data-aos="fade-up" data-aos-duration="800">Privacy Policy</h1>
+                <div className="text-blk ck_editor" data-aos="fade-up" data-aos-duration="800">
                 <p>This Privacy Policy describes how we collect, use, and disclose your personal information when you visit our website.</p>
                 <p>We collect information that you provide to us voluntarily, such as your name, email address, phone number, and any other information you choose to provide. We also collect information automatically when you visit our website, such as your IP address, browser type, and operating system.</p>
                 <h5>Information We Collect</h5>

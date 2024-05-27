@@ -29,7 +29,7 @@ export default function Comp_Table() {
             <h1>Comparative Table Creator</h1>
           </div>
           <div className="contain" id="up_ico">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Unlock the Power of Real-Time Comparative Insights</h2>
               <p>
                 For the first time ever you can quickly and easily compare the
@@ -39,7 +39,7 @@ export default function Comp_Table() {
             </div>
             <div className="flex">
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/edit.png" alt=""/>
                   </div>
@@ -52,7 +52,7 @@ export default function Comp_Table() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/web.png" alt=""/>
                   </div>
@@ -66,7 +66,7 @@ export default function Comp_Table() {
                 </div>
               </div>
               <div className="col">
-                <div className="inner">
+                <div className="inner" data-aos="fade-up" data-aos-duration="800">
                   <div className="icon">
                     <img src="/images/collaboration.png" alt=""/>
                   </div>
@@ -85,10 +85,12 @@ export default function Comp_Table() {
 
         <section id="analytics">
           <div className="contain">
-            <div className="content_center">
+            <div className="content_center" data-aos="fade-up" data-aos-duration="800">
               <h2>Unlock the Power of Real-Time Comparative Insights</h2>
             </div>
+            <div data-aos="fade-up" data-aos-duration="800">
             <Analytics_carousel data={data} />
+            </div>
           </div>
         </section>
 
@@ -96,14 +98,14 @@ export default function Comp_Table() {
           <div className="contain">
             <div className="flex">
               <div className="colL">
-                <div className="image">
+                <div className="image" data-aos="fade-up" data-aos-duration="800">
                   <Image src="/images/comptable.jpg" alt="" width={700} height={700} priority/>
                 </div>
               </div>
               <div className="colR">
-                <h2>Comp Tables, Details & Safety Signals  </h2>
+                <h2 data-aos="fade-up" data-aos-duration="800">Comp Tables, Details & Safety Signals  </h2>
                 <ul>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico1.svg" alt="" />
                     </div>
@@ -115,7 +117,7 @@ export default function Comp_Table() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico2.svg" alt="" />
                     </div>
@@ -127,7 +129,7 @@ export default function Comp_Table() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico3.svg" alt="" />
                     </div>
@@ -139,7 +141,7 @@ export default function Comp_Table() {
                       </p>
                     </div>
                   </li>
-                  <li>
+                  <li data-aos="fade-up" data-aos-duration="800">
                     <div className="image">
                       <img src="/images/eico4.svg" alt="" />
                     </div>
