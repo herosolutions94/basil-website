@@ -98,7 +98,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <Image src="/images/uj_w_4.jpg" alt=""  width={200} height={200}/>
+                      <Image src="/images/Insurance.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Insurance</h5>
@@ -108,7 +108,7 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <Image src="/images/uj_w_5.webp" alt=""  width={200} height={200}/>
+                      <Image src="/images/academic.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
                       <h5>Academic Institutions</h5>
@@ -138,10 +138,10 @@ export default function About() {
                 <div className="uj_cols">
                   <div className="uj_inner">
                     <div className="image">
-                      <Image src="/images/uj_w_8.webp" alt=""  width={200} height={200}/>
+                      <Image src="/images/lawfirm.jpg" alt=""  width={200} height={200}/>
                     </div>
                     <div className="lower-content">
-                      <h5>Service Industry</h5>
+                      <h5>Law Firms</h5>
                     </div>
                   </div>
                 </div>
