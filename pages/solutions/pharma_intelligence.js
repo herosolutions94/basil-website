@@ -149,7 +149,7 @@ export default function Pharma_Intelligence() {
             <div className="flex">
               <div className="colL" data-aos="fade-up" data-aos-duration="800">
                 <div className="image">
-                  <Image src="/images/h3.svg" width={600} height={600}/>
+                  <Image src="/images/optimize.png" width={1000} height={600}/>
                 </div>
               </div>
               <div className="colR" data-aos="fade-up" data-aos-duration="800">
