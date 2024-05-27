@@ -72,7 +72,7 @@ export default function Footer() {
     capabilities: [
       {
         id: "cap_1",
-        text: "Data harmonization",
+        text: "Data Modernization",
         link: "/capability/data-modernization",
       },
       {
